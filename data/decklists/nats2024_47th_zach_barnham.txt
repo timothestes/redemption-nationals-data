@@ -1,0 +1,61 @@
+1	Son of God "Manger" (Promo)
+1	The Second Coming [Fundraiser]
+1	Three Woes [Fundraiser]
+1	Lost Soul "Defiled" [Mark 7:21-22]
+1	Lost Soul "Shut Door" [Luke 13:25 - LR]
+1	Lost Soul "Undesirables" [Luke 14:13]
+1	Lost Soul "Revealer" [John 3:20]
+1	Lost Soul "Harvest" [John 4:35]
+1	Lost Soul "Galileans" [Luke 13:2]
+1	Lost Soul "Salty" [Matthew 5:13]
+1	Angel of the Lord (I)
+1	Harvest Time [Fundraiser]
+1	Christian Martyr (I)
+1	Crowd's Choice [Fundraiser]
+1	Samaritan Water Jar (GoC)
+1	Unholy Writ (GoC)
+1	Sychar (GoC)
+1	Den of Thieves (GoC)
+1	The Forgiven Woman / The Shamed Woman (GoC)
+1	The Repentant Thief / The Condemned Thief (GoC)
+1	Zaccheus, the Repentant / Zaccheus, Tax Collector (GoC)
+1	The Nobleman (RoJ)
+1	The Good Samaritan (GoC)
+1	Citizens of Sychar (GoC)
+1	The Thankful Leper (GoC)
+1	Jairus (GoC)
+1	Watchful Servant (GoC)
+1	The Persistent Widow (GoC)
+1	Bartimaeus (2022 - Regional)
+1	Teaching in Parables (GoC)
+1	Restoring the Afflicted (GoC)
+1	Talitha Kum! (GoC)
+1	Good Seed (GoC)
+1	Meeting the Messiah (GoC)
+1	Amazing Faith (GoC)
+1	Consider the Lilies (Roots)
+1	Day of Judgment (GoC)
+1	The Thief (GoC)
+1	Barabbas (GoC)
+1	Plunderers (GoC)
+1	Temple Thieves (GoC)
+1	The Highwayman (GoC)
+1	The Ambushing Bandits (GoC)
+1	The Mocking Thief (GoC)
+1	Ambush! (GoC)
+1	Pilfer (GoC)
+1	Mask of Vanity (Roots)
+1	Purloin (GoC)
+1	Stolen Seed (GoC)
+1	Hurling Insults (GoC)
+Reserve:
+1	Man with Withered Hand (GoC)
+1	Lost Coin Found (GoC)
+1	Submission to Christ (GoC)
+1	Lost Sheep / Good Shepherd (GoC)
+1	Restoring the Afflicted (GoC)
+1	Fence Jumpers (GoC)
+1	Strike the Shepherd (GoC)
+1	Left for Dead (GoC)
+1	Jairus' Daughter (GoC)
+1	Who is Without Sin? (GoC)

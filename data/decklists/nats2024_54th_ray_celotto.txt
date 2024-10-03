@@ -1,0 +1,64 @@
+1	Son of God "Manger" (Promo)
+1	The Second Coming [Fundraiser]
+1	Three Woes [Fundraiser]
+1	Glory of the Lord [2024 - Winner]
+1	The Deceiver (RoJ)
+1	Lost Soul "Lawless" [Hebrews 12:8] [2021 - 1st Place]
+1	Lost Soul "Humble" [James 4:6 / Proverbs 3:34 - RoJ]
+1	Lost Soul "Galileans" [Luke 13:2]
+1	Lost Soul "Wanderer" [Ezekiel 34:6 - RR]
+1	Lost Soul "Harvest" [John 4:35]
+1	Lost Soul "Darkness" [Job 30:26] [2019 - 1st Place]
+1	Lost Soul "Prosperity" [Deuteronomy 30:15] [2024 - 3rd Place]
+1	Shipwreck [Fundraiser]
+1	Crowd's Choice [Fundraiser]
+1	The Resurrection (GoC)
+1	Patmos (RoJ)
+1	Golgotha (GoC)
+1	Delivered
+1	Reprimand / Repercussion (GoC)
+1	Four-Drachma Coin (GoC)
+1	Book of the Covenant (PoC)
+1	The New Covenant (I/J+)
+1	The Cross (GoC UR+)
+1	Bethlehem Stable (GoC)
+1	Herod's Temple (GoC)
+1	Thaddaeus / Judas (Thaddaeus) (GoC)
+1	Lazarus, the Called / Lazarus of Bethany (GoC)
+1	Joanna, the Generous / Joanna, Wife of Chuza (GoC)
+1	Mary of Bethany / Mary, the Attentive (GoC)
+1	Martha, the Diligent / Martha of Bethany (GoC)
+1	Matthias (GoC)
+1	Angel from the Sun (RoJ)
+1	Philip of Bethsaida / Philip the Pragmatic (GoC)
+1	Simon Peter / Peter, the Rock (GoC)
+1	John, the Fisherman / John, Son of Thunder (GoC)
+1	Polycarp (RoJ)
+1	Simon the Zealous / Saint Simon (GoC)
+1	Matthew the Publican / Matthew (Levi) (GoC)
+1	Spirit as a Dove (GoC)
+1	The Lord's Prayer (GoC)
+1	Hospitality in Bethany (GoC)
+1	Lost Child Found (GoC)
+1	The Ascension (GoC)
+1	Overcome! (RoJ)
+1	Power of the Spirit (GoC)
+1	Herodias (GoC)
+1	Herod's Guard (GoC)
+1	Outsiders (Black/Gold) (RoJ AB)
+1	Herod Agrippa I (GoC)
+1	Herod the Great (GoC)
+1	Herod Archelaus (GoC)
+1	Herod's Banquet (GoC)
+1	Duplicity (GoC)
+Reserve:
+1	Authority of Christ (GoC UR+)
+1	Send the Helper (GoC)
+1	Mary, Holy Virgin / Mary, Willing Servant (GoC)
+1	Herod Antipas (GoC)
+1	You Will Remain
+1	Executioner's Sword (GoC)
+1	Futile Inquisition (GoC)
+1	Love One Another (GoC)
+1	Bartholomew (Nathanael) / Bartholomew the True (GoC)
+1	Magnificat (GoC)

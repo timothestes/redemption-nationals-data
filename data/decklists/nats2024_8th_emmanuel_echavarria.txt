@@ -1,0 +1,63 @@
+1	Daniel's Prayer (Promo)
+1	Daniel, the Apocalyptist (PoC)
+1	Faith Unbowed (LoC)
+1	Abed-nego (Azariah) (PoC)
+1	Servants by the River
+1	Michael, Chief Prince
+1	Angelic Guidance (I)
+1	The Cross (GoC UR+)
+1	Golgotha (GoC)
+1	The Foretelling Angel (PC)
+1	Virgin Birth
+1	Daniel's Guardian
+1	Legion of Angels (GoC)
+1	The Expatriator (GoC)
+1	Captain of the Host (Roots)
+1	Resurrection Revealer (GoC)
+1	Gabriel, Mouth of God (GoC)
+1	Expelled from Heaven (GoC)
+1	Army of the Lord (Roots)
+1	War in Heaven [2023 - Worker]
+1	The Wages of Sin (FoM)
+1	Blasphemies (RoJ AB)
+1	Sin and Blasphemy (GoC)
+1	Storehouse [IR]
+1	Chamber of Angels (GoC)
+1	Prince of this World (GoC)
+1	The Fallen Star
+1	The Divining Damsel (Promo)
+1	Red Dragon (RoJ AB)
+1	The Terrifying Beast (PoC)
+1	Messenger of Satan (EC)
+1	King of Tyrus (Roots)
+1	Glory of the Lord [2024 - Winner]
+1	The Resurrection (GoC)
+1	Lost Soul "Galileans" [Luke 13:2]
+1	Lost Soul "Complacent" [Zephaniah 1:12]
+1	Lost Soul "Crowds" [Luke 5:15] [2016 - Local]
+1	Lost Soul "Grumbled" [Exodus 15:24 - K]
+1	Lost Soul "Lost Souls" [Proverbs 2:16-17]
+1	The Great White Throne (RoJ)
+1	Crowd's Choice [Fundraiser]
+1	Mayhem (2020 Promo)
+1	Son of God "Manger" (Promo)
+1	The Second Coming [Fundraiser]
+1	Three Woes [Fundraiser]
+1	Beelzebub (GoC)
+1	The Deceiver (RoJ)
+1	Lost Soul "Distressed" [Zephaniah 1:17]
+1	Lost Soul "Hopper" [II Chronicles 28:13 - RR]
+1	Lost Soul "Humble" [James 4:6 / Proverbs 3:34 - RoJ]
+Reserve:
+1	Meshach (Mishael) (PoC)
+1	Shadrach (Hananiah) (PoC)
+1	The Coming Prince
+1	Live Coal (PoC)
+1	Seven Sons of Sceva (Roots)
+1	The Gates of Hell (GoC)
+1	Suicidal Swine Stampede (GoC)
+1	Plague of Frogs (GoC)
+1	House Divided (GoC)
+1	The Judean Mediums [2024 - Regional]
+Tokens:
+7	Lost Soul Token OT (Majestic Heavens)

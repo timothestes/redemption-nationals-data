@@ -1,0 +1,61 @@
+1	Son of God "Manger" (Promo)
+1	The Second Coming [Fundraiser]
+1	Three Woes [Fundraiser]
+1	Glory of the Lord [2024 - Winner]
+1	Lost Soul "Undesirables" [Luke 14:13]
+1	Lost Soul "Dull" [Hebrews 5:11] [AB - CoW]
+1	Lost Soul "Revealer" [John 3:20]
+1	Lost Soul "Humble" [James 4:6 / Proverbs 3:34 - RoJ]
+1	Lost Soul "Shut Door" [Luke 13:25 - LR]
+1	Lost Soul "Defiled" [Mark 7:21-22]
+1	Lost Soul "Harvest" [John 4:35]
+1	Chronicles of the Kings (LoC)
+1	Angel of the Lord (I)
+1	Christian Martyr (I)
+1	Jerusalem Tower (Roots)
+1	Satan's Seat (Roots)
+1	Coliseum
+1	Herod's Temple (GoC)
+1	Sychar (GoC)
+1	Golden Cherubim
+1	Lacking Prophecy
+1	Overtaken
+1	The Great White Throne (RoJ)
+1	Watchful Servant (GoC)
+1	The Thankful Leper (GoC)
+1	Citizens of Sychar (GoC)
+1	Faithful Servant (GoC)
+1	The Persistent Widow (GoC)
+1	Bartimaeus (2022 - Regional)
+1	Jairus (GoC)
+1	Meeting the Messiah (GoC)
+1	Amazing Faith (GoC)
+1	The Prodigal Returns (Roots)
+1	Restoring the Afflicted (GoC)
+1	Teaching in Parables (GoC)
+1	Who is Without Sin? (GoC)
+1	Herod's Guard (GoC)
+1	Herod the Great (GoC)
+1	Herod's Executioner (GoC)
+1	Herodias (GoC)
+1	Herod Archelaus (GoC)
+1	Herod Philip II (GoC)
+1	Herod Antipas (GoC)
+1	Herod Agrippa I (GoC)
+1	Executioner's Sword (GoC)
+1	Duplicity (GoC)
+1	Contagious Fear (GoC)
+1	Mask of Fear (GoC)
+1	Futile Inquisition (GoC)
+1	Herod's Treachery (GoC)
+Reserve:
+1	Restitution / Extortion (GoC)
+1	The Forgiven Woman / The Shamed Woman (GoC)
+1	Herod's Banquet (GoC)
+1	Romans Destroy Jerusalem (GoC)
+1	Reprimand / Repercussion (GoC)
+1	Man with Withered Hand (GoC)
+1	Jairus' Daughter (GoC)
+1	Lost Coin Found (GoC)
+1	His Sacrifice (GoC UR+)
+1	Talitha Kum! (GoC)

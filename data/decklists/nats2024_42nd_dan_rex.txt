@@ -1,0 +1,56 @@
+1	Son of God "Manger" (Promo)
+1	The Second Coming [Fundraiser]
+1	Three Woes [Fundraiser]
+1	Glory of the Lord [2024 - Winner]
+1	The Deceiver (RoJ)
+7	Lost Soul (Mark 1:40) (GoC)
+1	Crowd's Choice [Fundraiser]
+1	A New Beginning (FoM)
+1	Burial (GoC)
+1	Covenant with Noah (PoC)
+1	The Rainbow
+1	Pitch and Gopher Wood
+1	Egypt
+1	Golgotha (GoC)
+1	Sheol
+1	Storehouse [IR]
+1	Taberah
+1	Noah's Ark (Promo)
+1	The Angel of the Winds
+1	Noah (CoW)
+1	Noah's Wife
+1	Shem
+1	Shem's Wife
+1	Japheth
+1	Japheth's Wife
+1	Ham
+1	Ham's Wife
+1	Forgiveness of Joseph [IR]
+1	Faith Among Corruption
+1	Offering Your Son
+1	Faith of Noah
+1	Virgin Birth
+1	The Chief Priests (RoJ)
+1	Annas the Elder (GoC)
+1	High Priest Ananias (RoJ AB)
+1	Plotting Priests (GoC)
+1	Malchus (GoC)
+1	Dubious Doubters (GoC)
+1	The Brood of Vipers (GoC)
+1	False Accusations (GoC)
+1	Surreptitious Scheme (GoC)
+1	Stricken
+1	Tenants Kill the Son (GoC)
+1	Betrayal (PoC)
+1	The Priests of Zeus
+Reserve:
+1	Captured Ark (Roots)
+1	Supercilious Scribes (GoC)
+1	Unsuccessful (PoC)
+1	Wild Ox (LoC)
+1	The Dove Returns
+1	Behemoth (RoJ)
+1	The Flood
+1	The First Sacrifice
+1	Just a Hireling (GoC)
+1	Two by Two

@@ -1,0 +1,55 @@
+1	Son of God "Manger" (Promo)
+1	The Second Coming [Fundraiser]
+1	Three Woes [Fundraiser]
+1	The Deceiver (RoJ)
+7	Lost Soul (Mark 1:40) (GoC)
+1	Crowd's Choice [Fundraiser]
+1	Burial (GoC)
+1	Chronicles of the Kings (LoC)
+1	Angel of the Lord (I)
+1	Storehouse [IR]
+1	Egypt
+1	Sheol
+1	The Cross (GoC UR+)
+1	David's Harp (Promo)
+1	Covenant with David (PoC)
+1	Moses (CoW)
+1	Jeremiah, Hope Bringer
+1	Imprisoned Prophet
+1	Jairus (GoC)
+1	Noah, the Righteous / Noah (Rest and Comfort) (LoC)
+1	Pharaoh's Daughter (FoM)
+1	The Angel of the Winds
+1	Elijah (PoC)
+1	Faith of Samuel
+1	The Emmaus Road
+1	Amazing Faith (GoC)
+1	Plague of Darkness
+1	Faith
+1	Plague of Frogs (GoC)
+1	Ehud's Dagger (Roots)
+1	Annas the Elder (GoC)
+1	Abimelech, King of Gerar (LoC)
+1	Plotting Priests (GoC)
+1	The Amalekites' Slave (FoM)
+1	Philistine Armor Bearer (LoC)
+1	Zaccheus, the Repentant / Zaccheus, Tax Collector (GoC)
+1	Malchus (GoC)
+1	The Herdsmen of Gerar (LoC)
+1	Outsiders (Black/Gold) (RoJ AB)
+1	Goliath's Curse [L]
+1	Stricken
+1	Just a Hireling (GoC)
+1	Surreptitious Scheme (GoC)
+1	David, Heart After God / David, the Contrite (LoC Plus)
+Reserve:
+1	You Will Remain
+1	Tested by Fire
+1	The Expert Lawyer (GoC)
+1	Tenants Kill the Son (GoC)
+1	Supercilious Scribes (GoC)
+1	Oath of Purity (LoC)
+1	Unsuccessful (PoC)
+1	Jairus' Daughter (GoC)
+1	Dubious Doubters (GoC)
+1	The Lord Goes Before You

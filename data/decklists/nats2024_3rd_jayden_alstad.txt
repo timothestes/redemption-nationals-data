@@ -1,0 +1,64 @@
+1	Lost Soul "Crowds" [Luke 5:15] [2016 - Local]
+1	Lost Soul "Defiled" [Mark 7:21-22]
+1	Lost Soul "Harvest" [John 4:35]
+1	Lost Soul "Humble" [James 4:6 / Proverbs 3:34 - RoJ]
+1	Lost Soul "Imitate" [III John 1:11]
+1	Three Woes [Fundraiser]
+1	Glory of the Lord [2024 - Winner]
+1	Son of God "Manger" (Promo)
+1	Star of Bethlehem [Fundraiser]
+1	The Resurrection (GoC)
+1	The Second Coming [Fundraiser]
+1	Falling Away (CoW)
+1	Golgotha (GoC)
+1	Bethlehem Stable (GoC)
+1	Chamber of Angels (GoC)
+1	Nazareth (Roots)
+1	Coliseum
+1	The Cross (GoC UR+)
+1	The Great White Throne (RoJ)
+1	Twenty Shekels
+1	The New Covenant (I/J+)
+1	Judas Iscariot / Judas, the Betrayer (GoC)
+1	The Repentant Thief / The Condemned Thief (GoC)
+1	Zaccheus, the Repentant / Zaccheus, Tax Collector (GoC)
+1	Gabriel, Mouth of God (GoC)
+1	Legion of Angels (GoC)
+1	Resurrection Revealer (GoC)
+1	The Expatriator (GoC)
+1	The Heavenly Host (GoC)
+1	The Messianic Messenger (GoC)
+1	Mary, Holy Virgin / Mary, Willing Servant (GoC)
+1	Mary, the Restored / Mary Magdalene (GoC)
+1	The Magi (GoC)
+1	Simon Peter / Peter, the Rock (GoC)
+1	Faith Unbowed (LoC)
+1	Flight into Egypt (GoC)
+1	The Annunciation (GoC)
+1	The Child is Born (GoC)
+1	Lost Child Found (GoC)
+1	The Thief (GoC)
+1	Plunderers (GoC)
+1	Temple Thieves (GoC)
+1	The Highwayman (GoC)
+1	Possessing Spirit (GoC)
+1	The Sordid Spirit (GoC)
+1	Hurling Insults (GoC)
+1	Hypocrisy (EC)
+1	Mask of Vanity (Roots)
+1	Seized by Babylon
+1	Lost Soul "Forsaken" [Hebrews 10:25]
+1	Lost Soul "Lawless" [Hebrews 12:8] [2021 - 1st Place]
+Reserve:
+1	Zechariah, the Silent (GoC)
+1	Magnifying Multitude (GoC)
+1	The Coming Prince
+1	Expelled from Heaven (GoC)
+1	Hospitality in Bethany (GoC)
+1	Magnificat (GoC)
+1	Teaching in Parables (GoC)
+1	Burning up the Chaff (GoC)
+1	Suicidal Swine Stampede (GoC)
+1	Restless Spirit (GoC)
+Tokens:
+1	Heavenly Host Token

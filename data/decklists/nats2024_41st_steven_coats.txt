@@ -1,0 +1,56 @@
+1	Son of God "Manger" (Promo)
+1	The Second Coming [Fundraiser]
+1	Three Woes [Fundraiser]
+6	Lost Soul (Mark 1:40) (GoC)
+1	Lost Soul "The First" [Luke 13:30]
+1	Angel of the Lord (I)
+1	The Resurrection (GoC)
+1	Star of Bethlehem [Fundraiser]
+1	Christian Martyr (I)
+1	Golden Cherubim
+1	The Manger (GoC)
+1	Bethlehem Stable (GoC)
+1	High Places (LoC)
+1	Herod's Temple (GoC)
+1	Golgotha (GoC)
+1	Anna, the Widow (GoC)
+1	Elizabeth (GoC)
+1	Joseph, the Betrothed (GoC)
+1	Zechariah, the Silent (GoC)
+1	Mary, Holy Virgin / Mary, Willing Servant (GoC)
+1	The Magi (GoC)
+1	Joanna, the Generous / Joanna, Wife of Chuza (GoC)
+1	Resurrection Revealer (GoC)
+1	The Heavenly Host (GoC)
+1	Guardians from Glory (GoC)
+1	The Suffering Servant
+1	The Coming Prince
+1	He is Risen (GoC)
+1	Flight into Egypt (GoC)
+1	Lost Child Found (GoC)
+1	Good Seed (GoC)
+1	Virgin Birth
+1	No Need for Spices (GoC)
+1	Supercilious Scribes (GoC)
+1	Proud Pharisee (GoC)
+1	The Obstinate Pharisee (GoC)
+1	The Brood of Vipers (GoC)
+1	Saul of Tarsus [2022 - Seasonal]
+1	Repudiating Rulers (GoC)
+1	Callous Conspirators (GoC)
+1	Stricken
+1	Withered Seed (GoC)
+1	Just a Hireling (GoC)
+1	Pretension (GoC)
+1	Tenants Kill the Son (GoC)
+Reserve:
+1	Shepherds of Bethlehem (GoC)
+1	The Child is Born (GoC)
+1	The Annunciation (GoC)
+1	Light in the Darkness
+1	Banner of Love [2024 - State]
+1	Magnificat (GoC)
+1	Unsuccessful (PoC)
+1	Scattered Sheep
+1	Arrest in Philippi
+1	Self-Righteous Prayer (GoC)
