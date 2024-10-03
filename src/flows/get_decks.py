@@ -16,7 +16,7 @@ def get_decklists() -> list:
         if f.endswith(".txt")
     ]
     print(f"Found n decklists: {len(decklists)}")
-    return decklists
+    return sorted(decklists)
 
 
 @task
