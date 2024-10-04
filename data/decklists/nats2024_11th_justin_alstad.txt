@@ -1,68 +1,62 @@
-1	Son of God "Manger" (Promo)
-1	The Second Coming [Fundraiser]
-1	Three Woes [Fundraiser]
-1	Glory of the Lord [2024 - Winner]
-1	Lost Soul "Lost Souls" [Proverbs 2:16-17]
-1	The Deceiver (RoJ)
-1	Lost Soul "Lawless" [Hebrews 12:8] [2021 - 1st Place]
-1	Lost Soul "Humble" [James 4:6 / Proverbs 3:34 - RoJ]
-1	Lost Soul "Prosperity" [Deuteronomy 30:15] [2024 - 3rd Place]
 1	Lost Soul "Distressed" [Zephaniah 1:17]
-1	Lost Soul "Hunter" [Exodus 11:5 - FoM]
 1	Lost Soul "Dull" [Hebrews 5:11] [AB - CoW]
+1	Lost Soul "Lawless" [Hebrews 12:8] [2021 - 1st Place]
+1	Lost Soul "Crowds" [Luke 5:15] [2016 - Local]
 1	Lost Soul "Darkness" [Job 30:26] [2019 - 1st Place]
+1	Lost Soul "Humble" [James 4:6 / Proverbs 3:34 - RoJ]
+1	Lost Soul "Lost Souls" [Proverbs 2:16-17]
+1	Crowd's Choice [Fundraiser]
+1	The Second Coming [Fundraiser]
+1	Glory of the Lord [2024 - Winner]
+1	Star of Bethlehem [Fundraiser]
+1	Three Woes [Fundraiser]
+1	Son of God "Manger" (Promo)
 1	Murderous Command [K]
-1	Warrior Overtaken [L]
-1	Falling Away (CoW)
-1	Treacherous Land (2022 - 2nd Place)
-1	Twenty Shekels
+1	Herod's Temple (GoC)
+1	Bethlehem Stable (GoC)
+1	Storehouse [IR]
 1	The New Covenant (I/J+)
 1	Zaccheus, the Repentant / Zaccheus, Tax Collector (GoC)
-1	Blood Avenger
-1	Delivered
-1	Wasting Disease (PoC)
-1	Moses (CoW)
-1	Jephthah's Daughter
-1	Daniel, the Apocalyptist (PoC)
-1	Jeremiah, Hope Bringer
-1	Bartimaeus (2022 - Regional)
-1	Simon of Cyrene (Roots)
+1	Philosophy (Roots)
+1	Nicodemus, the Seeker / Nicodemus, the Teacher (2022 - National)
+1	Confusion of Mind (PoC)
+1	Gabriel, Mouth of God (GoC)
+1	Zechariah, the Silent (GoC)
+1	The Heavenly Host (GoC)
+1	Resurrection Revealer (GoC)
+1	The Messianic Messenger (GoC)
 1	Watchful Servant (GoC)
+1	Bartimaeus (2022 - Regional)
 1	Jairus' Daughter (GoC)
-1	The Widow at Zarephath
-1	The Angel of the Winds
-1	The First Sacrifice
+1	Joseph, the Betrothed (GoC)
+1	The Magi (GoC)
 1	The Emmaus Road
-1	Tested by Fire
-1	Righteous Judge
+1	Flight into Egypt (GoC)
+1	The Annunciation (GoC)
 1	Virgin Birth
-1	Teaching in Parables (GoC)
 1	Amazing Faith (GoC)
-1	Outsiders (Black/Gold) (RoJ AB)
-1	The Lying Prophet
+1	Teaching in Parables (GoC)
+1	Lost Child Found (GoC)
 1	The Amalekites' Slave (FoM)
-1	The Divining Damsel (Promo)
-1	Philistine Armor Bearer (LoC)
+1	The Lying Prophet
+1	Outsiders (Black/Gold) (RoJ AB)
 1	The Herdsmen of Gerar (LoC)
-1	Scattered (Promo)
-1	The Wages of Sin (FoM)
-1	Scattered Sheep
-1	Tenants Kill the Son (GoC)
-1	Stricken
-1	Goliath's Curse [L]
-1	Samuel (CoW)
-1	Talitha Kum! (GoC)
-1	Angel of the Lord (I)
 1	The Priests of Zeus
-1	Storehouse [IR]
+1	Philistine Armor Bearer (LoC)
+1	Saul of Tarsus [2022 - Seasonal]
+1	The Deceiver (RoJ)
+1	Duplicity (GoC)
+1	Stricken
+1	Scattered Sheep
+1	Unsuccessful (PoC)
 Reserve:
-1	Jephthah (J)
-1	Elijah (PoC)
-1	Not Alone (RoJ)
-1	Spirit of Elijah
+1	Mary, Holy Virgin / Mary, Willing Servant (GoC)
+1	The Coming Prince
+1	The First Sacrifice
+1	The Child is Born (GoC)
+1	Magnificat (GoC)
 1	Foreign Wives (2022 - Side Event)
+1	Herod the Great (GoC)
 1	Foreign Spears (LoC)
-1	Bringing Fear (LoC)
-1	Philistine Chariots [L]
-1	Flying Scroll (PoC)
-1	King Achish [L]
+1	Vine-Grower's Rebellion (GoC)
+1	Coliseum Lions (J)
