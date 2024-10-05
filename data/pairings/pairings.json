@@ -1,0 +1,2844 @@
+{
+    "luke_marshall": {
+        "total_points": 18.5,
+        "total_ls_differential": 14,
+        "overall_rank": 1,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "kevin_mcilrath",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_2": {
+                "opponent_name": "jonathan_greeson",
+                "round_score": 2.0,
+                "ls_differential": 3,
+                "player_score": 4,
+                "opponent_score": 1
+            },
+            "round_3": {
+                "opponent_name": "andy_fish",
+                "round_score": 3,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_4": {
+                "opponent_name": "jayden_alstad",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_5": {
+                "opponent_name": "justin_alstad",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "james_courtney",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "jayden_alstad": {
+        "total_points": 18.0,
+        "total_ls_differential": 11,
+        "overall_rank": 2,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "stephen_coates",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_2": {
+                "opponent_name": "jay_chambers",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "joshua_potratz",
+                "round_score": 3,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_4": {
+                "opponent_name": "luke_marshall",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "matt_potratz",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "zach_gilbaugh",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            }
+        }
+    },
+    "joshua_potratz": {
+        "total_points": 16.5,
+        "total_ls_differential": 14,
+        "overall_rank": 3,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "chad_frantz",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_2": {
+                "opponent_name": "brandon_swango",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "jayden_alstad",
+                "round_score": 0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "micah_rex",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_5": {
+                "opponent_name": "jamie_coller",
+                "round_score": 3.0,
+                "ls_differential": 5,
+                "player_score": 5,
+                "opponent_score": 0
+            },
+            "round_6": {
+                "opponent_name": "jake_antonetz",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            }
+        }
+    },
+    "jeremy_chambers": {
+        "total_points": 16.5,
+        "total_ls_differential": 11,
+        "overall_rank": 4,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "brian_jones",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 0,
+                "opponent_score": 0
+            },
+            "round_2": {
+                "opponent_name": "charles_johnson",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_3": {
+                "opponent_name": "joe_andrighetti",
+                "round_score": 0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "ryan_greeson",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_5": {
+                "opponent_name": "luke_anderson",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_6": {
+                "opponent_name": "john_hendrix",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "joe_andrighetti": {
+        "total_points": 16.5,
+        "total_ls_differential": 6,
+        "overall_rank": 5,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "allen_gonzales",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_2": {
+                "opponent_name": "jake_antonetz",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "jeremy_chambers",
+                "round_score": 3,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "brian_jones",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "charles_johnson",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "stephen_brooks",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "tim_estes": {
+        "total_points": 15.0,
+        "total_ls_differential": 11,
+        "overall_rank": 6,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "john_michaliszyn",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_2": {
+                "opponent_name": "jamie_coller",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_3": {
+                "opponent_name": "zach_gilbaugh",
+                "round_score": 0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "jay_chambers",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "micah_rex",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_6": {
+                "opponent_name": "tarun_garcha",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            }
+        }
+    },
+    "emmanuel_echavarria": {
+        "total_points": 15.0,
+        "total_ls_differential": 5,
+        "overall_rank": 7,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "mason_knoy",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_2": {
+                "opponent_name": "zach_gilbaugh",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "joshua_chambers",
+                "round_score": 3,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_4": {
+                "opponent_name": "chad_frantz",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_5": {
+                "opponent_name": "jay_chambers",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "brian_jones",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            }
+        }
+    },
+    "jake_antonetz": {
+        "total_points": 15.0,
+        "total_ls_differential": 5,
+        "overall_rank": 8,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "aaron_reisenbigler",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_2": {
+                "opponent_name": "joe_andrighetti",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "stephen_brooks",
+                "round_score": 3,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "jonathan_greeson",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_5": {
+                "opponent_name": "zach_gilbaugh",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 3,
+                "opponent_score": 3
+            },
+            "round_6": {
+                "opponent_name": "joshua_potratz",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            }
+        }
+    },
+    "brian_jones": {
+        "total_points": 14.5,
+        "total_ls_differential": 10,
+        "overall_rank": 9,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "jeremy_chambers",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 0,
+                "opponent_score": 0
+            },
+            "round_2": {
+                "opponent_name": "zach_burnham",
+                "round_score": 3.0,
+                "ls_differential": 5,
+                "player_score": 5,
+                "opponent_score": 0
+            },
+            "round_3": {
+                "opponent_name": "luke_anderson",
+                "round_score": 3,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "joe_andrighetti",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_5": {
+                "opponent_name": "james_courtney",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 3,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "emmanuel_echavarria",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            }
+        }
+    },
+    "shon_sievers": {
+        "total_points": 14.0,
+        "total_ls_differential": 10,
+        "overall_rank": 10,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "kayden_lafountain",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_2": {
+                "opponent_name": "robin_dermo",
+                "round_score": 2.0,
+                "ls_differential": 2,
+                "player_score": 4,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "john_hendrix",
+                "round_score": 0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "aiden_reisenbigler",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_5": {
+                "opponent_name": "andy_fish",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_6": {
+                "opponent_name": "justin_alstad",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    },
+    "justin_alstad": {
+        "total_points": 14.0,
+        "total_ls_differential": 8,
+        "overall_rank": 11,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "matt_potratz",
+                "round_score": 2.0,
+                "ls_differential": 2,
+                "player_score": 4,
+                "opponent_score": 2
+            },
+            "round_2": {
+                "opponent_name": "mitch_stewart",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "aiden_reisenbigler",
+                "round_score": 3,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "john_hendrix",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_5": {
+                "opponent_name": "luke_marshall",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "shon_sievers",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "john_hendrix": {
+        "total_points": 14.0,
+        "total_ls_differential": 8,
+        "overall_rank": 12,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "sean_murphy",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_2": {
+                "opponent_name": "stephen_brooks",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 3,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "shon_sievers",
+                "round_score": 3,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "justin_alstad",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "phillip_anderson",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_6": {
+                "opponent_name": "jeremy_chambers",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    },
+    "matt_potratz": {
+        "total_points": 13.5,
+        "total_ls_differential": 4,
+        "overall_rank": 13,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "justin_alstad",
+                "round_score": 1.0,
+                "ls_differential": -2,
+                "player_score": 2,
+                "opponent_score": 4
+            },
+            "round_2": {
+                "opponent_name": "nathan_voigt",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "ryan_greeson",
+                "round_score": 2,
+                "ls_differential": 1,
+                "player_score": 3,
+                "opponent_score": 2
+            },
+            "round_4": {
+                "opponent_name": "brandon_swango",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_5": {
+                "opponent_name": "jayden_alstad",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "jamie_coller",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            }
+        }
+    },
+    "charles_johnson": {
+        "total_points": 13.5,
+        "total_ls_differential": 4,
+        "overall_rank": 14,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "joe_roberts",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 3,
+                "opponent_score": 3
+            },
+            "round_2": {
+                "opponent_name": "jeremy_chambers",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "stephen_coates",
+                "round_score": 3,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_4": {
+                "opponent_name": "brandon_wade",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_5": {
+                "opponent_name": "joe_andrighetti",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "brandon_swango",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            }
+        }
+    },
+    "stephen_brooks": {
+        "total_points": 13.0,
+        "total_ls_differential": 7,
+        "overall_rank": 15,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "ari_growth",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_2": {
+                "opponent_name": "john_hendrix",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 2,
+                "opponent_score": 3
+            },
+            "round_3": {
+                "opponent_name": "jake_antonetz",
+                "round_score": 0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "cooper_knoy",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_5": {
+                "opponent_name": "jonathan_greeson",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_6": {
+                "opponent_name": "joe_andrighetti",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    },
+    "jonathan_greeson": {
+        "total_points": 13.0,
+        "total_ls_differential": 3,
+        "overall_rank": 16,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "cooper_knoy",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_2": {
+                "opponent_name": "luke_marshall",
+                "round_score": 1.0,
+                "ls_differential": -3,
+                "player_score": 1,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "robin_dermo",
+                "round_score": 3,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_4": {
+                "opponent_name": "jake_antonetz",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "stephen_brooks",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "stephen_coates",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            }
+        }
+    },
+    "james_courtney": {
+        "total_points": 12.5,
+        "total_ls_differential": 7,
+        "overall_rank": 17,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "neeka_parker",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_2": {
+                "opponent_name": "jacob_arrowood",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "micah_rex",
+                "round_score": 3,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_4": {
+                "opponent_name": "zach_gilbaugh",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_5": {
+                "opponent_name": "brian_jones",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 4,
+                "opponent_score": 3
+            },
+            "round_6": {
+                "opponent_name": "luke_marshall",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    },
+    "jay_chambers": {
+        "total_points": 12.0,
+        "total_ls_differential": 10,
+        "overall_rank": 18,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "sergie_creech",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_2": {
+                "opponent_name": "jayden_alstad",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "tarun_garcha",
+                "round_score": 3,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_4": {
+                "opponent_name": "tim_estes",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_5": {
+                "opponent_name": "emmanuel_echavarria",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "joe_roberts",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            }
+        }
+    },
+    "chad_frantz": {
+        "total_points": 12.0,
+        "total_ls_differential": 5,
+        "overall_rank": 19,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "joshua_potratz",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "liam_coller",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "jacob_arrowood",
+                "round_score": 3,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_4": {
+                "opponent_name": "emmanuel_echavarria",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "joe_roberts",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "kayden_lafountain",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "zach_gilbaugh": {
+        "total_points": 12.0,
+        "total_ls_differential": 2,
+        "overall_rank": 20,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "ray_celotto",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_2": {
+                "opponent_name": "emmanuel_echavarria",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "tim_estes",
+                "round_score": 3,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_4": {
+                "opponent_name": "james_courtney",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_5": {
+                "opponent_name": "jake_antonetz",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 3,
+                "opponent_score": 3
+            },
+            "round_6": {
+                "opponent_name": "jayden_alstad",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            }
+        }
+    },
+    "jacob_arrowood": {
+        "total_points": 12.0,
+        "total_ls_differential": -1,
+        "overall_rank": 21,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "kye_murphy",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_2": {
+                "opponent_name": "james_courtney",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "chad_frantz",
+                "round_score": 0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "sergie_creech",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_5": {
+                "opponent_name": "tarun_garcha",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "micah_rex",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "sean_murphy": {
+        "total_points": 12.0,
+        "total_ls_differential": -2,
+        "overall_rank": 22,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "john_hendrix",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "sergie_creech",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "jeff_lemmon",
+                "round_score": 3,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_4": {
+                "opponent_name": "andy_fish",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "joshua_chambers",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "aiden_reisenbigler",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "joe_roberts": {
+        "total_points": 11.0,
+        "total_ls_differential": -2,
+        "overall_rank": 23,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "charles_johnson",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 3,
+                "opponent_score": 3
+            },
+            "round_2": {
+                "opponent_name": "luke_anderson",
+                "round_score": 0.0,
+                "ls_differential": -5,
+                "player_score": 0,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "kye_murphy",
+                "round_score": 2,
+                "ls_differential": 2,
+                "player_score": 4,
+                "opponent_score": 2
+            },
+            "round_4": {
+                "opponent_name": "robin_dermo",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_5": {
+                "opponent_name": "chad_frantz",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "jay_chambers",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            }
+        }
+    },
+    "phillip_anderson": {
+        "total_points": 11.0,
+        "total_ls_differential": -4,
+        "overall_rank": 24,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "nathan_voigt",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 4,
+                "opponent_score": 3
+            },
+            "round_2": {
+                "opponent_name": "aiden_reisenbigler",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "allen_gonzales",
+                "round_score": 3,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "mitch_stewart",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_5": {
+                "opponent_name": "john_hendrix",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "andy_fish",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "luke_anderson": {
+        "total_points": 10.5,
+        "total_ls_differential": 5,
+        "overall_rank": 25,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "ryan_greeson",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_2": {
+                "opponent_name": "joe_roberts",
+                "round_score": 3.0,
+                "ls_differential": 5,
+                "player_score": 5,
+                "opponent_score": 0
+            },
+            "round_3": {
+                "opponent_name": "brian_jones",
+                "round_score": 0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "mason_knoy",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_5": {
+                "opponent_name": "jeremy_chambers",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "kevin_mcilrath",
+                "round_score": 3.0,
+                "ls_differential": 5,
+                "player_score": 5,
+                "opponent_score": 0
+            }
+        }
+    },
+    "tarun_garcha": {
+        "total_points": 10.5,
+        "total_ls_differential": 2,
+        "overall_rank": 26,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "brandon_wade",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_2": {
+                "opponent_name": "micah_rex",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "jay_chambers",
+                "round_score": 0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "john_michaliszyn",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_5": {
+                "opponent_name": "jacob_arrowood",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_6": {
+                "opponent_name": "tim_estes",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            }
+        }
+    },
+    "brandon_wade": {
+        "total_points": 10.5,
+        "total_ls_differential": 0,
+        "overall_rank": 27,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "tarun_garcha",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "kye_murphy",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "nathan_voigt",
+                "round_score": 3,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_4": {
+                "opponent_name": "charles_johnson",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "aaron_reisenbigler",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_6": {
+                "opponent_name": "liam_coller",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            }
+        }
+    },
+    "kye_murphy": {
+        "total_points": 10.5,
+        "total_ls_differential": -2,
+        "overall_rank": 28,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "jacob_arrowood",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "brandon_wade",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "joe_roberts",
+                "round_score": 1,
+                "ls_differential": -2,
+                "player_score": 2,
+                "opponent_score": 4
+            },
+            "round_4": {
+                "opponent_name": "bill_voigt",
+                "round_score": 2.0,
+                "ls_differential": 2,
+                "player_score": 4,
+                "opponent_score": 2
+            },
+            "round_5": {
+                "opponent_name": "liam_coller",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "aaron_reisenbigler",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            }
+        }
+    },
+    "jamie_coller": {
+        "total_points": 10.5,
+        "total_ls_differential": -3,
+        "overall_rank": 29,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "liam_coller",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_2": {
+                "opponent_name": "tim_estes",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "dan_rex",
+                "round_score": 3,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_4": {
+                "opponent_name": "kevin_mcilrath",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_5": {
+                "opponent_name": "joshua_potratz",
+                "round_score": 0.0,
+                "ls_differential": -5,
+                "player_score": 0,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "matt_potratz",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            }
+        }
+    },
+    "aiden_reisenbigler": {
+        "total_points": 10.0,
+        "total_ls_differential": 5,
+        "overall_rank": 30,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "jonathan_underwood",
+                "round_score": 2.0,
+                "ls_differential": 2,
+                "player_score": 4,
+                "opponent_score": 2
+            },
+            "round_2": {
+                "opponent_name": "phillip_anderson",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "justin_alstad",
+                "round_score": 0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "shon_sievers",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "mitch_stewart",
+                "round_score": 3.0,
+                "ls_differential": 5,
+                "player_score": 5,
+                "opponent_score": 0
+            },
+            "round_6": {
+                "opponent_name": "sean_murphy",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    },
+    "nathan_voigt": {
+        "total_points": 10.0,
+        "total_ls_differential": 4,
+        "overall_rank": 31,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "phillip_anderson",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 3,
+                "opponent_score": 4
+            },
+            "round_2": {
+                "opponent_name": "matt_potratz",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "brandon_wade",
+                "round_score": 0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "zach_burnham",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_5": {
+                "opponent_name": "jason_ricci",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_6": {
+                "opponent_name": "allen_gonzales",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    },
+    "allen_gonzales": {
+        "total_points": 10.0,
+        "total_ls_differential": 0,
+        "overall_rank": 32,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "joe_andrighetti",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "cooper_knoy",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 4,
+                "opponent_score": 3
+            },
+            "round_3": {
+                "opponent_name": "phillip_anderson",
+                "round_score": 0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "joshua_putney",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_5": {
+                "opponent_name": "dan_rex",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 3,
+                "opponent_score": 2
+            },
+            "round_6": {
+                "opponent_name": "nathan_voigt",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "mason_knoy": {
+        "total_points": 10.0,
+        "total_ls_differential": -2,
+        "overall_rank": 33,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "emmanuel_echavarria",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "neeka_parker",
+                "round_score": 2.0,
+                "ls_differential": 2,
+                "player_score": 4,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "jonathan_underwood",
+                "round_score": 3,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_4": {
+                "opponent_name": "luke_anderson",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "ryan_greeson",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 4,
+                "opponent_score": 3
+            },
+            "round_6": {
+                "opponent_name": "jeff_lemmon",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "mitch_stewart": {
+        "total_points": 9.5,
+        "total_ls_differential": -1,
+        "overall_rank": 34,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "dan_rex",
+                "round_score": 2.0,
+                "ls_differential": 2,
+                "player_score": 3,
+                "opponent_score": 1
+            },
+            "round_2": {
+                "opponent_name": "justin_alstad",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "joshua_putney",
+                "round_score": 3,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_4": {
+                "opponent_name": "phillip_anderson",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "aiden_reisenbigler",
+                "round_score": 0.0,
+                "ls_differential": -5,
+                "player_score": 0,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "john_michaliszyn",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            }
+        }
+    },
+    "liam_coller": {
+        "total_points": 9.5,
+        "total_ls_differential": -3,
+        "overall_rank": 35,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "jamie_coller",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "chad_frantz",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "kayden_lafountain",
+                "round_score": 3,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "aaron_reisenbigler",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_5": {
+                "opponent_name": "kye_murphy",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_6": {
+                "opponent_name": "brandon_wade",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            }
+        }
+    },
+    "kayden_lafountain": {
+        "total_points": 9.0,
+        "total_ls_differential": 2,
+        "overall_rank": 36,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "shon_sievers",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "kevin_mcilrath",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "liam_coller",
+                "round_score": 0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "ari_growth",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_5": {
+                "opponent_name": "sergie_creech",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_6": {
+                "opponent_name": "chad_frantz",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    },
+    "micah_rex": {
+        "total_points": 9.0,
+        "total_ls_differential": 1,
+        "overall_rank": 37,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "jeff_lemmon",
+                "round_score": 3.0,
+                "ls_differential": 5,
+                "player_score": 5,
+                "opponent_score": 0
+            },
+            "round_2": {
+                "opponent_name": "tarun_garcha",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "james_courtney",
+                "round_score": 0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "joshua_potratz",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "tim_estes",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "jacob_arrowood",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    },
+    "joshua_chambers": {
+        "total_points": 9.0,
+        "total_ls_differential": -3,
+        "overall_rank": 38,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "zach_burnham",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 2,
+                "opponent_score": 1
+            },
+            "round_2": {
+                "opponent_name": "ryan_greeson",
+                "round_score": 1.0,
+                "ls_differential": -2,
+                "player_score": 2,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "emmanuel_echavarria",
+                "round_score": 0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "ray_celotto",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_5": {
+                "opponent_name": "sean_murphy",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "dan_rex",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 3,
+                "opponent_score": 2
+            }
+        }
+    },
+    "andy_fish": {
+        "total_points": 9.0,
+        "total_ls_differential": -4,
+        "overall_rank": 39,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "bye",
+                "round_score": 3.0,
+                "ls_differential": -3,
+                "player_score": -3,
+                "opponent_score": 0
+            },
+            "round_2": {
+                "opponent_name": "bill_voigt",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_3": {
+                "opponent_name": "luke_marshall",
+                "round_score": 0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "sean_murphy",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_5": {
+                "opponent_name": "shon_sievers",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "phillip_anderson",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    },
+    "cooper_knoy": {
+        "total_points": 9.0,
+        "total_ls_differential": -4,
+        "overall_rank": 40,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "jonathan_greeson",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "allen_gonzales",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 3,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "jason_ricci",
+                "round_score": 3,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "stephen_brooks",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "stephen_coates",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "neeka_parker",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            }
+        }
+    },
+    "stephen_coates": {
+        "total_points": 8.5,
+        "total_ls_differential": -4,
+        "overall_rank": 41,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "jayden_alstad",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "aaron_reisenbigler",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 3,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "charles_johnson",
+                "round_score": 0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "jonathan_underwood",
+                "round_score": 2.0,
+                "ls_differential": 2,
+                "player_score": 4,
+                "opponent_score": 2
+            },
+            "round_5": {
+                "opponent_name": "cooper_knoy",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_6": {
+                "opponent_name": "jonathan_greeson",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            }
+        }
+    },
+    "dan_rex": {
+        "total_points": 8.5,
+        "total_ls_differential": -4,
+        "overall_rank": 42,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "mitch_stewart",
+                "round_score": 1.0,
+                "ls_differential": -2,
+                "player_score": 1,
+                "opponent_score": 3
+            },
+            "round_2": {
+                "opponent_name": "jonathan_underwood",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 3,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "jamie_coller",
+                "round_score": 0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "jeff_lemmon",
+                "round_score": 2.0,
+                "ls_differential": 3,
+                "player_score": 3,
+                "opponent_score": 0
+            },
+            "round_5": {
+                "opponent_name": "allen_gonzales",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 2,
+                "opponent_score": 3
+            },
+            "round_6": {
+                "opponent_name": "joshua_chambers",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 2,
+                "opponent_score": 3
+            }
+        }
+    },
+    "ryan_greeson": {
+        "total_points": 8.5,
+        "total_ls_differential": -4,
+        "overall_rank": 43,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "luke_anderson",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_2": {
+                "opponent_name": "joshua_chambers",
+                "round_score": 2.0,
+                "ls_differential": 2,
+                "player_score": 4,
+                "opponent_score": 2
+            },
+            "round_3": {
+                "opponent_name": "matt_potratz",
+                "round_score": 1,
+                "ls_differential": -1,
+                "player_score": 2,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "jeremy_chambers",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "mason_knoy",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 3,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "bill_voigt",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            }
+        }
+    },
+    "kevin_mcilrath": {
+        "total_points": 8.5,
+        "total_ls_differential": -6,
+        "overall_rank": 44,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "luke_marshall",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "kayden_lafountain",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "bill_voigt",
+                "round_score": 3,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
+            },
+            "round_4": {
+                "opponent_name": "jamie_coller",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "brandon_swango",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "luke_anderson",
+                "round_score": 0.0,
+                "ls_differential": -5,
+                "player_score": 0,
+                "opponent_score": 5
+            }
+        }
+    },
+    "bill_voigt": {
+        "total_points": 8.5,
+        "total_ls_differential": -8,
+        "overall_rank": 45,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "joshua_putney",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_2": {
+                "opponent_name": "andy_fish",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "kevin_mcilrath",
+                "round_score": 0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "kye_murphy",
+                "round_score": 1.0,
+                "ls_differential": -2,
+                "player_score": 2,
+                "opponent_score": 4
+            },
+            "round_5": {
+                "opponent_name": "john_michaliszyn",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "ryan_greeson",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            }
+        }
+    },
+    "jeff_lemmon": {
+        "total_points": 8.0,
+        "total_ls_differential": -8,
+        "overall_rank": 46,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "micah_rex",
+                "round_score": 0.0,
+                "ls_differential": -5,
+                "player_score": 0,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "ari_growth",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_3": {
+                "opponent_name": "sean_murphy",
+                "round_score": 0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "dan_rex",
+                "round_score": 1.0,
+                "ls_differential": -3,
+                "player_score": 0,
+                "opponent_score": 3
+            },
+            "round_5": {
+                "opponent_name": "robin_dermo",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_6": {
+                "opponent_name": "mason_knoy",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    },
+    "zach_burnham": {
+        "total_points": 8.0,
+        "total_ls_differential": -8,
+        "overall_rank": 47,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "joshua_chambers",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 1,
+                "opponent_score": 2
+            },
+            "round_2": {
+                "opponent_name": "brian_jones",
+                "round_score": 0.0,
+                "ls_differential": -5,
+                "player_score": 0,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "aaron_reisenbigler",
+                "round_score": 1,
+                "ls_differential": -1,
+                "player_score": 3,
+                "opponent_score": 4
+            },
+            "round_4": {
+                "opponent_name": "nathan_voigt",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "joshua_putney",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "ari_growth",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "brandon_swango": {
+        "total_points": 7.5,
+        "total_ls_differential": -7,
+        "overall_rank": 48,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "jason_ricci",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_2": {
+                "opponent_name": "joshua_potratz",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "ray_celotto",
+                "round_score": 3,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "matt_potratz",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "kevin_mcilrath",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "charles_johnson",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            }
+        }
+    },
+    "joshua_putney": {
+        "total_points": 7.0,
+        "total_ls_differential": -4,
+        "overall_rank": 49,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "bill_voigt",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "jason_ricci",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 4,
+                "opponent_score": 3
+            },
+            "round_3": {
+                "opponent_name": "mitch_stewart",
+                "round_score": 0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "allen_gonzales",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "zach_burnham",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_6": {
+                "opponent_name": "ray_celotto",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 4,
+                "opponent_score": 3
+            }
+        }
+    },
+    "neeka_parker": {
+        "total_points": 7.0,
+        "total_ls_differential": -9,
+        "overall_rank": 50,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "james_courtney",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "mason_knoy",
+                "round_score": 1.0,
+                "ls_differential": -2,
+                "player_score": 2,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "john_michaliszyn",
+                "round_score": 0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "jason_ricci",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "ari_growth",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_6": {
+                "opponent_name": "cooper_knoy",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            }
+        }
+    },
+    "jonathan_underwood": {
+        "total_points": 7.0,
+        "total_ls_differential": -11,
+        "overall_rank": 51,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "aiden_reisenbigler",
+                "round_score": 1.0,
+                "ls_differential": -2,
+                "player_score": 2,
+                "opponent_score": 4
+            },
+            "round_2": {
+                "opponent_name": "dan_rex",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 2,
+                "opponent_score": 3
+            },
+            "round_3": {
+                "opponent_name": "mason_knoy",
+                "round_score": 0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "stephen_coates",
+                "round_score": 1.0,
+                "ls_differential": -2,
+                "player_score": 2,
+                "opponent_score": 4
+            },
+            "round_5": {
+                "opponent_name": "ray_celotto",
+                "round_score": 1.0,
+                "ls_differential": -3,
+                "player_score": 1,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "jason_ricci",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            }
+        }
+    },
+    "john_michaliszyn": {
+        "total_points": 6.0,
+        "total_ls_differential": -4,
+        "overall_rank": 52,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "tim_estes",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "ray_celotto",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "neeka_parker",
+                "round_score": 3,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "tarun_garcha",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "bill_voigt",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_6": {
+                "opponent_name": "mitch_stewart",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            }
+        }
+    },
+    "sergie_creech": {
+        "total_points": 6.0,
+        "total_ls_differential": -7,
+        "overall_rank": 53,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "jay_chambers",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "sean_murphy",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "ari_growth",
+                "round_score": 3,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_4": {
+                "opponent_name": "jacob_arrowood",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "kayden_lafountain",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "robin_dermo",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            }
+        }
+    },
+    "ray_celotto": {
+        "total_points": 6.0,
+        "total_ls_differential": -9,
+        "overall_rank": 54,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "zach_gilbaugh",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "john_michaliszyn",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "brandon_swango",
+                "round_score": 0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "joshua_chambers",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "jonathan_underwood",
+                "round_score": 2.0,
+                "ls_differential": 3,
+                "player_score": 4,
+                "opponent_score": 1
+            },
+            "round_6": {
+                "opponent_name": "joshua_putney",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 3,
+                "opponent_score": 4
+            }
+        }
+    },
+    "aaron_reisenbigler": {
+        "total_points": 6.0,
+        "total_ls_differential": -9,
+        "overall_rank": 55,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "jake_antonetz",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "stephen_coates",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 2,
+                "opponent_score": 3
+            },
+            "round_3": {
+                "opponent_name": "zach_burnham",
+                "round_score": 2,
+                "ls_differential": 1,
+                "player_score": 4,
+                "opponent_score": 3
+            },
+            "round_4": {
+                "opponent_name": "liam_coller",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
+            },
+            "round_5": {
+                "opponent_name": "brandon_wade",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "kye_murphy",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            }
+        }
+    },
+    "robin_dermo": {
+        "total_points": 5.5,
+        "total_ls_differential": -12,
+        "overall_rank": 56,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "kris_hill",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_2": {
+                "opponent_name": "shon_sievers",
+                "round_score": 1.0,
+                "ls_differential": -2,
+                "player_score": 2,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "jonathan_greeson",
+                "round_score": 0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "joe_roberts",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "jeff_lemmon",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "sergie_creech",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            }
+        }
+    },
+    "jason_ricci": {
+        "total_points": 4.0,
+        "total_ls_differential": -9,
+        "overall_rank": 57,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "brandon_swango",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "joshua_putney",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 3,
+                "opponent_score": 4
+            },
+            "round_3": {
+                "opponent_name": "cooper_knoy",
+                "round_score": 0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "neeka_parker",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
+            },
+            "round_5": {
+                "opponent_name": "nathan_voigt",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "jonathan_underwood",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    },
+    "ari_growth": {
+        "total_points": 0.0,
+        "total_ls_differential": -20,
+        "overall_rank": 58,
+        "rounds": {
+            "round_1": {
+                "opponent_name": "stephen_brooks",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_2": {
+                "opponent_name": "jeff_lemmon",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_3": {
+                "opponent_name": "sergie_creech",
+                "round_score": 0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_4": {
+                "opponent_name": "kayden_lafountain",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
+            },
+            "round_5": {
+                "opponent_name": "neeka_parker",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
+            },
+            "round_6": {
+                "opponent_name": "zach_burnham",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            }
+        }
+    }
+}
