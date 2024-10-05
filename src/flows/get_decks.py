@@ -1,3 +1,4 @@
+import csv
 import json
 
 import pandas as pd
@@ -42,7 +43,7 @@ def get_pairings(pairings_data_path="data/pairings/nats2024_T12P_swiss.csv") -> 
         }
 
         # Iterate through the rounds dynamically
-        for round_num in range(1, 7):
+        for round_num in range(1, 8):
             player_data["rounds"][f"round_{round_num}"] = {
                 "opponent_name": (
                     row[f"Opponent Name.{round_num - 1}"]
@@ -89,6 +90,29 @@ def get_pairings(pairings_data_path="data/pairings/nats2024_T12P_swiss.csv") -> 
     return pairings_data
 
 
+def get_deck_field_names() -> list[str]:
+    return [
+        "decklist_id",
+        "player_name",
+        "place",
+        "offense",
+        "defense",
+        "total_points",
+        "total_ls_differential",
+        "rank",
+    ] + [
+        f"round_{n}_{attr}"
+        for n in range(1, 8)
+        for attr in [
+            "opponent",
+            "score",
+            "ls_differential",
+            "player_score",
+            "opponent_score",
+        ]
+    ]
+
+
 @task
 def write_deck_to_csv(pairings, decklist_path, append):
     decklist_id = get_decklist_id(decklist_path)
@@ -96,8 +120,45 @@ def write_deck_to_csv(pairings, decklist_path, append):
     place = get_place(decklist_id)
     offense = get_offense(place)
     defense = get_defense(place)
+    output_path = "data/tables/decks.csv"
+    mode = "a" if append else "w"
 
-    print(f"{decklist_id}, {offense}, {defense}")
+    with open(output_path, mode, newline="") as csvfile:
+        # Define the common fields and the round-specific fields
+        fieldnames = get_deck_field_names()
+
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        if not append:
+            writer.writeheader()
+
+        if player_name not in pairings:
+            raise AssertionError(f"{player_name} not found in pairings!")
+
+        # Extract player data from pairings
+        player_data = pairings[player_name]
+        rounds = player_data["rounds"]
+        print(player_name)
+        row = {
+            "decklist_id": decklist_id,
+            "player_name": player_name,
+            "place": place,
+            "offense": offense,
+            "defense": defense,
+            "total_points": player_data["total_points"],
+            "total_ls_differential": player_data["total_ls_differential"],
+        }
+
+        # Add round data dynamically
+        for n in range(1, 8):
+            round_data = rounds[f"round_{n}"]
+            row[f"round_{n}_opponent"] = round_data["opponent_name"]
+            row[f"round_{n}_score"] = round_data["round_score"]
+            row[f"round_{n}_ls_differential"] = round_data["ls_differential"]
+            row[f"round_{n}_player_score"] = round_data["player_score"]
+            row[f"round_{n}_opponent_score"] = round_data["opponent_score"]
+
+        writer.writerow(row)
 
 
 @flow(log_prints=True)

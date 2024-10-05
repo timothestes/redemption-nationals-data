@@ -45,6 +45,13 @@
                 "ls_differential": 1,
                 "player_score": 5,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "joshua_potratz",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 0,
+                "opponent_score": 0
             }
         }
     },
@@ -94,6 +101,13 @@
                 "ls_differential": 3,
                 "player_score": 5,
                 "opponent_score": 2
+            },
+            "round_7": {
+                "opponent_name": "emmanuel_echavarria",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
             }
         }
     },
@@ -143,6 +157,13 @@
                 "ls_differential": 4,
                 "player_score": 5,
                 "opponent_score": 1
+            },
+            "round_7": {
+                "opponent_name": "luke_marshall",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 0,
+                "opponent_score": 0
             }
         }
     },
@@ -192,6 +213,13 @@
                 "ls_differential": 1,
                 "player_score": 5,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "justin_alstad",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
             }
         }
     },
@@ -241,6 +269,13 @@
                 "ls_differential": 1,
                 "player_score": 5,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "james_courtney",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
             }
         }
     },
@@ -290,6 +325,13 @@
                 "ls_differential": 3,
                 "player_score": 5,
                 "opponent_score": 2
+            },
+            "round_7": {
+                "opponent_name": "sean_murphy",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
             }
         }
     },
@@ -339,6 +381,13 @@
                 "ls_differential": 2,
                 "player_score": 5,
                 "opponent_score": 3
+            },
+            "round_7": {
+                "opponent_name": "jayden_alstad",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
             }
         }
     },
@@ -388,6 +437,13 @@
                 "ls_differential": -4,
                 "player_score": 1,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "jay_chambers",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
             }
         }
     },
@@ -437,6 +493,13 @@
                 "ls_differential": -2,
                 "player_score": 3,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "zach_gilbaugh",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
             }
         }
     },
@@ -486,6 +549,13 @@
                 "ls_differential": -1,
                 "player_score": 4,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "phillip_anderson",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
             }
         }
     },
@@ -535,6 +605,13 @@
                 "ls_differential": 1,
                 "player_score": 5,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "jeremy_chambers",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
             }
         }
     },
@@ -584,6 +661,13 @@
                 "ls_differential": -1,
                 "player_score": 4,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "luke_anderson",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
             }
         }
     },
@@ -633,6 +717,13 @@
                 "ls_differential": 0,
                 "player_score": 4,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "brandon_wade",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
             }
         }
     },
@@ -682,6 +773,13 @@
                 "ls_differential": 3,
                 "player_score": 5,
                 "opponent_score": 2
+            },
+            "round_7": {
+                "opponent_name": "jamie_coller",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
             }
         }
     },
@@ -731,6 +829,13 @@
                 "ls_differential": -1,
                 "player_score": 4,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "allen_gonzales",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
             }
         }
     },
@@ -780,6 +885,13 @@
                 "ls_differential": 4,
                 "player_score": 5,
                 "opponent_score": 1
+            },
+            "round_7": {
+                "opponent_name": "mason_knoy",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
             }
         }
     },
@@ -828,6 +940,13 @@
                 "round_score": 0.0,
                 "ls_differential": -1,
                 "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "joe_andrighetti",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
                 "opponent_score": 5
             }
         }
@@ -878,6 +997,13 @@
                 "ls_differential": 4,
                 "player_score": 5,
                 "opponent_score": 1
+            },
+            "round_7": {
+                "opponent_name": "jake_antonetz",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
             }
         }
     },
@@ -923,6 +1049,13 @@
             },
             "round_6": {
                 "opponent_name": "kayden_lafountain",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "andy_fish",
                 "round_score": 3.0,
                 "ls_differential": 1,
                 "player_score": 5,
@@ -976,6 +1109,13 @@
                 "ls_differential": -3,
                 "player_score": 2,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "brian_jones",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
             }
         }
     },
@@ -1021,6 +1161,13 @@
             },
             "round_6": {
                 "opponent_name": "micah_rex",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "bill_voigt",
                 "round_score": 3.0,
                 "ls_differential": 1,
                 "player_score": 5,
@@ -1074,6 +1221,13 @@
                 "ls_differential": 1,
                 "player_score": 5,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "tim_estes",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
             }
         }
     },
@@ -1123,6 +1277,13 @@
                 "ls_differential": -4,
                 "player_score": 1,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "tarun_garcha",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
             }
         }
     },
@@ -1172,6 +1333,13 @@
                 "ls_differential": 1,
                 "player_score": 5,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "shon_sievers",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
             }
         }
     },
@@ -1221,6 +1389,13 @@
                 "ls_differential": 5,
                 "player_score": 5,
                 "opponent_score": 0
+            },
+            "round_7": {
+                "opponent_name": "john_hendrix",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
             }
         }
     },
@@ -1270,6 +1445,13 @@
                 "ls_differential": -3,
                 "player_score": 2,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "joe_roberts",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
             }
         }
     },
@@ -1319,6 +1501,13 @@
                 "ls_differential": 3,
                 "player_score": 5,
                 "opponent_score": 2
+            },
+            "round_7": {
+                "opponent_name": "matt_potratz",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
             }
         }
     },
@@ -1364,6 +1553,13 @@
             },
             "round_6": {
                 "opponent_name": "aaron_reisenbigler",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
+            },
+            "round_7": {
+                "opponent_name": "brandon_swango",
                 "round_score": 3.0,
                 "ls_differential": 2,
                 "player_score": 5,
@@ -1417,6 +1613,13 @@
                 "ls_differential": 0,
                 "player_score": 4,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "charles_johnson",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
             }
         }
     },
@@ -1466,6 +1669,13 @@
                 "ls_differential": -1,
                 "player_score": 4,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "joshua_chambers",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 3,
+                "opponent_score": 2
             }
         }
     },
@@ -1515,6 +1725,13 @@
                 "ls_differential": -1,
                 "player_score": 4,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "joshua_putney",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
             }
         }
     },
@@ -1564,6 +1781,13 @@
                 "ls_differential": 1,
                 "player_score": 5,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "stephen_brooks",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
             }
         }
     },
@@ -1613,6 +1837,13 @@
                 "ls_differential": 1,
                 "player_score": 5,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "jonathan_greeson",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
             }
         }
     },
@@ -1662,6 +1893,13 @@
                 "ls_differential": 0,
                 "player_score": 4,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "jonathan_underwood",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
             }
         }
     },
@@ -1711,6 +1949,13 @@
                 "ls_differential": -3,
                 "player_score": 2,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "kevin_mcilrath",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 3,
+                "opponent_score": 2
             }
         }
     },
@@ -1760,6 +2005,13 @@
                 "ls_differential": -1,
                 "player_score": 4,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "john_michaliszyn",
+                "round_score": 3.0,
+                "ls_differential": 2,
+                "player_score": 5,
+                "opponent_score": 3
             }
         }
     },
@@ -1809,6 +2061,13 @@
                 "ls_differential": -1,
                 "player_score": 4,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "ray_celotto",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
             }
         }
     },
@@ -1858,6 +2117,13 @@
                 "ls_differential": 1,
                 "player_score": 3,
                 "opponent_score": 2
+            },
+            "round_7": {
+                "opponent_name": "aiden_reisenbigler",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 2,
+                "opponent_score": 3
             }
         }
     },
@@ -1903,6 +2169,13 @@
             },
             "round_6": {
                 "opponent_name": "phillip_anderson",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "chad_frantz",
                 "round_score": 0.0,
                 "ls_differential": -1,
                 "player_score": 4,
@@ -1956,6 +2229,13 @@
                 "ls_differential": 4,
                 "player_score": 5,
                 "opponent_score": 1
+            },
+            "round_7": {
+                "opponent_name": "jeff_lemmon",
+                "round_score": 2.0,
+                "ls_differential": 1,
+                "player_score": 4,
+                "opponent_score": 3
             }
         }
     },
@@ -2005,6 +2285,13 @@
                 "ls_differential": -4,
                 "player_score": 1,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "dan_rex",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 2,
+                "opponent_score": 2
             }
         }
     },
@@ -2054,6 +2341,13 @@
                 "ls_differential": -1,
                 "player_score": 2,
                 "opponent_score": 3
+            },
+            "round_7": {
+                "opponent_name": "stephen_coates",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 2,
+                "opponent_score": 2
             }
         }
     },
@@ -2103,6 +2397,13 @@
                 "ls_differential": -2,
                 "player_score": 3,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "sergie_creech",
+                "round_score": 3.0,
+                "ls_differential": 1,
+                "player_score": 5,
+                "opponent_score": 4
             }
         }
     },
@@ -2152,6 +2453,13 @@
                 "ls_differential": -5,
                 "player_score": 0,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "liam_coller",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 2,
+                "opponent_score": 3
             }
         }
     },
@@ -2201,6 +2509,13 @@
                 "ls_differential": 2,
                 "player_score": 5,
                 "opponent_score": 3
+            },
+            "round_7": {
+                "opponent_name": "jacob_arrowood",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
             }
         }
     },
@@ -2250,6 +2565,13 @@
                 "ls_differential": -1,
                 "player_score": 4,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "cooper_knoy",
+                "round_score": 1.0,
+                "ls_differential": -1,
+                "player_score": 3,
+                "opponent_score": 4
             }
         }
     },
@@ -2299,6 +2621,13 @@
                 "ls_differential": 1,
                 "player_score": 5,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "jason_ricci",
+                "round_score": 3.0,
+                "ls_differential": 3,
+                "player_score": 5,
+                "opponent_score": 2
             }
         }
     },
@@ -2347,6 +2676,13 @@
                 "round_score": 0.0,
                 "ls_differential": -3,
                 "player_score": 2,
+                "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "kye_murphy",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
                 "opponent_score": 5
             }
         }
@@ -2397,6 +2733,13 @@
                 "ls_differential": 1,
                 "player_score": 4,
                 "opponent_score": 3
+            },
+            "round_7": {
+                "opponent_name": "nathan_voigt",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
             }
         }
     },
@@ -2446,6 +2789,13 @@
                 "ls_differential": -4,
                 "player_score": 1,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "ari_growth",
+                "round_score": 3.0,
+                "ls_differential": 4,
+                "player_score": 5,
+                "opponent_score": 1
             }
         }
     },
@@ -2495,6 +2845,13 @@
                 "ls_differential": 1,
                 "player_score": 5,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "mitch_stewart",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
             }
         }
     },
@@ -2544,6 +2901,13 @@
                 "ls_differential": 0,
                 "player_score": 4,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "kayden_lafountain",
+                "round_score": 0.0,
+                "ls_differential": -2,
+                "player_score": 3,
+                "opponent_score": 5
             }
         }
     },
@@ -2593,6 +2957,13 @@
                 "ls_differential": 2,
                 "player_score": 5,
                 "opponent_score": 3
+            },
+            "round_7": {
+                "opponent_name": "ryan_greeson",
+                "round_score": 0.0,
+                "ls_differential": -1,
+                "player_score": 4,
+                "opponent_score": 5
             }
         }
     },
@@ -2642,6 +3013,13 @@
                 "ls_differential": -1,
                 "player_score": 3,
                 "opponent_score": 4
+            },
+            "round_7": {
+                "opponent_name": "micah_rex",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
+                "opponent_score": 5
             }
         }
     },
@@ -2691,6 +3069,13 @@
                 "ls_differential": -2,
                 "player_score": 3,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "robin_dermo",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
             }
         }
     },
@@ -2740,6 +3125,13 @@
                 "ls_differential": -2,
                 "player_score": 3,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "aaron_reisenbigler",
+                "round_score": 1.5,
+                "ls_differential": 0,
+                "player_score": 4,
+                "opponent_score": 4
             }
         }
     },
@@ -2789,6 +3181,13 @@
                 "ls_differential": -1,
                 "player_score": 4,
                 "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "zach_burnham",
+                "round_score": 0.0,
+                "ls_differential": -3,
+                "player_score": 2,
+                "opponent_score": 5
             }
         }
     },
@@ -2837,6 +3236,13 @@
                 "round_score": 0.0,
                 "ls_differential": -1,
                 "player_score": 4,
+                "opponent_score": 5
+            },
+            "round_7": {
+                "opponent_name": "neeka_parker",
+                "round_score": 0.0,
+                "ls_differential": -4,
+                "player_score": 1,
                 "opponent_score": 5
             }
         }
