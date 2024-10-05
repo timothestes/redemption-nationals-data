@@ -5,36 +5,12 @@ from prefect import flow, task
 
 from src.schemas.cards import card_schema
 from src.utilities.brigades import normalize_brigade_field
-
-
-@task
-def get_decklists() -> list:
-    decklist_folder = "data/decklists/"
-    decklists = [
-        os.path.join(decklist_folder, f)
-        for f in os.listdir(decklist_folder)
-        if f.endswith(".txt")
-    ]
-    print(f"Found n decklists: {len(decklists)}")
-    return sorted(decklists)
-
-
-@task
-def get_player_name(decklist_id: str) -> str:
-    return (
-        decklist_id.split("_")[2] + "_" + decklist_id.split("_")[3].replace(".txt", "")
-    )
-
-
-def get_place(decklist_id: str) -> int:
-    parts = decklist_id.split("_")
-
-    if len(parts) >= 2:
-        place_str = parts[1]
-        place_numeric = "".join(filter(str.isdigit, place_str))
-        return int(place_numeric) if place_numeric else None
-    else:
-        return None
+from src.utilities.tools import (
+    get_decklist_id,
+    get_decklists,
+    get_place,
+    get_player_name,
+)
 
 
 @task
@@ -59,13 +35,15 @@ def load_card_data(card_data_path="data/carddata/carddata.txt") -> dict:
 
 @task
 def write_cards_to_csv(
+    decklist_path: str,
     deck: list,
-    decklist_id: str,
-    player_name: str,
-    place: int,
     card_data: dict,
     append: bool,
 ):
+    decklist_id = get_decklist_id(decklist_path)
+    player_name = get_player_name(decklist_id)
+    place = get_place(decklist_id)
+
     output_dir = "data/tables/"
     os.makedirs(output_dir, exist_ok=True)
 
@@ -75,7 +53,7 @@ def write_cards_to_csv(
     else:
         mode = "w"
     with open(output_file, mode, newline="") as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=deck_schema)
+        writer = csv.DictWriter(csvfile, fieldnames=card_schema)
         in_reserve = False
         writer.writeheader()
 
@@ -133,11 +111,8 @@ def get_cards():
     append = False
 
     for decklist_path in decklists:
-        decklist_id = os.path.basename(decklist_path)
-        player_name = get_player_name(decklist_id)
-        place = get_place(decklist_id)
         deck = load_decklist(decklist_path)
-        write_cards_to_csv(deck, decklist_id, player_name, place, card_data, append)
+        write_cards_to_csv(decklist_path, deck, card_data, append)
         append = True
 
     return

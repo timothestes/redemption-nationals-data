@@ -1,3 +1,18 @@
+deck_schema = [
+    "decklist_id",  # pk
+    "player_name",
+    "win_rate",
+    "soul_differential",
+    "n_wins",
+    "n_losses",
+    "n_cards",
+    "m_count",
+    "place",
+    "offense",
+    "defense",
+]
+
+
 metadata_tags = {
     "1": {"offense": "nativity", "defense": "herods"},
     "2": {"offense": "nativity", "defense": "herods"},
