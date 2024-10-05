@@ -41,7 +41,7 @@ metadata_tags = {
     "16": {"offense": "clay", "defense": "black soul hide"},
     "17": {"offense": "nativity", "defense": "thieves"},
     "18": {"offense": "clay", "defense": "herods"},
-    "19": {"offense": "blue", "defense": "black/gray"},
+    "19": {"offense": "nativity", "defense": "herods"},
     "20": {"offense": "clay", "defense": "herods"},
     "21": {"offense": "clay", "defense": "herods"},
     "22": {"offense": "clay", "defense": "herods"},
