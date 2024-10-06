@@ -52,7 +52,7 @@ metadata_tags = {
     "36": {"offense": "clay", "defense": "herods"},
     "37": {"offense": "clay", "defense": "herods"},
     "38": {"offense": "silver", "defense": "gray"},
-    "39": {"offense": "ruth", "defense": "gray"},
+    "39": {"offense": "music leader", "defense": "gray"},
     "40": {"offense": "gold", "defense": "herods"},
     "41": {"offense": "nativity", "defense": "gray"},
     "42": {"offense": "blue", "defense": "black soul hide"},
