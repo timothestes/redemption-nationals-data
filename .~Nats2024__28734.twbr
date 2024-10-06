@@ -1,0 +1,2874 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0910.0334                               -->
+<workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='decks+' inline='true' name='federated.1232r8c13n5ehm17fcfys1y3pngs' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='decks' name='textscan.13jy6rf1qsi5hn1eog47k0cezoen'>
+            <connection class='textscan' directory='/Users/timestes/projects/redemption-nationals-data/data/tables' filename='decks.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.13jy6rf1qsi5hn1eog47k0cezoen' name='cards.csv' table='[cards#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='card_id' ordinal='0' />
+            <column datatype='string' name='decklist_id' ordinal='1' />
+            <column datatype='integer' name='place' ordinal='2' />
+            <column datatype='string' name='player_name' ordinal='3' />
+            <column datatype='integer' name='quantity' ordinal='4' />
+            <column datatype='string' name='brigade' ordinal='5' />
+            <column datatype='integer' name='n_brigades' ordinal='6' />
+            <column datatype='string' name='card_name' ordinal='7' />
+            <column datatype='string' name='in_reserve' ordinal='8' />
+            <column datatype='string' name='image_file' ordinal='9' />
+            <column datatype='string' name='official_set' ordinal='10' />
+            <column datatype='string' name='type' ordinal='11' />
+            <column datatype='string' name='strength' ordinal='12' />
+            <column datatype='string' name='toughness' ordinal='13' />
+            <column datatype='string' name='class' ordinal='14' />
+            <column datatype='string' name='identifier' ordinal='15' />
+            <column datatype='string' name='special_ability' ordinal='16' />
+            <column datatype='string' name='rarity' ordinal='17' />
+            <column datatype='string' name='reference' ordinal='18' />
+            <column datatype='string' name='alignment' ordinal='19' />
+            <column datatype='string' name='legality' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.13jy6rf1qsi5hn1eog47k0cezoen' name='decks.csv' table='[decks#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='decklist_id' ordinal='0' />
+              <column datatype='string' name='player_name' ordinal='1' />
+              <column datatype='integer' name='place' ordinal='2' />
+              <column datatype='string' name='offense' ordinal='3' />
+              <column datatype='string' name='defense' ordinal='4' />
+              <column datatype='real' name='total_points' ordinal='5' />
+              <column datatype='integer' name='total_ls_differential' ordinal='6' />
+              <column datatype='string' name='rank' ordinal='7' />
+              <column datatype='string' name='round_1_opponent' ordinal='8' />
+              <column datatype='real' name='round_1_score' ordinal='9' />
+              <column datatype='integer' name='round_1_ls_differential' ordinal='10' />
+              <column datatype='integer' name='round_1_player_score' ordinal='11' />
+              <column datatype='integer' name='round_1_opponent_score' ordinal='12' />
+              <column datatype='string' name='round_1_opponent_offense' ordinal='13' />
+              <column datatype='string' name='round_1_opponent_defense' ordinal='14' />
+              <column datatype='string' name='round_2_opponent' ordinal='15' />
+              <column datatype='real' name='round_2_score' ordinal='16' />
+              <column datatype='integer' name='round_2_ls_differential' ordinal='17' />
+              <column datatype='integer' name='round_2_player_score' ordinal='18' />
+              <column datatype='integer' name='round_2_opponent_score' ordinal='19' />
+              <column datatype='string' name='round_2_opponent_offense' ordinal='20' />
+              <column datatype='string' name='round_2_opponent_defense' ordinal='21' />
+              <column datatype='string' name='round_3_opponent' ordinal='22' />
+              <column datatype='integer' name='round_3_score' ordinal='23' />
+              <column datatype='integer' name='round_3_ls_differential' ordinal='24' />
+              <column datatype='integer' name='round_3_player_score' ordinal='25' />
+              <column datatype='integer' name='round_3_opponent_score' ordinal='26' />
+              <column datatype='string' name='round_3_opponent_offense' ordinal='27' />
+              <column datatype='string' name='round_3_opponent_defense' ordinal='28' />
+              <column datatype='string' name='round_4_opponent' ordinal='29' />
+              <column datatype='real' name='round_4_score' ordinal='30' />
+              <column datatype='integer' name='round_4_ls_differential' ordinal='31' />
+              <column datatype='integer' name='round_4_player_score' ordinal='32' />
+              <column datatype='integer' name='round_4_opponent_score' ordinal='33' />
+              <column datatype='string' name='round_4_opponent_offense' ordinal='34' />
+              <column datatype='string' name='round_4_opponent_defense' ordinal='35' />
+              <column datatype='string' name='round_5_opponent' ordinal='36' />
+              <column datatype='real' name='round_5_score' ordinal='37' />
+              <column datatype='integer' name='round_5_ls_differential' ordinal='38' />
+              <column datatype='integer' name='round_5_player_score' ordinal='39' />
+              <column datatype='integer' name='round_5_opponent_score' ordinal='40' />
+              <column datatype='string' name='round_5_opponent_offense' ordinal='41' />
+              <column datatype='string' name='round_5_opponent_defense' ordinal='42' />
+              <column datatype='string' name='round_6_opponent' ordinal='43' />
+              <column datatype='real' name='round_6_score' ordinal='44' />
+              <column datatype='integer' name='round_6_ls_differential' ordinal='45' />
+              <column datatype='integer' name='round_6_player_score' ordinal='46' />
+              <column datatype='integer' name='round_6_opponent_score' ordinal='47' />
+              <column datatype='string' name='round_6_opponent_offense' ordinal='48' />
+              <column datatype='string' name='round_6_opponent_defense' ordinal='49' />
+              <column datatype='string' name='round_7_opponent' ordinal='50' />
+              <column datatype='real' name='round_7_score' ordinal='51' />
+              <column datatype='integer' name='round_7_ls_differential' ordinal='52' />
+              <column datatype='integer' name='round_7_player_score' ordinal='53' />
+              <column datatype='integer' name='round_7_opponent_score' ordinal='54' />
+              <column datatype='string' name='round_7_opponent_offense' ordinal='55' />
+              <column datatype='string' name='round_7_opponent_defense' ordinal='56' />
+            </columns>
+          </relation>
+          <relation connection='textscan.13jy6rf1qsi5hn1eog47k0cezoen' name='cards.csv' table='[cards#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='card_id' ordinal='0' />
+              <column datatype='string' name='decklist_id' ordinal='1' />
+              <column datatype='integer' name='place' ordinal='2' />
+              <column datatype='string' name='player_name' ordinal='3' />
+              <column datatype='integer' name='quantity' ordinal='4' />
+              <column datatype='string' name='brigade' ordinal='5' />
+              <column datatype='integer' name='n_brigades' ordinal='6' />
+              <column datatype='string' name='card_name' ordinal='7' />
+              <column datatype='string' name='in_reserve' ordinal='8' />
+              <column datatype='string' name='image_file' ordinal='9' />
+              <column datatype='string' name='official_set' ordinal='10' />
+              <column datatype='string' name='type' ordinal='11' />
+              <column datatype='string' name='strength' ordinal='12' />
+              <column datatype='string' name='toughness' ordinal='13' />
+              <column datatype='string' name='class' ordinal='14' />
+              <column datatype='string' name='identifier' ordinal='15' />
+              <column datatype='string' name='special_ability' ordinal='16' />
+              <column datatype='string' name='rarity' ordinal='17' />
+              <column datatype='string' name='reference' ordinal='18' />
+              <column datatype='string' name='alignment' ordinal='19' />
+              <column datatype='string' name='legality' ordinal='20' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[alignment]' value='[cards.csv].[alignment]' />
+          <map key='[brigade]' value='[cards.csv].[brigade]' />
+          <map key='[card_id]' value='[cards.csv].[card_id]' />
+          <map key='[card_name]' value='[cards.csv].[card_name]' />
+          <map key='[class]' value='[cards.csv].[class]' />
+          <map key='[decklist_id (cards.csv)]' value='[cards.csv].[decklist_id]' />
+          <map key='[decklist_id]' value='[decks.csv].[decklist_id]' />
+          <map key='[defense]' value='[decks.csv].[defense]' />
+          <map key='[identifier]' value='[cards.csv].[identifier]' />
+          <map key='[image_file]' value='[cards.csv].[image_file]' />
+          <map key='[in_reserve]' value='[cards.csv].[in_reserve]' />
+          <map key='[legality]' value='[cards.csv].[legality]' />
+          <map key='[n_brigades]' value='[cards.csv].[n_brigades]' />
+          <map key='[offense]' value='[decks.csv].[offense]' />
+          <map key='[official_set]' value='[cards.csv].[official_set]' />
+          <map key='[place (cards.csv)]' value='[cards.csv].[place]' />
+          <map key='[place]' value='[decks.csv].[place]' />
+          <map key='[player_name (cards.csv)]' value='[cards.csv].[player_name]' />
+          <map key='[player_name]' value='[decks.csv].[player_name]' />
+          <map key='[quantity]' value='[cards.csv].[quantity]' />
+          <map key='[rank]' value='[decks.csv].[rank]' />
+          <map key='[rarity]' value='[cards.csv].[rarity]' />
+          <map key='[reference]' value='[cards.csv].[reference]' />
+          <map key='[round_1_ls_differential]' value='[decks.csv].[round_1_ls_differential]' />
+          <map key='[round_1_opponent]' value='[decks.csv].[round_1_opponent]' />
+          <map key='[round_1_opponent_defense]' value='[decks.csv].[round_1_opponent_defense]' />
+          <map key='[round_1_opponent_offense]' value='[decks.csv].[round_1_opponent_offense]' />
+          <map key='[round_1_opponent_score]' value='[decks.csv].[round_1_opponent_score]' />
+          <map key='[round_1_player_score]' value='[decks.csv].[round_1_player_score]' />
+          <map key='[round_1_score]' value='[decks.csv].[round_1_score]' />
+          <map key='[round_2_ls_differential]' value='[decks.csv].[round_2_ls_differential]' />
+          <map key='[round_2_opponent]' value='[decks.csv].[round_2_opponent]' />
+          <map key='[round_2_opponent_defense]' value='[decks.csv].[round_2_opponent_defense]' />
+          <map key='[round_2_opponent_offense]' value='[decks.csv].[round_2_opponent_offense]' />
+          <map key='[round_2_opponent_score]' value='[decks.csv].[round_2_opponent_score]' />
+          <map key='[round_2_player_score]' value='[decks.csv].[round_2_player_score]' />
+          <map key='[round_2_score]' value='[decks.csv].[round_2_score]' />
+          <map key='[round_3_ls_differential]' value='[decks.csv].[round_3_ls_differential]' />
+          <map key='[round_3_opponent]' value='[decks.csv].[round_3_opponent]' />
+          <map key='[round_3_opponent_defense]' value='[decks.csv].[round_3_opponent_defense]' />
+          <map key='[round_3_opponent_offense]' value='[decks.csv].[round_3_opponent_offense]' />
+          <map key='[round_3_opponent_score]' value='[decks.csv].[round_3_opponent_score]' />
+          <map key='[round_3_player_score]' value='[decks.csv].[round_3_player_score]' />
+          <map key='[round_3_score]' value='[decks.csv].[round_3_score]' />
+          <map key='[round_4_ls_differential]' value='[decks.csv].[round_4_ls_differential]' />
+          <map key='[round_4_opponent]' value='[decks.csv].[round_4_opponent]' />
+          <map key='[round_4_opponent_defense]' value='[decks.csv].[round_4_opponent_defense]' />
+          <map key='[round_4_opponent_offense]' value='[decks.csv].[round_4_opponent_offense]' />
+          <map key='[round_4_opponent_score]' value='[decks.csv].[round_4_opponent_score]' />
+          <map key='[round_4_player_score]' value='[decks.csv].[round_4_player_score]' />
+          <map key='[round_4_score]' value='[decks.csv].[round_4_score]' />
+          <map key='[round_5_ls_differential]' value='[decks.csv].[round_5_ls_differential]' />
+          <map key='[round_5_opponent]' value='[decks.csv].[round_5_opponent]' />
+          <map key='[round_5_opponent_defense]' value='[decks.csv].[round_5_opponent_defense]' />
+          <map key='[round_5_opponent_offense]' value='[decks.csv].[round_5_opponent_offense]' />
+          <map key='[round_5_opponent_score]' value='[decks.csv].[round_5_opponent_score]' />
+          <map key='[round_5_player_score]' value='[decks.csv].[round_5_player_score]' />
+          <map key='[round_5_score]' value='[decks.csv].[round_5_score]' />
+          <map key='[round_6_ls_differential]' value='[decks.csv].[round_6_ls_differential]' />
+          <map key='[round_6_opponent]' value='[decks.csv].[round_6_opponent]' />
+          <map key='[round_6_opponent_defense]' value='[decks.csv].[round_6_opponent_defense]' />
+          <map key='[round_6_opponent_offense]' value='[decks.csv].[round_6_opponent_offense]' />
+          <map key='[round_6_opponent_score]' value='[decks.csv].[round_6_opponent_score]' />
+          <map key='[round_6_player_score]' value='[decks.csv].[round_6_player_score]' />
+          <map key='[round_6_score]' value='[decks.csv].[round_6_score]' />
+          <map key='[round_7_ls_differential]' value='[decks.csv].[round_7_ls_differential]' />
+          <map key='[round_7_opponent]' value='[decks.csv].[round_7_opponent]' />
+          <map key='[round_7_opponent_defense]' value='[decks.csv].[round_7_opponent_defense]' />
+          <map key='[round_7_opponent_offense]' value='[decks.csv].[round_7_opponent_offense]' />
+          <map key='[round_7_opponent_score]' value='[decks.csv].[round_7_opponent_score]' />
+          <map key='[round_7_player_score]' value='[decks.csv].[round_7_player_score]' />
+          <map key='[round_7_score]' value='[decks.csv].[round_7_score]' />
+          <map key='[special_ability]' value='[cards.csv].[special_ability]' />
+          <map key='[strength]' value='[cards.csv].[strength]' />
+          <map key='[total_ls_differential]' value='[decks.csv].[total_ls_differential]' />
+          <map key='[total_points]' value='[decks.csv].[total_points]' />
+          <map key='[toughness]' value='[cards.csv].[toughness]' />
+          <map key='[type]' value='[cards.csv].[type]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>decklist_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[decklist_id]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>decklist_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[player_name]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>player_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>place</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[place]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>place</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>offense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[offense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>offense</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>defense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[defense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>defense</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_points</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_points]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>total_points</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_ls_differential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_ls_differential]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>total_ls_differential</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rank]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>rank</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_1_opponent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_1_opponent]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_1_opponent</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_1_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[round_1_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_1_score</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_1_ls_differential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_1_ls_differential]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_1_ls_differential</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_1_player_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_1_player_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_1_player_score</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_1_opponent_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_1_opponent_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_1_opponent_score</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_1_opponent_offense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_1_opponent_offense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_1_opponent_offense</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_1_opponent_defense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_1_opponent_defense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_1_opponent_defense</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_2_opponent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_2_opponent]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_2_opponent</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_2_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[round_2_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_2_score</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_2_ls_differential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_2_ls_differential]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_2_ls_differential</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_2_player_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_2_player_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_2_player_score</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_2_opponent_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_2_opponent_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_2_opponent_score</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_2_opponent_offense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_2_opponent_offense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_2_opponent_offense</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_2_opponent_defense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_2_opponent_defense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_2_opponent_defense</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_3_opponent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_3_opponent]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_3_opponent</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_3_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_3_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_3_score</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_3_ls_differential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_3_ls_differential]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_3_ls_differential</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_3_player_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_3_player_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_3_player_score</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_3_opponent_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_3_opponent_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_3_opponent_score</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_3_opponent_offense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_3_opponent_offense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_3_opponent_offense</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_3_opponent_defense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_3_opponent_defense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_3_opponent_defense</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_4_opponent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_4_opponent]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_4_opponent</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_4_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[round_4_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_4_score</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_4_ls_differential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_4_ls_differential]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_4_ls_differential</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_4_player_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_4_player_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_4_player_score</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_4_opponent_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_4_opponent_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_4_opponent_score</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_4_opponent_offense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_4_opponent_offense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_4_opponent_offense</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_4_opponent_defense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_4_opponent_defense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_4_opponent_defense</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_5_opponent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_5_opponent]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_5_opponent</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_5_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[round_5_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_5_score</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_5_ls_differential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_5_ls_differential]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_5_ls_differential</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_5_player_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_5_player_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_5_player_score</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_5_opponent_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_5_opponent_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_5_opponent_score</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_5_opponent_offense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_5_opponent_offense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_5_opponent_offense</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_5_opponent_defense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_5_opponent_defense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_5_opponent_defense</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_6_opponent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_6_opponent]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_6_opponent</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_6_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[round_6_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_6_score</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_6_ls_differential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_6_ls_differential]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_6_ls_differential</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_6_player_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_6_player_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_6_player_score</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_6_opponent_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_6_opponent_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_6_opponent_score</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_6_opponent_offense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_6_opponent_offense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_6_opponent_offense</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_6_opponent_defense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_6_opponent_defense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_6_opponent_defense</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_7_opponent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_7_opponent]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_7_opponent</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_7_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[round_7_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_7_score</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_7_ls_differential</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_7_ls_differential]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_7_ls_differential</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_7_player_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_7_player_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_7_player_score</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_7_opponent_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[round_7_opponent_score]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_7_opponent_score</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_7_opponent_offense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_7_opponent_offense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_7_opponent_offense</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>round_7_opponent_defense</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[round_7_opponent_defense]</local-name>
+            <parent-name>[decks.csv]</parent-name>
+            <remote-alias>round_7_opponent_defense</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>card_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[card_id]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>card_id</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>decklist_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[decklist_id (cards.csv)]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>decklist_id</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>place</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[place (cards.csv)]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>place</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>player_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[player_name (cards.csv)]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>player_name</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quantity]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>quantity</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brigade</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[brigade]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>brigade</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>n_brigades</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[n_brigades]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>n_brigades</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>card_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[card_name]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>card_name</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_reserve</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[in_reserve]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>in_reserve</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>image_file</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[image_file]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>image_file</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>official_set</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[official_set]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>official_set</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>strength</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[strength]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>strength</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>toughness</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[toughness]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>toughness</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[class]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>class</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>identifier</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[identifier]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>identifier</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>special_ability</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[special_ability]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>special_ability</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rarity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rarity]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>rarity</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reference</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[reference]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>reference</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alignment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[alignment]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>alignment</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>legality</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[legality]</local-name>
+            <parent-name>[cards.csv]</parent-name>
+            <remote-alias>legality</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='cards.csv' datatype='table' name='[__tableau_internal_object_id__].[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='decks.csv' datatype='table' name='[__tableau_internal_object_id__].[decks.csv_B251C3988B184A47A9B01D459580FB4C]' role='measure' type='quantitative' />
+      <column caption='Alignment' datatype='string' name='[alignment]' role='dimension' type='nominal' />
+      <column caption='Brigade' datatype='string' name='[brigade]' role='dimension' type='nominal' />
+      <column caption='Card Id' datatype='string' name='[card_id]' role='dimension' type='nominal' />
+      <column caption='Card Name' datatype='string' name='[card_name]' role='dimension' type='nominal' />
+      <column caption='Class' datatype='string' name='[class]' role='dimension' type='nominal' />
+      <column caption='Decklist Id (Cards.Csv)' datatype='string' name='[decklist_id (cards.csv)]' role='dimension' type='nominal' />
+      <column caption='Decklist Id' datatype='string' name='[decklist_id]' role='dimension' type='nominal' />
+      <column caption='Defense' datatype='string' name='[defense]' role='dimension' type='nominal' />
+      <column caption='Identifier' datatype='string' name='[identifier]' role='dimension' type='nominal' />
+      <column caption='Image File' datatype='string' name='[image_file]' role='dimension' type='nominal' />
+      <column caption='In Reserve' datatype='string' name='[in_reserve]' role='dimension' type='nominal' />
+      <column caption='Legality' datatype='string' name='[legality]' role='dimension' type='nominal' />
+      <column caption='N Brigades' datatype='integer' name='[n_brigades]' role='measure' type='quantitative' />
+      <column caption='Offense' datatype='string' name='[offense]' role='dimension' type='nominal' />
+      <column caption='Official Set' datatype='string' name='[official_set]' role='dimension' type='nominal' />
+      <column caption='Place (Cards.Csv)' datatype='integer' name='[place (cards.csv)]' role='measure' type='quantitative' />
+      <column caption='Place' datatype='integer' name='[place]' role='measure' type='quantitative' />
+      <column caption='Player Name (Cards.Csv)' datatype='string' name='[player_name (cards.csv)]' role='dimension' type='nominal' />
+      <column caption='Player Name' datatype='string' name='[player_name]' role='dimension' type='nominal' />
+      <column caption='Quantity' datatype='integer' name='[quantity]' role='measure' type='quantitative' />
+      <column caption='Rank' datatype='string' name='[rank]' role='dimension' type='nominal' />
+      <column caption='Rarity' datatype='string' name='[rarity]' role='dimension' type='nominal' />
+      <column caption='Reference' datatype='string' name='[reference]' role='dimension' type='nominal' />
+      <column caption='Round 1 Ls Differential' datatype='integer' name='[round_1_ls_differential]' role='measure' type='quantitative' />
+      <column caption='Round 1 Opponent' datatype='string' name='[round_1_opponent]' role='dimension' type='nominal' />
+      <column caption='Round 1 Opponent Defense' datatype='string' name='[round_1_opponent_defense]' role='dimension' type='nominal' />
+      <column caption='Round 1 Opponent Offense' datatype='string' name='[round_1_opponent_offense]' role='dimension' type='nominal' />
+      <column caption='Round 1 Opponent Score' datatype='integer' name='[round_1_opponent_score]' role='measure' type='quantitative' />
+      <column caption='Round 1 Player Score' datatype='integer' name='[round_1_player_score]' role='measure' type='quantitative' />
+      <column caption='Round 1 Score' datatype='real' name='[round_1_score]' role='measure' type='quantitative' />
+      <column caption='Round 2 Ls Differential' datatype='integer' name='[round_2_ls_differential]' role='measure' type='quantitative' />
+      <column caption='Round 2 Opponent' datatype='string' name='[round_2_opponent]' role='dimension' type='nominal' />
+      <column caption='Round 2 Opponent Defense' datatype='string' name='[round_2_opponent_defense]' role='dimension' type='nominal' />
+      <column caption='Round 2 Opponent Offense' datatype='string' name='[round_2_opponent_offense]' role='dimension' type='nominal' />
+      <column caption='Round 2 Opponent Score' datatype='integer' name='[round_2_opponent_score]' role='measure' type='quantitative' />
+      <column caption='Round 2 Player Score' datatype='integer' name='[round_2_player_score]' role='measure' type='quantitative' />
+      <column caption='Round 2 Score' datatype='real' name='[round_2_score]' role='measure' type='quantitative' />
+      <column caption='Round 3 Ls Differential' datatype='integer' name='[round_3_ls_differential]' role='measure' type='quantitative' />
+      <column caption='Round 3 Opponent' datatype='string' name='[round_3_opponent]' role='dimension' type='nominal' />
+      <column caption='Round 3 Opponent Defense' datatype='string' name='[round_3_opponent_defense]' role='dimension' type='nominal' />
+      <column caption='Round 3 Opponent Offense' datatype='string' name='[round_3_opponent_offense]' role='dimension' type='nominal' />
+      <column caption='Round 3 Opponent Score' datatype='integer' name='[round_3_opponent_score]' role='measure' type='quantitative' />
+      <column caption='Round 3 Player Score' datatype='integer' name='[round_3_player_score]' role='measure' type='quantitative' />
+      <column caption='Round 3 Score' datatype='integer' name='[round_3_score]' role='measure' type='quantitative' />
+      <column caption='Round 4 Ls Differential' datatype='integer' name='[round_4_ls_differential]' role='measure' type='quantitative' />
+      <column caption='Round 4 Opponent' datatype='string' name='[round_4_opponent]' role='dimension' type='nominal' />
+      <column caption='Round 4 Opponent Defense' datatype='string' name='[round_4_opponent_defense]' role='dimension' type='nominal' />
+      <column caption='Round 4 Opponent Offense' datatype='string' name='[round_4_opponent_offense]' role='dimension' type='nominal' />
+      <column caption='Round 4 Opponent Score' datatype='integer' name='[round_4_opponent_score]' role='measure' type='quantitative' />
+      <column caption='Round 4 Player Score' datatype='integer' name='[round_4_player_score]' role='measure' type='quantitative' />
+      <column caption='Round 4 Score' datatype='real' name='[round_4_score]' role='measure' type='quantitative' />
+      <column caption='Round 5 Ls Differential' datatype='integer' name='[round_5_ls_differential]' role='measure' type='quantitative' />
+      <column caption='Round 5 Opponent' datatype='string' name='[round_5_opponent]' role='dimension' type='nominal' />
+      <column caption='Round 5 Opponent Defense' datatype='string' name='[round_5_opponent_defense]' role='dimension' type='nominal' />
+      <column caption='Round 5 Opponent Offense' datatype='string' name='[round_5_opponent_offense]' role='dimension' type='nominal' />
+      <column caption='Round 5 Opponent Score' datatype='integer' name='[round_5_opponent_score]' role='measure' type='quantitative' />
+      <column caption='Round 5 Player Score' datatype='integer' name='[round_5_player_score]' role='measure' type='quantitative' />
+      <column caption='Round 5 Score' datatype='real' name='[round_5_score]' role='measure' type='quantitative' />
+      <column caption='Round 6 Ls Differential' datatype='integer' name='[round_6_ls_differential]' role='measure' type='quantitative' />
+      <column caption='Round 6 Opponent' datatype='string' name='[round_6_opponent]' role='dimension' type='nominal' />
+      <column caption='Round 6 Opponent Defense' datatype='string' name='[round_6_opponent_defense]' role='dimension' type='nominal' />
+      <column caption='Round 6 Opponent Offense' datatype='string' name='[round_6_opponent_offense]' role='dimension' type='nominal' />
+      <column caption='Round 6 Opponent Score' datatype='integer' name='[round_6_opponent_score]' role='measure' type='quantitative' />
+      <column caption='Round 6 Player Score' datatype='integer' name='[round_6_player_score]' role='measure' type='quantitative' />
+      <column caption='Round 6 Score' datatype='real' name='[round_6_score]' role='measure' type='quantitative' />
+      <column caption='Round 7 Ls Differential' datatype='integer' name='[round_7_ls_differential]' role='measure' type='quantitative' />
+      <column caption='Round 7 Opponent' datatype='string' name='[round_7_opponent]' role='dimension' type='nominal' />
+      <column caption='Round 7 Opponent Defense' datatype='string' name='[round_7_opponent_defense]' role='dimension' type='nominal' />
+      <column caption='Round 7 Opponent Offense' datatype='string' name='[round_7_opponent_offense]' role='dimension' type='nominal' />
+      <column caption='Round 7 Opponent Score' datatype='integer' name='[round_7_opponent_score]' role='measure' type='quantitative' />
+      <column caption='Round 7 Player Score' datatype='integer' name='[round_7_player_score]' role='measure' type='quantitative' />
+      <column caption='Round 7 Score' datatype='real' name='[round_7_score]' role='measure' type='quantitative' />
+      <column caption='Special Ability' datatype='string' name='[special_ability]' role='dimension' type='nominal' />
+      <column caption='Strength' datatype='string' name='[strength]' role='dimension' type='nominal' />
+      <column caption='Total Ls Differential' datatype='integer' name='[total_ls_differential]' role='measure' type='quantitative' />
+      <column caption='Total Points' datatype='real' name='[total_points]' role='measure' type='quantitative' />
+      <column caption='Toughness' datatype='string' name='[toughness]' role='dimension' type='nominal' />
+      <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+      <column-instance column='[offense]' derivation='None' name='[none:offense:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/tb/py39nbfn5rb3_krmrhjz4w8m0000gn/T/tableau-temp/#TableauTemp_1n531931map2s41a32oer127z8jn.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='10/06/2024 02:43:23 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='cards.csv_F98938F6FB9945E3B0252E59D9ECB68E' table='[Extract].[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+            <relation name='decks.csv_B251C3988B184A47A9B01D459580FB4C' table='[Extract].[decks.csv_B251C3988B184A47A9B01D459580FB4C]' type='table' />
+            <relation name='cards.csv_F98938F6FB9945E3B0252E59D9ECB68E' table='[Extract].[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]' type='table' />
+          </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+          <cols>
+            <map key='[alignment]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[alignment]' />
+            <map key='[brigade]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[brigade]' />
+            <map key='[card_id]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[card_id]' />
+            <map key='[card_name]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[card_name]' />
+            <map key='[class]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[class]' />
+            <map key='[decklist_id (cards.csv)]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[decklist_id]' />
+            <map key='[decklist_id]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[decklist_id]' />
+            <map key='[defense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[defense]' />
+            <map key='[identifier]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[identifier]' />
+            <map key='[image_file]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[image_file]' />
+            <map key='[in_reserve]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[in_reserve]' />
+            <map key='[legality]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[legality]' />
+            <map key='[n_brigades]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[n_brigades]' />
+            <map key='[offense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[offense]' />
+            <map key='[official_set]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[official_set]' />
+            <map key='[place (cards.csv)]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[place]' />
+            <map key='[place]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[place]' />
+            <map key='[player_name (cards.csv)]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[player_name]' />
+            <map key='[player_name]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[player_name]' />
+            <map key='[quantity]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[quantity]' />
+            <map key='[rank]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[rank]' />
+            <map key='[rarity]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[rarity]' />
+            <map key='[reference]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[reference]' />
+            <map key='[round_1_ls_differential]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_1_ls_differential]' />
+            <map key='[round_1_opponent]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_1_opponent]' />
+            <map key='[round_1_opponent_defense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_1_opponent_defense]' />
+            <map key='[round_1_opponent_offense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_1_opponent_offense]' />
+            <map key='[round_1_opponent_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_1_opponent_score]' />
+            <map key='[round_1_player_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_1_player_score]' />
+            <map key='[round_1_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_1_score]' />
+            <map key='[round_2_ls_differential]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_2_ls_differential]' />
+            <map key='[round_2_opponent]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_2_opponent]' />
+            <map key='[round_2_opponent_defense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_2_opponent_defense]' />
+            <map key='[round_2_opponent_offense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_2_opponent_offense]' />
+            <map key='[round_2_opponent_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_2_opponent_score]' />
+            <map key='[round_2_player_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_2_player_score]' />
+            <map key='[round_2_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_2_score]' />
+            <map key='[round_3_ls_differential]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_3_ls_differential]' />
+            <map key='[round_3_opponent]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_3_opponent]' />
+            <map key='[round_3_opponent_defense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_3_opponent_defense]' />
+            <map key='[round_3_opponent_offense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_3_opponent_offense]' />
+            <map key='[round_3_opponent_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_3_opponent_score]' />
+            <map key='[round_3_player_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_3_player_score]' />
+            <map key='[round_3_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_3_score]' />
+            <map key='[round_4_ls_differential]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_4_ls_differential]' />
+            <map key='[round_4_opponent]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_4_opponent]' />
+            <map key='[round_4_opponent_defense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_4_opponent_defense]' />
+            <map key='[round_4_opponent_offense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_4_opponent_offense]' />
+            <map key='[round_4_opponent_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_4_opponent_score]' />
+            <map key='[round_4_player_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_4_player_score]' />
+            <map key='[round_4_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_4_score]' />
+            <map key='[round_5_ls_differential]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_5_ls_differential]' />
+            <map key='[round_5_opponent]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_5_opponent]' />
+            <map key='[round_5_opponent_defense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_5_opponent_defense]' />
+            <map key='[round_5_opponent_offense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_5_opponent_offense]' />
+            <map key='[round_5_opponent_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_5_opponent_score]' />
+            <map key='[round_5_player_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_5_player_score]' />
+            <map key='[round_5_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_5_score]' />
+            <map key='[round_6_ls_differential]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_6_ls_differential]' />
+            <map key='[round_6_opponent]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_6_opponent]' />
+            <map key='[round_6_opponent_defense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_6_opponent_defense]' />
+            <map key='[round_6_opponent_offense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_6_opponent_offense]' />
+            <map key='[round_6_opponent_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_6_opponent_score]' />
+            <map key='[round_6_player_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_6_player_score]' />
+            <map key='[round_6_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_6_score]' />
+            <map key='[round_7_ls_differential]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_7_ls_differential]' />
+            <map key='[round_7_opponent]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_7_opponent]' />
+            <map key='[round_7_opponent_defense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_7_opponent_defense]' />
+            <map key='[round_7_opponent_offense]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_7_opponent_offense]' />
+            <map key='[round_7_opponent_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_7_opponent_score]' />
+            <map key='[round_7_player_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_7_player_score]' />
+            <map key='[round_7_score]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[round_7_score]' />
+            <map key='[special_ability]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[special_ability]' />
+            <map key='[strength]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[strength]' />
+            <map key='[total_ls_differential]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[total_ls_differential]' />
+            <map key='[total_points]' value='[decks.csv_B251C3988B184A47A9B01D459580FB4C].[total_points]' />
+            <map key='[toughness]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[toughness]' />
+            <map key='[type]' value='[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E].[type]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>decklist_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[decklist_id]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>decklist_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>player_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[player_name]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>player_name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>place</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[place]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>place</remote-alias>
+              <ordinal>2</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>offense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[offense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>offense</remote-alias>
+              <ordinal>3</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>defense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[defense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>defense</remote-alias>
+              <ordinal>4</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_points</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_points]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>total_points</remote-alias>
+              <ordinal>5</ordinal>
+              <family>decks.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_ls_differential</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_ls_differential]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>total_ls_differential</remote-alias>
+              <ordinal>6</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rank</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[rank]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>rank</remote-alias>
+              <ordinal>7</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_1_opponent</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_1_opponent]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_1_opponent</remote-alias>
+              <ordinal>8</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_1_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[round_1_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_1_score</remote-alias>
+              <ordinal>9</ordinal>
+              <family>decks.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_1_ls_differential</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_1_ls_differential]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_1_ls_differential</remote-alias>
+              <ordinal>10</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_1_player_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_1_player_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_1_player_score</remote-alias>
+              <ordinal>11</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_1_opponent_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_1_opponent_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_1_opponent_score</remote-alias>
+              <ordinal>12</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_1_opponent_offense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_1_opponent_offense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_1_opponent_offense</remote-alias>
+              <ordinal>13</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_1_opponent_defense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_1_opponent_defense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_1_opponent_defense</remote-alias>
+              <ordinal>14</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_2_opponent</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_2_opponent]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_2_opponent</remote-alias>
+              <ordinal>15</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_2_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[round_2_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_2_score</remote-alias>
+              <ordinal>16</ordinal>
+              <family>decks.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_2_ls_differential</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_2_ls_differential]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_2_ls_differential</remote-alias>
+              <ordinal>17</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_2_player_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_2_player_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_2_player_score</remote-alias>
+              <ordinal>18</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_2_opponent_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_2_opponent_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_2_opponent_score</remote-alias>
+              <ordinal>19</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_2_opponent_offense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_2_opponent_offense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_2_opponent_offense</remote-alias>
+              <ordinal>20</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_2_opponent_defense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_2_opponent_defense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_2_opponent_defense</remote-alias>
+              <ordinal>21</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_3_opponent</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_3_opponent]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_3_opponent</remote-alias>
+              <ordinal>22</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_3_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_3_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_3_score</remote-alias>
+              <ordinal>23</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_3_ls_differential</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_3_ls_differential]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_3_ls_differential</remote-alias>
+              <ordinal>24</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_3_player_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_3_player_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_3_player_score</remote-alias>
+              <ordinal>25</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_3_opponent_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_3_opponent_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_3_opponent_score</remote-alias>
+              <ordinal>26</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_3_opponent_offense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_3_opponent_offense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_3_opponent_offense</remote-alias>
+              <ordinal>27</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_3_opponent_defense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_3_opponent_defense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_3_opponent_defense</remote-alias>
+              <ordinal>28</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_4_opponent</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_4_opponent]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_4_opponent</remote-alias>
+              <ordinal>29</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_4_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[round_4_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_4_score</remote-alias>
+              <ordinal>30</ordinal>
+              <family>decks.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_4_ls_differential</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_4_ls_differential]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_4_ls_differential</remote-alias>
+              <ordinal>31</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_4_player_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_4_player_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_4_player_score</remote-alias>
+              <ordinal>32</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_4_opponent_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_4_opponent_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_4_opponent_score</remote-alias>
+              <ordinal>33</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_4_opponent_offense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_4_opponent_offense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_4_opponent_offense</remote-alias>
+              <ordinal>34</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_4_opponent_defense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_4_opponent_defense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_4_opponent_defense</remote-alias>
+              <ordinal>35</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_5_opponent</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_5_opponent]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_5_opponent</remote-alias>
+              <ordinal>36</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_5_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[round_5_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_5_score</remote-alias>
+              <ordinal>37</ordinal>
+              <family>decks.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_5_ls_differential</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_5_ls_differential]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_5_ls_differential</remote-alias>
+              <ordinal>38</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_5_player_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_5_player_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_5_player_score</remote-alias>
+              <ordinal>39</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_5_opponent_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_5_opponent_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_5_opponent_score</remote-alias>
+              <ordinal>40</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_5_opponent_offense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_5_opponent_offense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_5_opponent_offense</remote-alias>
+              <ordinal>41</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_5_opponent_defense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_5_opponent_defense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_5_opponent_defense</remote-alias>
+              <ordinal>42</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_6_opponent</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_6_opponent]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_6_opponent</remote-alias>
+              <ordinal>43</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_6_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[round_6_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_6_score</remote-alias>
+              <ordinal>44</ordinal>
+              <family>decks.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_6_ls_differential</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_6_ls_differential]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_6_ls_differential</remote-alias>
+              <ordinal>45</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_6_player_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_6_player_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_6_player_score</remote-alias>
+              <ordinal>46</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_6_opponent_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_6_opponent_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_6_opponent_score</remote-alias>
+              <ordinal>47</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_6_opponent_offense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_6_opponent_offense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_6_opponent_offense</remote-alias>
+              <ordinal>48</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_6_opponent_defense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_6_opponent_defense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_6_opponent_defense</remote-alias>
+              <ordinal>49</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_7_opponent</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_7_opponent]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_7_opponent</remote-alias>
+              <ordinal>50</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_7_score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[round_7_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_7_score</remote-alias>
+              <ordinal>51</ordinal>
+              <family>decks.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_7_ls_differential</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_7_ls_differential]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_7_ls_differential</remote-alias>
+              <ordinal>52</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_7_player_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_7_player_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_7_player_score</remote-alias>
+              <ordinal>53</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_7_opponent_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[round_7_opponent_score]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_7_opponent_score</remote-alias>
+              <ordinal>54</ordinal>
+              <family>decks.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_7_opponent_offense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_7_opponent_offense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_7_opponent_offense</remote-alias>
+              <ordinal>55</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>round_7_opponent_defense</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[round_7_opponent_defense]</local-name>
+              <parent-name>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</parent-name>
+              <remote-alias>round_7_opponent_defense</remote-alias>
+              <ordinal>56</ordinal>
+              <family>decks.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[decks.csv_B251C3988B184A47A9B01D459580FB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>card_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[card_id]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>card_id</remote-alias>
+              <ordinal>57</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3446</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>decklist_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[decklist_id (cards.csv)]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>decklist_id</remote-alias>
+              <ordinal>58</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>59</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>place</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[place (cards.csv)]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>place</remote-alias>
+              <ordinal>59</ordinal>
+              <family>cards.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>59</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>player_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[player_name (cards.csv)]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>player_name</remote-alias>
+              <ordinal>60</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>59</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>quantity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[quantity]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>quantity</remote-alias>
+              <ordinal>61</ordinal>
+              <family>cards.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>brigade</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[brigade]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>brigade</remote-alias>
+              <ordinal>62</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>122</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>n_brigades</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[n_brigades]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>n_brigades</remote-alias>
+              <ordinal>63</ordinal>
+              <family>cards.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>card_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[card_name]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>card_name</remote-alias>
+              <ordinal>64</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>656</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>in_reserve</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[in_reserve]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>in_reserve</remote-alias>
+              <ordinal>65</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>image_file</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[image_file]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>image_file</remote-alias>
+              <ordinal>66</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>648</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>official_set</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[official_set]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>official_set</remote-alias>
+              <ordinal>67</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[type]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>type</remote-alias>
+              <ordinal>68</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>strength</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[strength]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>strength</remote-alias>
+              <ordinal>69</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>toughness</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[toughness]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>toughness</remote-alias>
+              <ordinal>70</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>62</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[class]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>class</remote-alias>
+              <ordinal>71</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>identifier</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[identifier]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>identifier</remote-alias>
+              <ordinal>72</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>306</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>special_ability</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[special_ability]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>special_ability</remote-alias>
+              <ordinal>73</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>632</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rarity</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[rarity]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>rarity</remote-alias>
+              <ordinal>74</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>reference</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[reference]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>reference</remote-alias>
+              <ordinal>75</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>600</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>alignment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[alignment]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>alignment</remote-alias>
+              <ordinal>76</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>legality</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[legality]</local-name>
+              <parent-name>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</parent-name>
+              <remote-alias>legality</remote-alias>
+              <ordinal>77</ordinal>
+              <family>cards.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:offense:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;priests&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;blue&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;honeypot&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;silver&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;purple&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;misc&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;clay&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;music leader&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;wilderness&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;red&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;nativity&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;daniel&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ruth&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;gold&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='cards.csv' id='cards.csv_F98938F6FB9945E3B0252E59D9ECB68E'>
+            <properties context=''>
+              <relation connection='textscan.13jy6rf1qsi5hn1eog47k0cezoen' name='cards.csv' table='[cards#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='card_id' ordinal='0' />
+                  <column datatype='string' name='decklist_id' ordinal='1' />
+                  <column datatype='integer' name='place' ordinal='2' />
+                  <column datatype='string' name='player_name' ordinal='3' />
+                  <column datatype='integer' name='quantity' ordinal='4' />
+                  <column datatype='string' name='brigade' ordinal='5' />
+                  <column datatype='integer' name='n_brigades' ordinal='6' />
+                  <column datatype='string' name='card_name' ordinal='7' />
+                  <column datatype='string' name='in_reserve' ordinal='8' />
+                  <column datatype='string' name='image_file' ordinal='9' />
+                  <column datatype='string' name='official_set' ordinal='10' />
+                  <column datatype='string' name='type' ordinal='11' />
+                  <column datatype='string' name='strength' ordinal='12' />
+                  <column datatype='string' name='toughness' ordinal='13' />
+                  <column datatype='string' name='class' ordinal='14' />
+                  <column datatype='string' name='identifier' ordinal='15' />
+                  <column datatype='string' name='special_ability' ordinal='16' />
+                  <column datatype='string' name='rarity' ordinal='17' />
+                  <column datatype='string' name='reference' ordinal='18' />
+                  <column datatype='string' name='alignment' ordinal='19' />
+                  <column datatype='string' name='legality' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='cards.csv_F98938F6FB9945E3B0252E59D9ECB68E' table='[Extract].[cards.csv_F98938F6FB9945E3B0252E59D9ECB68E]' type='table' />
+            </properties>
+          </object>
+          <object caption='decks.csv' id='decks.csv_B251C3988B184A47A9B01D459580FB4C'>
+            <properties context=''>
+              <relation connection='textscan.13jy6rf1qsi5hn1eog47k0cezoen' name='decks.csv' table='[decks#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='decklist_id' ordinal='0' />
+                  <column datatype='string' name='player_name' ordinal='1' />
+                  <column datatype='integer' name='place' ordinal='2' />
+                  <column datatype='string' name='offense' ordinal='3' />
+                  <column datatype='string' name='defense' ordinal='4' />
+                  <column datatype='real' name='total_points' ordinal='5' />
+                  <column datatype='integer' name='total_ls_differential' ordinal='6' />
+                  <column datatype='string' name='rank' ordinal='7' />
+                  <column datatype='string' name='round_1_opponent' ordinal='8' />
+                  <column datatype='real' name='round_1_score' ordinal='9' />
+                  <column datatype='integer' name='round_1_ls_differential' ordinal='10' />
+                  <column datatype='integer' name='round_1_player_score' ordinal='11' />
+                  <column datatype='integer' name='round_1_opponent_score' ordinal='12' />
+                  <column datatype='string' name='round_1_opponent_offense' ordinal='13' />
+                  <column datatype='string' name='round_1_opponent_defense' ordinal='14' />
+                  <column datatype='string' name='round_2_opponent' ordinal='15' />
+                  <column datatype='real' name='round_2_score' ordinal='16' />
+                  <column datatype='integer' name='round_2_ls_differential' ordinal='17' />
+                  <column datatype='integer' name='round_2_player_score' ordinal='18' />
+                  <column datatype='integer' name='round_2_opponent_score' ordinal='19' />
+                  <column datatype='string' name='round_2_opponent_offense' ordinal='20' />
+                  <column datatype='string' name='round_2_opponent_defense' ordinal='21' />
+                  <column datatype='string' name='round_3_opponent' ordinal='22' />
+                  <column datatype='integer' name='round_3_score' ordinal='23' />
+                  <column datatype='integer' name='round_3_ls_differential' ordinal='24' />
+                  <column datatype='integer' name='round_3_player_score' ordinal='25' />
+                  <column datatype='integer' name='round_3_opponent_score' ordinal='26' />
+                  <column datatype='string' name='round_3_opponent_offense' ordinal='27' />
+                  <column datatype='string' name='round_3_opponent_defense' ordinal='28' />
+                  <column datatype='string' name='round_4_opponent' ordinal='29' />
+                  <column datatype='real' name='round_4_score' ordinal='30' />
+                  <column datatype='integer' name='round_4_ls_differential' ordinal='31' />
+                  <column datatype='integer' name='round_4_player_score' ordinal='32' />
+                  <column datatype='integer' name='round_4_opponent_score' ordinal='33' />
+                  <column datatype='string' name='round_4_opponent_offense' ordinal='34' />
+                  <column datatype='string' name='round_4_opponent_defense' ordinal='35' />
+                  <column datatype='string' name='round_5_opponent' ordinal='36' />
+                  <column datatype='real' name='round_5_score' ordinal='37' />
+                  <column datatype='integer' name='round_5_ls_differential' ordinal='38' />
+                  <column datatype='integer' name='round_5_player_score' ordinal='39' />
+                  <column datatype='integer' name='round_5_opponent_score' ordinal='40' />
+                  <column datatype='string' name='round_5_opponent_offense' ordinal='41' />
+                  <column datatype='string' name='round_5_opponent_defense' ordinal='42' />
+                  <column datatype='string' name='round_6_opponent' ordinal='43' />
+                  <column datatype='real' name='round_6_score' ordinal='44' />
+                  <column datatype='integer' name='round_6_ls_differential' ordinal='45' />
+                  <column datatype='integer' name='round_6_player_score' ordinal='46' />
+                  <column datatype='integer' name='round_6_opponent_score' ordinal='47' />
+                  <column datatype='string' name='round_6_opponent_offense' ordinal='48' />
+                  <column datatype='string' name='round_6_opponent_defense' ordinal='49' />
+                  <column datatype='string' name='round_7_opponent' ordinal='50' />
+                  <column datatype='real' name='round_7_score' ordinal='51' />
+                  <column datatype='integer' name='round_7_ls_differential' ordinal='52' />
+                  <column datatype='integer' name='round_7_player_score' ordinal='53' />
+                  <column datatype='integer' name='round_7_opponent_score' ordinal='54' />
+                  <column datatype='string' name='round_7_opponent_offense' ordinal='55' />
+                  <column datatype='string' name='round_7_opponent_defense' ordinal='56' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='decks.csv_B251C3988B184A47A9B01D459580FB4C' table='[Extract].[decks.csv_B251C3988B184A47A9B01D459580FB4C]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[decklist_id]' />
+              <expression op='[decklist_id (cards.csv)]' />
+            </expression>
+            <first-end-point object-id='decks.csv_B251C3988B184A47A9B01D459580FB4C' />
+            <second-end-point object-id='cards.csv_F98938F6FB9945E3B0252E59D9ECB68E' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='decks+' name='federated.1232r8c13n5ehm17fcfys1y3pngs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1232r8c13n5ehm17fcfys1y3pngs'>
+            <column-instance column='[offense]' derivation='Count' name='[cnt:offense:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[offense]' derivation='None' name='[none:offense:nk]' pivot='key' type='nominal' />
+            <column caption='Offense' datatype='string' name='[offense]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1232r8c13n5ehm17fcfys1y3pngs].[none:offense:nk]' direction='DESC' using='[federated.1232r8c13n5ehm17fcfys1y3pngs].[cnt:offense:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1232r8c13n5ehm17fcfys1y3pngs].[none:offense:nk]' />
+              <wedge-size column='[federated.1232r8c13n5ehm17fcfys1y3pngs].[cnt:offense:qk]' />
+              <size column='[federated.1232r8c13n5ehm17fcfys1y3pngs].[cnt:offense:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2110272E-2282-4287-B7B9-0D72FC202819}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1232r8c13n5ehm17fcfys1y3pngs].[none:offense:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1232r8c13n5ehm17fcfys1y3pngs].[cnt:offense:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{004C7FE1-5667-4AD7-987C-3530DAD75A30}' />
+    </window>
+  </windows>
+</workbook>

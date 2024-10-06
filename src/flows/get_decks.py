@@ -156,6 +156,8 @@ def write_deck_to_csv(pairings, decklist_path, append):
     place = get_place(decklist_id)
     offense = get_offense(place)
     defense = get_defense(place)
+    # m_count = get_mcount(decklist_id)
+    # n_cards_in_deck = get_n_cards_in_deck(decklist_id)
     output_path = "data/tables/decks.csv"
     mode = "a" if append else "w"
 
