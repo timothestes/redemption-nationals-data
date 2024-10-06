@@ -25,6 +25,40 @@ def get_defense(place: int) -> str:
     return metadata_tags[str(place)]["defense"]
 
 
+def get_players_offense(player_name: str) -> str:
+    if player_name == "bye":
+        return None
+    decklists = get_decklists()
+    place = None
+    for decklist in decklists:
+        if player_name in decklist:
+            place = get_place(decklist)
+
+    if not place:
+        # who's zach hill?
+        return None
+        raise ValueError(f"Could not find {player_name} in decklists!")
+
+    return get_offense(place)
+
+
+def get_players_defense(player_name: str) -> str:
+    if player_name == "bye":
+        return None
+    decklists = get_decklists()
+    place = None
+    for decklist in decklists:
+        if player_name in decklist:
+            place = get_place(decklist)
+
+    if not place:
+        # who's zach hill?
+        return None
+        raise ValueError(f"Could not find {player_name} in decklists!")
+
+    return get_defense(place)
+
+
 @task
 def get_pairings(pairings_data_path="data/pairings/nats2024_T12P_swiss.csv") -> dict:
     pairings_data = {}
@@ -109,6 +143,8 @@ def get_deck_field_names() -> list[str]:
             "ls_differential",
             "player_score",
             "opponent_score",
+            "opponent_offense",
+            "opponent_defense",
         ]
     ]
 
@@ -157,6 +193,12 @@ def write_deck_to_csv(pairings, decklist_path, append):
             row[f"round_{n}_ls_differential"] = round_data["ls_differential"]
             row[f"round_{n}_player_score"] = round_data["player_score"]
             row[f"round_{n}_opponent_score"] = round_data["opponent_score"]
+            row[f"round_{n}_opponent_offense"] = get_players_offense(
+                round_data["opponent_name"]
+            )
+            row[f"round_{n}_opponent_defense"] = get_players_defense(
+                round_data["opponent_name"]
+            )
 
         writer.writerow(row)
 

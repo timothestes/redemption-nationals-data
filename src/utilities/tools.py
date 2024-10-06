@@ -25,7 +25,6 @@ def get_decklists() -> list:
         for f in os.listdir(decklist_folder)
         if f.endswith(".txt")
     ]
-    print(f"Found n decklists: {len(decklists)}")
     return sorted(decklists)
 
 
