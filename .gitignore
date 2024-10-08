@@ -162,3 +162,10 @@ cython_debug/
 data/decks/
 
 .DS_Store
+
+matthew_game_log.csv
+
+tbd_main_deck_list.json
+tbd_reserve_list.json
+
+*.twbr

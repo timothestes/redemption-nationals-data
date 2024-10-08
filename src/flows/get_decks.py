@@ -2,8 +2,8 @@ import csv
 import json
 
 import pandas as pd
-from prefect import flow, task
 
+from src.m_count.m_count import get_simulation_results
 from src.schemas.decks import metadata_tags
 from src.utilities.tools import (
     get_decklist_id,
@@ -59,7 +59,6 @@ def get_players_defense(player_name: str) -> str:
     return get_defense(place)
 
 
-@task
 def get_pairings(pairings_data_path="data/pairings/nats2024_T12P_swiss.csv") -> dict:
     pairings_data = {}
     # Read CSV while skipping the first header row
@@ -126,14 +125,14 @@ def get_pairings(pairings_data_path="data/pairings/nats2024_T12P_swiss.csv") -> 
 
 def get_deck_field_names() -> list[str]:
     return [
+        "m_count",
         "decklist_id",
         "player_name",
         "place",
         "offense",
         "defense",
-        "total_points",
-        "total_ls_differential",
-        "rank",
+        "n_cards",
+        "soul_differential",
     ] + [
         f"round_{n}_{attr}"
         for n in range(1, 8)
@@ -149,17 +148,24 @@ def get_deck_field_names() -> list[str]:
     ]
 
 
-@task
 def write_deck_to_csv(pairings, decklist_path, append):
     decklist_id = get_decklist_id(decklist_path)
     player_name = get_player_name(decklist_id)
     place = get_place(decklist_id)
     offense = get_offense(place)
     defense = get_defense(place)
-    # m_count = get_mcount(decklist_id)
-    # n_cards_in_deck = get_n_cards_in_deck(decklist_id)
     output_path = "data/tables/decks.csv"
     mode = "a" if append else "w"
+
+    print(f"staring simulation for {decklist_id}")
+    simulation_results = get_simulation_results(
+        decklist_path,
+        n_simulations=100_000,
+        cycler_logic="random",
+        crowds_ineffectiveness_weight=0.6,
+        matthew_fizzle_rate=0.15,
+    )
+    print(f"finished running simulation for {decklist_id}")
 
     with open(output_path, mode, newline="") as csvfile:
         # Define the common fields and the round-specific fields
@@ -176,15 +182,18 @@ def write_deck_to_csv(pairings, decklist_path, append):
         # Extract player data from pairings
         player_data = pairings[player_name]
         rounds = player_data["rounds"]
-        print(player_name)
         row = {
+            "m_count": simulation_results.m_count,
             "decklist_id": decklist_id,
             "player_name": player_name,
             "place": place,
             "offense": offense,
             "defense": defense,
-            "total_points": player_data["total_points"],
-            "total_ls_differential": player_data["total_ls_differential"],
+            # "whiff_rate": simulation_results.whiff_rate,
+            "n_cards": simulation_results.decklist.deck_size,
+            "soul_differential": player_data["total_ls_differential"],
+            # "n_wins": get_n_wins(),
+            # "n_losses": get_n_losses(),
         }
 
         # Add round data dynamically
@@ -205,7 +214,6 @@ def write_deck_to_csv(pairings, decklist_path, append):
         writer.writerow(row)
 
 
-@flow(log_prints=True)
 def get_decks():
     decklists = get_decklists()
     pairings = get_pairings()

@@ -1,8 +1,6 @@
 import csv
 import os
 
-from prefect import flow, task
-
 from src.schemas.cards import card_schema
 from src.utilities.brigades import normalize_brigade_field
 from src.utilities.tools import (
@@ -13,7 +11,6 @@ from src.utilities.tools import (
 )
 
 
-@task
 def load_decklist(decklist_path: str) -> list:
     with open(decklist_path, "r") as file:
         lines = file.readlines()
@@ -22,7 +19,6 @@ def load_decklist(decklist_path: str) -> list:
     return decklist
 
 
-@task
 def load_card_data(card_data_path="data/carddata/carddata.txt") -> dict:
     card_data = {}
     with open(card_data_path, "r") as file:
@@ -33,7 +29,6 @@ def load_card_data(card_data_path="data/carddata/carddata.txt") -> dict:
     return card_data
 
 
-@task
 def write_cards_to_csv(
     decklist_path: str,
     deck: list,
@@ -104,7 +99,6 @@ def write_cards_to_csv(
     print(f"Deck for {player_name} from {decklist_id} written to {output_file}")
 
 
-@flow(log_prints=True)
 def get_cards():
     card_data = load_card_data()
     decklists = get_decklists()

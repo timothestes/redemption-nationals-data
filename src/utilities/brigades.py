@@ -24,6 +24,9 @@ def handle_complex_brigades(card_name: str, brigade: str) -> list:
         "Fire Foxes": ["Good Gold", "Crimson", "Black"],
         "Bethlehem (LoC)": ["Good Gold", "White"],
         "New Jerusalem (Bride of Christ) (RoJ AB)": GOOD_BRIGADES,
+        "Doubt (LoC Plus)": [],
+        "Doubt (LoC)": [],
+        "Angel of God [2023 - National]": [],
     }
 
     return complex_brigades.get(card_name) or handle_simple_brigades(brigade)
