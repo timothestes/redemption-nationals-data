@@ -124,28 +124,32 @@ def get_pairings(pairings_data_path="data/pairings/nats2024_T12P_swiss.csv") -> 
 
 
 def get_deck_field_names() -> list[str]:
-    return [
-        "m_count",
-        "decklist_id",
-        "player_name",
-        "place",
-        "offense",
-        "defense",
-        "n_cards",
-        "soul_differential",
-    ] + [
-        f"round_{n}_{attr}"
-        for n in range(1, 8)
-        for attr in [
-            "opponent",
-            "score",
-            "ls_differential",
-            "player_score",
-            "opponent_score",
-            "opponent_offense",
-            "opponent_defense",
+    return (
+        [
+            "m_count",
+            "decklist_id",
+            "player_name",
+            "place",
+            "offense",
+            "defense",
+            "n_cards",
+            "soul_differential",
         ]
-    ]
+        + [
+            f"round_{n}_{attr}"
+            for n in range(1, 8)
+            for attr in [
+                "opponent",
+                "score",
+                "ls_differential",
+                "player_score",
+                "opponent_score",
+                "opponent_offense",
+                "opponent_defense",
+            ]
+        ]
+        + ["win_percentage", "n_games_played"]
+    )
 
 
 def write_deck_to_csv(pairings, decklist_path, append):
@@ -154,7 +158,7 @@ def write_deck_to_csv(pairings, decklist_path, append):
     place = get_place(decklist_id)
     offense = get_offense(place)
     defense = get_defense(place)
-    output_path = "data/tables/decks.csv"
+    output_path = "data/tables/decks5.csv"
     mode = "a" if append else "w"
 
     print(f"staring simulation for {decklist_id}")
@@ -192,13 +196,19 @@ def write_deck_to_csv(pairings, decklist_path, append):
             # "whiff_rate": simulation_results.whiff_rate,
             "n_cards": simulation_results.decklist.deck_size,
             "soul_differential": player_data["total_ls_differential"],
-            # "n_wins": get_n_wins(),
-            # "n_losses": get_n_losses(),
         }
+
+        # Initialize win/loss/tie counters
+        wins = 0
+        losses = 0
+        ties = 0
+        n_games_played = 0
 
         # Add round data dynamically
         for n in range(1, 8):
             round_data = rounds[f"round_{n}"]
+            player_score = round_data["player_score"]
+            opponent_score = round_data["opponent_score"]
             row[f"round_{n}_opponent"] = round_data["opponent_name"]
             row[f"round_{n}_score"] = round_data["round_score"]
             row[f"round_{n}_ls_differential"] = round_data["ls_differential"]
@@ -210,6 +220,22 @@ def write_deck_to_csv(pairings, decklist_path, append):
             row[f"round_{n}_opponent_defense"] = get_players_defense(
                 round_data["opponent_name"]
             )
+            # Count wins, losses, and ties
+            if player_score > opponent_score:
+                wins += 1
+            elif player_score < opponent_score:
+                losses += 1
+            else:
+                ties += 1
+            n_games_played += 1
+
+        # Calculate win percentage (treat ties as 0.5 wins)
+        total_rounds = 7  # since we are looking at 7 rounds
+        win_percentage = (wins + (ties / 2)) / total_rounds
+
+        # Add win percentage to the row
+        row["win_percentage"] = win_percentage
+        row["n_games_played"] = n_games_played
 
         writer.writerow(row)
 

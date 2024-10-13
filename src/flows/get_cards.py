@@ -42,7 +42,7 @@ def write_cards_to_csv(
     output_dir = "data/tables/"
     os.makedirs(output_dir, exist_ok=True)
 
-    output_file = "data/tables/cards.csv"
+    output_file = "data/tables/cards3.csv"
     if append:
         mode = "a"
     else:
