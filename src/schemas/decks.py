@@ -28,7 +28,7 @@ metadata_tags = {
     "27": {"offense": "priests", "defense": "babylonians"},
     "28": {"offense": "blue", "defense": "pale green"},
     "29": {"offense": "clay", "defense": "herods"},
-    "30": {"offense": "music leader", "defense": "black soul hide"},
+    "30": {"offense": "misc", "defense": "black soul hide"},
     "31": {"offense": "clay", "defense": "misc"},
     "32": {"offense": "clay", "defense": "herods"},
     "33": {"offense": "silver", "defense": "demons"},
