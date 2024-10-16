@@ -70,32 +70,34 @@ def write_cards_to_csv(
                 alignment=card_info.get("Alignment"),
                 card_name=card_name,
             )
-
-            writer.writerow(
-                {
-                    "card_id": card_id,  # Primary key: image_file
-                    "decklist_id": decklist_id,  # Foreign key: decklist file name
-                    "place": place,
-                    "player_name": player_name,
-                    "quantity": card_quantity,
-                    "brigade": brigades,
-                    "n_brigades": len(brigades),
-                    "card_name": card_name,
-                    "in_reserve": in_reserve,
-                    "image_file": image_file,
-                    "official_set": card_info.get("OfficialSet", ""),
-                    "type": card_info.get("Type", ""),
-                    "strength": card_info.get("Strength"),
-                    "toughness": card_info.get("Toughness"),
-                    "class": card_info.get("Class", ""),
-                    "identifier": card_info.get("Identifier", ""),
-                    "special_ability": card_info.get("SpecialAbility", ""),
-                    "rarity": card_info.get("Rarity", ""),
-                    "reference": card_info.get("Reference", ""),
-                    "alignment": card_info.get("Alignment", ""),
-                    "legality": card_info.get("Legality", ""),
-                }
-            )
+            original_card_id = card_id
+            for n in range(0, card_quantity):
+                if n > 0:
+                    card_id = f"{original_card_id}_{n}"
+                writer.writerow(
+                    {
+                        "card_id": card_id,  # Primary key: image_file
+                        "decklist_id": decklist_id,  # Foreign key: decklist file name
+                        "place": place,
+                        "player_name": player_name,
+                        "brigade": brigades,
+                        "n_brigades": len(brigades),
+                        "card_name": card_name,
+                        "in_reserve": in_reserve,
+                        "image_file": image_file,
+                        "official_set": card_info.get("OfficialSet", ""),
+                        "type": card_info.get("Type", ""),
+                        "strength": card_info.get("Strength"),
+                        "toughness": card_info.get("Toughness"),
+                        "class": card_info.get("Class", ""),
+                        "identifier": card_info.get("Identifier", ""),
+                        "special_ability": card_info.get("SpecialAbility", ""),
+                        "rarity": card_info.get("Rarity", ""),
+                        "reference": card_info.get("Reference", ""),
+                        "alignment": card_info.get("Alignment", ""),
+                        "legality": card_info.get("Legality", ""),
+                    }
+                )
     print(f"Deck for {player_name} from {decklist_id} written to {output_file}")
 
 
