@@ -1,6 +1,5 @@
 import random
 
-from src.utilities.brigades import normalize_brigade_field
 from src.utilities.tools import load_card_data
 
 PACK_DISTRIBUTIONS = {
