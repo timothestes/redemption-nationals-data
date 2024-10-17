@@ -1,3 +1,4 @@
+import csv
 import random
 
 from src.utilities.tools import load_card_data
@@ -64,20 +65,77 @@ def get_pack(set_name: str, card_data: dict) -> list[dict]:
     return pack
 
 
-def get_packs(set_name: str, n_packs: int):
+def write_packs_to_csv(filename: str, packs: list):
+    """Write the packs to a CSV file, each card in a separate row."""
+    with open(filename, mode="w", newline="") as file:
+        writer = csv.writer(file)
+        writer.writerow(
+            [
+                "PK",
+                "SimulationNumber",
+                "PackNumber",
+                "CardName",
+                "Rarity",
+                "SetName",
+                "Brigade",
+                "Type",
+                "Strength",
+                "Toughness",
+                "Class",
+                "Identifier",
+                "Reference",
+                "Alignment",
+            ]
+        )  # Header
+        for sim_num, simulation in enumerate(packs, start=1):
+            for pack_num, pack in enumerate(simulation, start=1):
+                for card in pack:
+                    writer.writerow(
+                        [
+                            f"{sim_num}_{pack_num}_{card['Name']}",
+                            sim_num,
+                            pack_num,
+                            card["Name"],
+                            card.get("Rarity", ""),
+                            card["OfficialSet"],
+                            card["Brigade"],
+                            card["Type"],
+                            card["Strength"],
+                            card["Toughness"],
+                            card["Class"],
+                            card["Identifier"],
+                            card["Reference"],
+                            card["Alignment"],
+                        ]
+                    )
+
+
+def get_simulations(set_name: str, n_simulations: int, n_packs: int):
     assert (
         set_name in PACK_DISTRIBUTIONS
     ), f"set_name must be in {', '.join(PACK_DISTRIBUTIONS.keys())}"
 
     card_data = load_card_data()
 
-    packs = []
+    simulations = []
 
-    save_to_json("tbd.json", card_data)
+    for i in range(n_simulations):
+        simulation = []
+        for _ in range(n_packs):
+            pack = get_pack(set_name, card_data)
+            simulation.append(pack)
+        simulations.append(simulation)
+        print(f"finished simulation {i}")
 
-    for i in range(1, n_packs + 1):
-        packs.append(get_pack(set_name, card_data))
+    return simulations
 
 
 if __name__ == "__main__":
-    get_packs(set_name="Israel's Inheritance", n_packs=1)
+    n_simulations = 10_000  # Number of simulations
+    n_packs = 6  # Number of packs to open per simulation
+    set_name = "Israel's Inheritance"
+    simulations = get_simulations(
+        set_name=set_name, n_simulations=n_simulations, n_packs=n_packs
+    )
+    write_packs_to_csv(f"data/tables/{set_name.lower()}_packs.csv", simulations)
+    print("finished getting packs")
