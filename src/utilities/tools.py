@@ -1,6 +1,8 @@
 import csv
 import os
 
+from src.utilities.brigades import normalize_brigade_field
+
 
 def load_card_data(card_data_path="data/carddata/carddata.txt") -> dict:
     card_data = {}
@@ -8,6 +10,11 @@ def load_card_data(card_data_path="data/carddata/carddata.txt") -> dict:
         reader = csv.DictReader(file, delimiter="\t")
         for row in reader:
             card_data[row["Name"]] = row
+            card_data[row["Name"]]["Brigade"] = normalize_brigade_field(
+                brigade=card_data[row["Name"]].get("Brigade"),
+                alignment=card_data[row["Name"]].get("Alignment"),
+                card_name=row["Name"],
+            )
     print(f"Loaded card data from {card_data_path}")
     return card_data
 

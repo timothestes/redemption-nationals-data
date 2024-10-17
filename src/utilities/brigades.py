@@ -27,9 +27,19 @@ def handle_complex_brigades(card_name: str, brigade: str) -> list:
         "Doubt (LoC Plus)": [],
         "Doubt (LoC)": [],
         "Angel of God [2023 - National]": [],
+        "City of Refuge (PoC)": ["Teal"],
+        "Fullness of Time": [],
+        "Melchizedek (CoW AB)": ["Purple", "Teal"],
+        "Philistine Outpost": [],
+        "Philosophy": GOOD_BRIGADES + EVIL_BRIGADES,
+        "Unified Language": GOOD_BRIGADES + EVIL_BRIGADES,
+        "Saul/Paul": ["Gray"] + GOOD_BRIGADES,
+        "Coat of Many Colors (FoM)": ["Brown"] + GOOD_BRIGADES,
     }
-
-    return complex_brigades.get(card_name) or handle_simple_brigades(brigade)
+    if card_name in complex_brigades:
+        return complex_brigades[card_name]
+    else:
+        return handle_simple_brigades(brigade)
 
 
 def handle_simple_brigades(brigade: str) -> list:
@@ -79,24 +89,17 @@ def normalize_brigade_field(brigade: str, alignment: str, card_name: str) -> lis
         return []
 
     brigades_list = handle_complex_brigades(card_name, brigade)
-
     if "Multi" in brigades_list:
         multi_replacements = {
-            "Saul/Paul": ["Gray", "Good Multi"],
             "Good": "Good Multi",
             "Evil": "Evil Multi",
-            "Neutral": (
-                ["Good Multi", "Evil Multi"]
-                if card_name in ["Unified Language", "Philosophy"]
-                else "Good Multi"
-            ),
+            "Neutral": "Good Multi",
         }
         brigades_list = replace_brigades(
             brigades_list,
             "Multi",
             multi_replacements.get(card_name, multi_replacements.get(alignment)),
         )
-
     if "Gold" in brigades_list:
         brigades_list = handle_gold_brigade(card_name, alignment, brigades_list)
 
@@ -107,4 +110,4 @@ def normalize_brigade_field(brigade: str, alignment: str, card_name: str) -> lis
             brigade in allowed_brigades
         ), f"Card {card_name} has an invalid brigade: {brigade}."
 
-    return brigades_list
+    return sorted(brigades_list)

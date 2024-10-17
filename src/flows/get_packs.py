@@ -1,5 +1,6 @@
 import random
 
+from src.utilities.brigades import normalize_brigade_field
 from src.utilities.tools import load_card_data
 
 PACK_DISTRIBUTIONS = {
@@ -70,9 +71,10 @@ def get_packs(set_name: str, n_packs: int):
     ), f"set_name must be in {', '.join(PACK_DISTRIBUTIONS.keys())}"
 
     card_data = load_card_data()
-    save_to_json("tbd.json", card_data)
 
     packs = []
+
+    save_to_json("tbd.json", card_data)
 
     for i in range(1, n_packs + 1):
         packs.append(get_pack(set_name, card_data))

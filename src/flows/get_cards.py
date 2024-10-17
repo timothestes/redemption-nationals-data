@@ -2,7 +2,6 @@ import csv
 import os
 
 from src.schemas.cards import card_schema
-from src.utilities.brigades import normalize_brigade_field
 from src.utilities.tools import (
     get_decklist_id,
     get_decklists,
@@ -56,11 +55,6 @@ def write_cards_to_csv(
             card_info = card_data.get(card_name, {})
             image_file = card_info.get("ImageFile", "")
             card_id = f"{player_name}_{image_file}"
-            brigades = normalize_brigade_field(
-                brigade=card_info.get("Brigade"),
-                alignment=card_info.get("Alignment"),
-                card_name=card_name,
-            )
             original_card_id = card_id
             for n in range(0, card_quantity):
                 if n > 0:
@@ -71,8 +65,8 @@ def write_cards_to_csv(
                         "decklist_id": decklist_id,  # Foreign key: decklist file name
                         "place": place,
                         "player_name": player_name,
-                        "brigade": brigades,
-                        "n_brigades": len(brigades),
+                        "brigade": card_data.get("Brigade"),
+                        "n_brigades": len(card_data.get("Brigade")),
                         "card_name": card_name,
                         "in_reserve": in_reserve,
                         "image_file": image_file,
