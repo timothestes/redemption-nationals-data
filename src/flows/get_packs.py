@@ -7,8 +7,20 @@ PACK_DISTRIBUTIONS = {
     "Israel's Inheritance": {
         "Roots": 5,
         "Israel's Inheritance": {"Rare/Ultra-Rare": 1, "Common": 3},
-    }
+    },
+    "Israel's Rebellion": {
+        "Roots": 5,
+        "Israel's Rebellion": {"Rare/Ultra-Rare": 1, "Common": 3},
+    },
 }
+
+
+def generate_dynamic_filename(pack_weight: dict) -> str:
+    sets_involved = "_".join(
+        [set_name.replace(" ", "_").lower() for set_name in pack_weight.keys()]
+    )
+    total_packs = sum(pack_weight.values())
+    return f"data/tables/{sets_involved}_{total_packs}_packs.csv"
 
 
 def save_to_json(filename: str, data: dict):
@@ -110,32 +122,31 @@ def write_packs_to_csv(filename: str, packs: list):
                     )
 
 
-def get_simulations(set_name: str, n_simulations: int, n_packs: int):
-    assert (
-        set_name in PACK_DISTRIBUTIONS
-    ), f"set_name must be in {', '.join(PACK_DISTRIBUTIONS.keys())}"
-
+def get_simulations(n_simulations: int, pack_weight: dict):
+    """Generate simulations based on pack weight."""
     card_data = load_card_data()
-
     simulations = []
 
     for i in range(n_simulations):
         simulation = []
-        for _ in range(n_packs):
-            pack = get_pack(set_name, card_data)
-            simulation.append(pack)
+        # Loop through each set and add the corresponding number of packs
+        for set_name, num_packs in pack_weight.items():
+            for _ in range(num_packs):
+                pack = get_pack(set_name, card_data)
+                simulation.append(pack)
         simulations.append(simulation)
-        print(f"finished simulation {i}")
+        print(f"Finished simulation {i + 1}")
 
     return simulations
 
 
 if __name__ == "__main__":
     n_simulations = 10_000  # Number of simulations
-    n_packs = 6  # Number of packs to open per simulation
-    set_name = "Israel's Inheritance"
-    simulations = get_simulations(
-        set_name=set_name, n_simulations=n_simulations, n_packs=n_packs
-    )
-    write_packs_to_csv(f"data/tables/{set_name.lower()}_packs.csv", simulations)
-    print("finished getting packs")
+    pack_weight = {
+        "Israel's Inheritance": 3,  # Open 3 packs from this set
+        "Israel's Rebellion": 3,  # Open 3 packs from this set
+    }
+
+    simulations = get_simulations(n_simulations=n_simulations, pack_weight=pack_weight)
+    write_packs_to_csv(generate_dynamic_filename(pack_weight), simulations)
+    print("Finished getting packs.")
