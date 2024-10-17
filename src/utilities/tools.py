@@ -1,4 +1,15 @@
+import csv
 import os
+
+
+def load_card_data(card_data_path="data/carddata/carddata.txt") -> dict:
+    card_data = {}
+    with open(card_data_path, "r") as file:
+        reader = csv.DictReader(file, delimiter="\t")
+        for row in reader:
+            card_data[row["Name"]] = row
+    print(f"Loaded card data from {card_data_path}")
+    return card_data
 
 
 def get_player_name(decklist_id: str) -> str:

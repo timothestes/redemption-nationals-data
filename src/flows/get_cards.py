@@ -8,6 +8,7 @@ from src.utilities.tools import (
     get_decklists,
     get_place,
     get_player_name,
+    load_card_data,
 )
 
 
@@ -17,16 +18,6 @@ def load_decklist(decklist_path: str) -> list:
     decklist = [line.strip() for line in lines if line.strip()]
     print(f"Loaded decklist from {decklist_path}")
     return decklist
-
-
-def load_card_data(card_data_path="data/carddata/carddata.txt") -> dict:
-    card_data = {}
-    with open(card_data_path, "r") as file:
-        reader = csv.DictReader(file, delimiter="\t")
-        for row in reader:
-            card_data[row["Name"]] = row
-    print(f"Loaded card data from {card_data_path}")
-    return card_data
 
 
 def write_cards_to_csv(
