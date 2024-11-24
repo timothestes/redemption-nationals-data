@@ -8,9 +8,11 @@ DECKLIST_FOLDER = "/Applications/LackeyCCG/plugins/Redemption/decks"
 DECKLIST_IMAGES_FOLDER = (
     "/Applications/LackeyCCG/plugins/Redemption/sets/setimages/general/"
 )
-OUTPUT_IMAGES_FOLDER = "/deck_images"
-IMAGE_LENGTH = 600
-IMAGE_WIDTH = 600
+OUTPUT_IMAGES_FOLDER = "./deck_images"
+MAIN_DECK_LENGTH = 600
+MAIN_DECK_WIDTH = 600
+RESERVE_LENGTH = 900
+RESERVE_WIDTH = 200
 
 
 def load_deck_data(decklist_file_path: str) -> dict:
@@ -29,11 +31,11 @@ def find_decklist_file(decklist_name: str) -> str:
 def generate_image(deck_data: dict):
     """Generate an image of the specified dimensions for the deck."""
     # Create a blank canvas
-    output_image = Image.new("RGB", (IMAGE_LENGTH, IMAGE_WIDTH), (255, 255, 255))
+    output_image = Image.new("RGB", (RESERVE_LENGTH, RESERVE_WIDTH), (255, 255, 255))
 
     # Calculate dimensions for each card image to fit within the output image
-    card_width = IMAGE_WIDTH // 5
-    card_height = IMAGE_LENGTH // 5
+    card_width = RESERVE_WIDTH // 5
+    card_height = RESERVE_LENGTH // 5
 
     # Track positioning for placing card images on the canvas
     x_offset, y_offset = 0, 0
@@ -49,7 +51,7 @@ def generate_image(deck_data: dict):
 
             # Update x_offset, and move to next row if necessary
             x_offset += card_width
-            if x_offset >= IMAGE_WIDTH:
+            if x_offset >= RESERVE_WIDTH:
                 x_offset = 0
                 y_offset += card_height
         except FileNotFoundError:
