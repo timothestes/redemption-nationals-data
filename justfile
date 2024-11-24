@@ -4,3 +4,5 @@ run:
 	python3 -m src.main
 test:
 	pytest
+snipe:
+	python3 -m src.utilities.sniper

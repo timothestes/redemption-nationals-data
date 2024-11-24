@@ -1,6 +1,7 @@
 import csv
+import json
 
-from src.m_count.constants import EMPERORS, EVIL_BRIGADES, GOOD_BRIGADES
+from src.m_count.constants import EMPERORS
 from src.utilities.brigades import normalize_brigade_field
 
 
@@ -42,8 +43,6 @@ class Decklist:
 
     def _save_json(self, filename: str, dictionary_to_save: dict):
         """Debugging tool used to inspect json file.s"""
-        import json
-
         with open(filename, "w", encoding="utf-8") as file:
             json.dump(dictionary_to_save, file, ensure_ascii=False, indent=4)
 
@@ -130,3 +129,11 @@ class Decklist:
             output["is_emperor"] = True
 
         return output
+
+    def to_json(self) -> dict:
+        return {
+            "main_deck": self.mapped_main_deck_list,
+            "deck_size": self._get_size_of(self.mapped_main_deck_list),
+            "reserve": self.mapped_reserve_list,
+            "reserve_size": self._get_size_of(self.mapped_reserve_list),
+        }
