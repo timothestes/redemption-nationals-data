@@ -1,6 +1,7 @@
 import os
 
 import PIL.Image as Image
+import PIL.ImageDraw as ImageDraw
 
 from src.m_count.decklist import Decklist
 
@@ -35,10 +36,15 @@ def generate_image(
         print(f"No data found for '{deck_key}' deck.")
         return
 
+    # Sort the deck by 'type' alphabetically
+    sorted_deck_items = sorted(deck.items(), key=lambda item: item[1]["type"])
+
     # Load the first card image to determine the size for consistent dimensions
     sample_image_path = os.path.join(
         DECKLIST_IMAGES_FOLDER,
-        deck[list(deck.keys())[0]]["imagefile"],
+        sorted_deck_items[0][1][
+            "imagefile"
+        ],  # Access the first card in the sorted deck
     )
     # Ensure the image has the correct extension
     if not sample_image_path.lower().endswith(".jpg"):
@@ -61,7 +67,7 @@ def generate_image(
     # Track positioning for placing card images on the canvas
     x_offset, y_offset = 0, 0
 
-    for card, card_data in deck.items():
+    for card_key, card_data in sorted_deck_items:
         image_file = card_data["imagefile"]
         # Ensure the image file has the correct extension
         if not image_file.lower().endswith(".jpg"):
@@ -84,7 +90,9 @@ def generate_image(
                 x_offset = 0
                 y_offset += card_height
         except FileNotFoundError:
-            print(f"Warning: Image for card '{card}' not found at {card_image_path}")
+            print(
+                f"Warning: Image for card '{card_key}' not found at {card_image_path}"
+            )
 
     # Save the generated deck image in a high-quality, lossless PNG format
     output_image_path = os.path.join(OUTPUT_IMAGES_FOLDER, f"{output_filename}.png")
@@ -95,15 +103,18 @@ def generate_image(
 def combine_images(
     main_deck_image_path: str, reserve_deck_image_path: str, output_filename: str
 ):
-    """Combine the main deck and reserve deck images into a single image."""
+    """Combine the main deck and reserve deck images into a single image, adding a line between them."""
 
     # Load the main deck and reserve deck images
     main_deck_image = Image.open(main_deck_image_path)
     reserve_deck_image = Image.open(reserve_deck_image_path)
 
+    # Set line height for the black separator line
+    line_height = 25
+
     # Calculate the combined image size
     combined_width = max(main_deck_image.width, reserve_deck_image.width)
-    combined_height = main_deck_image.height + reserve_deck_image.height
+    combined_height = main_deck_image.height + reserve_deck_image.height + line_height
 
     # Create a blank canvas for the combined image
     combined_image = Image.new(
@@ -113,8 +124,16 @@ def combine_images(
     # Paste the main deck image at the top
     combined_image.paste(main_deck_image, (0, 0))
 
-    # Paste the reserve deck image below the main deck
-    combined_image.paste(reserve_deck_image, (0, main_deck_image.height))
+    # Draw a black line below the main deck image
+    draw = ImageDraw.Draw(combined_image)
+    line_y_start = main_deck_image.height + (line_height // 2)
+    draw.line(
+        (0, line_y_start, combined_width, line_y_start), fill="black", width=line_height
+    )
+
+    # Paste the reserve deck image below the line
+    reserve_y_offset = main_deck_image.height + line_height
+    combined_image.paste(reserve_deck_image, (0, reserve_y_offset))
 
     # Save the combined image in a high-quality, lossless PNG format
     combined_image_path = os.path.join(OUTPUT_IMAGES_FOLDER, f"{output_filename}.png")
