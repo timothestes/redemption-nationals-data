@@ -53,8 +53,8 @@ def generate_image(
     sample_image = Image.open(sample_image_path)
     card_width, card_height = sample_image.size
 
-    # Set overlap amount to 7% of card height
-    card_overlap = int(card_height * 0.07)
+    # Set overlap amount to 10% of card height
+    card_overlap = int(card_height * 0.10)
 
     # Calculate output image dimensions based on the number of cards, considering the overlap
     num_cards = len(deck)
@@ -107,18 +107,23 @@ def generate_image(
 def combine_images(
     main_deck_image_path: str, reserve_deck_image_path: str, output_filename: str
 ):
-    """Combine the main deck and reserve deck images into a single image, adding a line between them."""
+    """Combine the main deck and reserve deck images into a single image, adding a line and padding between them."""
 
     # Load the main deck and reserve deck images
     main_deck_image = Image.open(main_deck_image_path)
     reserve_deck_image = Image.open(reserve_deck_image_path)
 
     # Set line height for the red separator line
-    line_height = 25
+    line_height = 50
+
+    # Set padding between main deck and reserve deck
+    padding = 50  # You can adjust this value as needed
 
     # Calculate the combined image size
     combined_width = max(main_deck_image.width, reserve_deck_image.width)
-    combined_height = main_deck_image.height + reserve_deck_image.height + line_height
+    combined_height = (
+        main_deck_image.height + reserve_deck_image.height + line_height + padding
+    )
 
     # Create a blank canvas for the combined image with the new background color
     background_color = (30, 32, 43)  # RGB for #1e202b
@@ -131,7 +136,7 @@ def combine_images(
 
     # Draw a red line below the main deck image
     draw = ImageDraw.Draw(combined_image)
-    line_color = (232, 230, 227)
+    line_color = (20, 22, 33)
     line_y_start = main_deck_image.height + (line_height // 2)
     draw.line(
         (0, line_y_start, combined_width, line_y_start),
@@ -139,8 +144,8 @@ def combine_images(
         width=line_height,
     )
 
-    # Paste the reserve deck image below the line
-    reserve_y_offset = main_deck_image.height + line_height
+    # Paste the reserve deck image below the line, with added padding
+    reserve_y_offset = main_deck_image.height + line_height + padding
     combined_image.paste(reserve_deck_image, (0, reserve_y_offset))
 
     # Save the combined image in a high-quality, lossless PNG format
