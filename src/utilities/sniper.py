@@ -92,16 +92,60 @@ def generate_image(
     print(f"Deck image saved to {output_image_path}")
 
 
+def combine_images(
+    main_deck_image_path: str, reserve_deck_image_path: str, output_filename: str
+):
+    """Combine the main deck and reserve deck images into a single image."""
+
+    # Load the main deck and reserve deck images
+    main_deck_image = Image.open(main_deck_image_path)
+    reserve_deck_image = Image.open(reserve_deck_image_path)
+
+    # Calculate the combined image size
+    combined_width = max(main_deck_image.width, reserve_deck_image.width)
+    combined_height = main_deck_image.height + reserve_deck_image.height
+
+    # Create a blank canvas for the combined image
+    combined_image = Image.new(
+        "RGB", (combined_width, combined_height), (255, 255, 255)
+    )
+
+    # Paste the main deck image at the top
+    combined_image.paste(main_deck_image, (0, 0))
+
+    # Paste the reserve deck image below the main deck
+    combined_image.paste(reserve_deck_image, (0, main_deck_image.height))
+
+    # Save the combined image in a high-quality, lossless PNG format
+    combined_image_path = os.path.join(OUTPUT_IMAGES_FOLDER, f"{output_filename}.png")
+    combined_image.save(combined_image_path, dpi=(300, 300), optimize=True)
+    print(f"Combined deck image saved to {combined_image_path}")
+
+
 def process_decklist():
     decklist_name = input("Enter the decklist name: ").strip()
     decklist_file_path = find_decklist_file(decklist_name)
     deck_data = load_deck_data(decklist_file_path)
 
     # Generate images for both the reserve and main decks
+    main_deck_filename = "main_deck"
+    reserve_deck_filename = "reserve"
     generate_image(
-        deck_data, "reserve", "reserve", cards_per_row=len(deck_data["reserve"])
+        deck_data,
+        "reserve",
+        reserve_deck_filename,
+        cards_per_row=len(deck_data["reserve"]),
     )
-    generate_image(deck_data, "main_deck", "main_deck", cards_per_row=10)
+    generate_image(deck_data, "main_deck", main_deck_filename, cards_per_row=10)
+
+    # Combine the main deck and reserve deck images into one
+    main_deck_image_path = os.path.join(
+        OUTPUT_IMAGES_FOLDER, f"{main_deck_filename}.png"
+    )
+    reserve_deck_image_path = os.path.join(
+        OUTPUT_IMAGES_FOLDER, f"{reserve_deck_filename}.png"
+    )
+    combine_images(main_deck_image_path, reserve_deck_image_path, "combined_deck")
 
 
 if __name__ == "__main__":
