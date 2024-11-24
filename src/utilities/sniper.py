@@ -53,13 +53,16 @@ def generate_image(
     sample_image = Image.open(sample_image_path)
     card_width, card_height = sample_image.size
 
-    # Calculate output image dimensions based on the number of cards
+    # Set overlap amount to 7% of card height
+    card_overlap = int(card_height * 0.07)
+
+    # Calculate output image dimensions based on the number of cards, considering the overlap
     num_cards = len(deck)
     rows = (
         num_cards + cards_per_row - 1
-    ) // cards_per_row  # Calculate the required number of rows
+    ) // cards_per_row  # Calculate required number of rows
     output_width = card_width * cards_per_row
-    output_height = card_height * rows
+    output_height = (card_height * rows) - (card_overlap * (rows - 1))
 
     # Create a blank canvas of the correct size with the new background color
     background_color = (30, 32, 43)  # RGB for #1e202b
@@ -89,7 +92,7 @@ def generate_image(
             x_offset += card_width
             if x_offset >= output_width:
                 x_offset = 0
-                y_offset += card_height
+                y_offset += card_height - card_overlap
         except FileNotFoundError:
             print(
                 f"Warning: Image for card '{card_key}' not found at {card_image_path}"
