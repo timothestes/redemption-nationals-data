@@ -110,7 +110,7 @@ def combine_images(
     main_deck_image = Image.open(main_deck_image_path)
     reserve_deck_image = Image.open(reserve_deck_image_path)
 
-    # Set line height for the black separator line
+    # Set line height for the red separator line
     line_height = 25
 
     # Calculate the combined image size
@@ -126,11 +126,14 @@ def combine_images(
     # Paste the main deck image at the top
     combined_image.paste(main_deck_image, (0, 0))
 
-    # Draw a black line below the main deck image
+    # Draw a red line below the main deck image
     draw = ImageDraw.Draw(combined_image)
+    line_color = (232, 230, 227)
     line_y_start = main_deck_image.height + (line_height // 2)
     draw.line(
-        (0, line_y_start, combined_width, line_y_start), fill="black", width=line_height
+        (0, line_y_start, combined_width, line_y_start),
+        fill=line_color,
+        width=line_height,
     )
 
     # Paste the reserve deck image below the line
