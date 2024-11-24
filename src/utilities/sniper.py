@@ -61,8 +61,9 @@ def generate_image(
     output_width = card_width * cards_per_row
     output_height = card_height * rows
 
-    # Create a blank canvas of the correct size
-    output_image = Image.new("RGB", (output_width, output_height), (255, 255, 255))
+    # Create a blank canvas of the correct size with the new background color
+    background_color = (30, 32, 43)  # RGB for #1e202b
+    output_image = Image.new("RGB", (output_width, output_height), background_color)
 
     # Track positioning for placing card images on the canvas
     x_offset, y_offset = 0, 0
@@ -116,9 +117,10 @@ def combine_images(
     combined_width = max(main_deck_image.width, reserve_deck_image.width)
     combined_height = main_deck_image.height + reserve_deck_image.height + line_height
 
-    # Create a blank canvas for the combined image
+    # Create a blank canvas for the combined image with the new background color
+    background_color = (30, 32, 43)  # RGB for #1e202b
     combined_image = Image.new(
-        "RGB", (combined_width, combined_height), (255, 255, 255)
+        "RGB", (combined_width, combined_height), background_color
     )
 
     # Paste the main deck image at the top
