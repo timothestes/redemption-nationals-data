@@ -36,8 +36,14 @@ def generate_image(
         print(f"No data found for '{deck_key}' deck.")
         return
 
+    # Expand deck items by quantity
+    expanded_deck_items = []
+    for card_key, card_data in deck.items():
+        for _ in range(card_data.get("quantity", 1)):
+            expanded_deck_items.append((card_key, card_data))
+
     # Sort the deck by 'type' alphabetically
-    sorted_deck_items = sorted(deck.items(), key=lambda item: item[1]["type"])
+    sorted_deck_items = sorted(expanded_deck_items, key=lambda item: item[1]["type"])
 
     # Load the first card image to determine the size for consistent dimensions
     sample_image_path = os.path.join(
@@ -57,7 +63,7 @@ def generate_image(
     card_overlap = int(card_height * 0.10)
 
     # Calculate output image dimensions based on the number of cards, considering the overlap
-    num_cards = len(deck)
+    num_cards = len(expanded_deck_items)
     rows = (
         num_cards + cards_per_row - 1
     ) // cards_per_row  # Calculate required number of rows
