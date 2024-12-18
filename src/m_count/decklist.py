@@ -21,14 +21,14 @@ class Decklist:
         self._save_json("tbd_main_deck_list.json", self.mapped_main_deck_list)
         self.deck_size = self._get_size_of(self.mapped_main_deck_list)
         self.reserve_size = self._get_size_of(self.mapped_reserve_list)
-        if self.deck_size < 50:
-            raise AssertionError(
-                "Please load a deck_file that contains at least 50 cards in the main deck."
-            )
-        if self.reserve_size > 10:
-            raise AssertionError(
-                "Please load a deck_file that contains 10 or less cards in the reserve"
-            )
+        # if self.deck_size < 50:
+        #     raise AssertionError(
+        #         "Please load a deck_file that contains at least 50 cards in the main deck."
+        #     )
+        # if self.reserve_size > 10:
+        #     raise AssertionError(
+        #         "Please load a deck_file that contains 10 or less cards in the reserve"
+        #     )
 
     def _get_size_of(self, card_list: dict) -> int:
         n_cards = 0
