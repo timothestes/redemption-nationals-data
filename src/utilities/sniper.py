@@ -18,7 +18,11 @@ def load_deck_data(decklist_file_path: str) -> dict:
 
 def find_decklist_file(decklist_name: str) -> str:
     for file_name in os.listdir(DECKLIST_FOLDER):
-        if file_name.startswith(decklist_name) and file_name.endswith(".txt"):
+        lower_decklist_name = decklist_name.lower()
+        lower_file_name = file_name.lower()
+        if lower_file_name.startswith(lower_decklist_name) and (
+            file_name.endswith(".txt") or file_name.endswith(".dek")
+        ):
             return os.path.join(DECKLIST_FOLDER, file_name)
     raise FileNotFoundError(
         f"Decklist file starting with '{decklist_name}' not found in {DECKLIST_FOLDER}."
@@ -117,6 +121,9 @@ def combine_images(
 
     # Load the main deck and reserve deck images
     main_deck_image = Image.open(main_deck_image_path)
+    # check if the reserve deck image exists
+    if not os.path.exists(reserve_deck_image_path):
+        return
     reserve_deck_image = Image.open(reserve_deck_image_path)
 
     # Set line height for the red separator line

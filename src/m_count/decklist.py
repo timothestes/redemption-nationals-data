@@ -1,5 +1,6 @@
 import csv
 import json
+import xml.etree.ElementTree as ET
 
 from src.m_count.constants import EMPERORS
 from src.utilities.brigades import normalize_brigade_field
@@ -47,6 +48,37 @@ class Decklist:
             json.dump(dictionary_to_save, file, ensure_ascii=False, indent=4)
 
     def _load_file(self):
+        """Parse the .txt or .dek file into internal variables."""
+        if self.deck_file_path.endswith(".dek"):
+            self._load_dek_file()
+        else:
+            self._load_txt_file()
+
+    def _load_dek_file(self):
+        """Parse the .dek file into internal variables."""
+        tree = ET.parse(self.deck_file_path)
+        root = tree.getroot()
+
+        for superzone in root.findall("superzone"):
+            zone_name = superzone.get("name")
+            for card in superzone.findall("card"):
+                card_name = card.find("name").text
+                card_info = {
+                    "quantity": 1,
+                    "name": self.normalize_apostrophes(card_name.strip()),
+                }
+                if zone_name == "Reserve":
+                    self.reserve_list.append(card_info)
+                    self.has_reserve = True
+                else:
+                    self.main_deck_list.append(card_info)
+
+        if len(self.main_deck_list) == 0:
+            raise AssertionError(
+                "Please load a deck_file that contains at least one card in the main deck."
+            )
+
+    def _load_txt_file(self):
         """Parse the .txt file into internal variables."""
         with open(self.deck_file_path, "r") as file:
             for line in file:
