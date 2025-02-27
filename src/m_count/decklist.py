@@ -61,6 +61,8 @@ class Decklist:
 
         for superzone in root.findall("superzone"):
             zone_name = superzone.get("name")
+            if zone_name == "Tokens":
+                continue  # Skip the Tokens superzone
             for card in superzone.findall("card"):
                 card_name = card.find("name").text
                 card_info = {
@@ -135,18 +137,21 @@ class Decklist:
             card_name = card["name"].replace('""', '"').strip('"')
             quantity = card["quantity"]
             if card_name in self.card_data:
-                # Copy the card data to avoid mutating the original data.
-                card_details = self.card_data[card_name].copy()
-                card_details["quantity"] = quantity
-                # brigade normalization
-                card_details["brigade"] = normalize_brigade_field(
-                    brigade=card_details.get("brigade", ""),
-                    alignment=card_details.get("alignment", ""),
-                    card_name=card["name"],
-                )
-                # add custom tags
-                card_details["tags"] = self._add_tags(card_name, card_details)
-                result[card_name] = card_details
+                if card_name in result:
+                    result[card_name]["quantity"] += quantity
+                else:
+                    # Copy the card data to avoid mutating the original data.
+                    card_details = self.card_data[card_name].copy()
+                    card_details["quantity"] = quantity
+                    # brigade normalization
+                    card_details["brigade"] = normalize_brigade_field(
+                        brigade=card_details.get("brigade", ""),
+                        alignment=card_details.get("alignment", ""),
+                        card_name=card["name"],
+                    )
+                    # add custom tags
+                    card_details["tags"] = self._add_tags(card_name, card_details)
+                    result[card_name] = card_details
             else:
                 print(
                     f"Could not find {card['name']}. Skipping loading it. Notify BaboonyTim."
