@@ -1,15 +1,20 @@
 import os
 
+import dotenv
 import PIL.Image as Image
 import PIL.ImageDraw as ImageDraw
+import tinify  # Add at top with other imports
 
 from src.m_count.decklist import Decklist
 
+dotenv.load_dotenv()
 DECKLIST_FOLDER = "/Applications/LackeyCCG/plugins/Redemption/decks"
 DECKLIST_IMAGES_FOLDER = (
     "/Applications/LackeyCCG/plugins/Redemption/sets/setimages/general/"
 )
 OUTPUT_IMAGES_FOLDER = "./deck_images"
+
+TINIFY_API_KEY = os.getenv("TINIFY_API_KEY")
 
 
 def load_deck_data(decklist_file_path: str) -> dict:
@@ -165,7 +170,25 @@ def combine_images(
     # Save the combined image in a high-quality, lossless PNG format
     combined_image_path = os.path.join(OUTPUT_IMAGES_FOLDER, f"{output_filename}.png")
     combined_image.save(combined_image_path, dpi=(300, 300), optimize=True)
-    print(f"Combined deck image saved to {combined_image_path}")
+
+    try:
+        tinify.key = TINIFY_API_KEY
+
+        # Optimize the image
+        source = tinify.from_file(combined_image_path)
+        optimized_image_path = os.path.join(
+            OUTPUT_IMAGES_FOLDER, f"{output_filename}_optimized.png"
+        )
+        source.to_file(optimized_image_path)
+
+        # Print file size
+        file_size_mb = os.path.getsize(optimized_image_path) / (1024 * 1024)
+        print(f"Combined deck image saved to {optimized_image_path}")
+        print(f"Optimized file size: {file_size_mb:.2f}MB")
+    except tinify.AccountError:
+        print("Error: Invalid API key or exceeded monthly limit")
+    except Exception as e:
+        print(f"Error optimizing image: {str(e)}")
 
 
 def process_decklist():
