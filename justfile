@@ -6,3 +6,5 @@ test:
 	pytest
 snipe:
 	python3 -m src.utilities.sniper
+pdf:
+	python3 -m src.utilities.text_to_pdf

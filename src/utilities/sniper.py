@@ -9,6 +9,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
 from src.m_count.decklist import Decklist
+from src.utilities.text_to_pdf import generate_decklist
 
 dotenv.load_dotenv()
 DECKLIST_FOLDER = "/Applications/LackeyCCG/plugins/Redemption/decks"
@@ -199,6 +200,10 @@ def combine_images(
 
 
 def process_decklist():
+    decklist_name = input("Enter the decklist name: ").strip()
+    decklist_file_path = find_decklist_file(decklist_name)
+    deck_data = load_deck_data(decklist_file_path)
+
     print("\nWhat would you like to do?")
     print("1. Generate deck images")
     print("2. Create text decklist")
@@ -209,10 +214,6 @@ def process_decklist():
         if choice in ["1", "2", "3"]:
             break
         print("Invalid choice. Please enter 1, 2, or 3.")
-
-    decklist_name = input("Enter the decklist name: ").strip()
-    decklist_file_path = find_decklist_file(decklist_name)
-    deck_data = load_deck_data(decklist_file_path)
 
     if choice in ["1", "3"]:
         generate_deck_images(deck_data)
@@ -257,7 +258,7 @@ def generate_text_decklist(deck_data):
     if choice in ["1", "3"]:
         generate_reserve_list(deck_data.get("reserve", {}))
     if choice in ["2", "3"]:
-        generate_main_decklist(deck_data.get("main_deck", {}))
+        generate_decklist(deck_data)
 
 
 def generate_reserve_list(reserve_data):
@@ -336,11 +337,6 @@ def generate_reserve_list(reserve_data):
         # Clean up temporary file
         if os.path.exists(temp_overlay):
             os.remove(temp_overlay)
-
-
-def generate_main_decklist(main_deck_data):
-    # Similar to generate_reserve_list but for main deck
-    print("Main deck list generation to be implemented")
 
 
 if __name__ == "__main__":
