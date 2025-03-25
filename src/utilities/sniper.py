@@ -273,18 +273,42 @@ def generate_reserve_list(reserve_data):
     temp_overlay = os.path.join(OUTPUT_PDF_FOLDER, "temp_overlay.pdf")
     c = canvas.Canvas(temp_overlay, pagesize=(1137, 1469))  # Match template dimensions
 
-    # Start writing text near the top of the page
-    y_position = 968  # Adjusted based on template height of 1469
-    margin_left = 60  # Increased margin for better alignment
-    line_spacing = 16  # Increased spacing for better readability
-    c.setFont("Helvetica", 12)  # Slightly larger font
+    # Define grid layout parameters
+    cols = 3
+    rows = 4
+    cell_width = 280  # Approximate width for each column
+    cell_height = 246  # Approximate height for each row
+    start_y = 968
+    margin_left = 60  # Left margin for first column
+    line_spacing = 16  # Space between lines
 
-    # Sort and write each card name
-    for card_name, card_info in sorted(reserve_data.items()):
-        quantity = card_info.get("quantity", 1)
-        text = f"{quantity}x {card_name}"
-        c.drawString(margin_left, y_position, text)
-        y_position -= line_spacing
+    # Sort card names once
+    sorted_cards = sorted([(name, info) for name, info in reserve_data.items()])
+
+    # Configure text settings
+    c.setFont("Helvetica", 12)
+
+    # Iterate through grid cells
+    for row in range(rows):
+        for col in range(cols):
+            # Calculate position for current cell
+            x = margin_left + (col * cell_width)
+            y = start_y - (row * cell_height)
+
+            # Reset font for card names
+            c.setFont("Helvetica", 12)
+
+            # Write card names for this cell
+            current_y = y
+            for card_name, card_info in sorted_cards:
+                # text = f"{card_info.get('quantity', 1)}x {card_name}"
+                text = f"{card_name}"
+                c.drawString(x, current_y, text)
+                current_y -= line_spacing
+
+                # Break to next cell if we're getting too close to the next row
+                if current_y < (y - cell_height + 40):
+                    break
 
     c.save()
 
