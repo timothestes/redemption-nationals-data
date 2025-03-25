@@ -3,7 +3,10 @@ import os
 import dotenv
 import PIL.Image as Image
 import PIL.ImageDraw as ImageDraw
-import tinify  # Add at top with other imports
+import tinify
+from PyPDF2 import PdfReader, PdfWriter
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
 
 from src.m_count.decklist import Decklist
 
@@ -13,8 +16,12 @@ DECKLIST_IMAGES_FOLDER = (
     "/Applications/LackeyCCG/plugins/Redemption/sets/setimages/general/"
 )
 OUTPUT_IMAGES_FOLDER = "./deck_images"
+OUTPUT_PDF_FOLDER = "tbd"
 
 TINIFY_API_KEY = os.getenv("TINIFY_API_KEY")
+
+# Create output folders if they don't exist
+os.makedirs(OUTPUT_PDF_FOLDER, exist_ok=True)
 
 
 def load_deck_data(decklist_file_path: str) -> dict:
@@ -192,11 +199,30 @@ def combine_images(
 
 
 def process_decklist():
+    print("\nWhat would you like to do?")
+    print("1. Generate deck images")
+    print("2. Create text decklist")
+    print("3. Generate both images and text decklist")
+
+    while True:
+        choice = input("Enter your choice (1-3): ").strip()
+        if choice in ["1", "2", "3"]:
+            break
+        print("Invalid choice. Please enter 1, 2, or 3.")
+
     decklist_name = input("Enter the decklist name: ").strip()
     decklist_file_path = find_decklist_file(decklist_name)
     deck_data = load_deck_data(decklist_file_path)
 
-    # Generate images for both the reserve and main decks
+    if choice in ["1", "3"]:
+        generate_deck_images(deck_data)
+
+    if choice in ["2", "3"]:
+        generate_text_decklist(deck_data)
+
+
+def generate_deck_images(deck_data):
+    # Move existing image generation code here
     main_deck_filename = "main_deck"
     reserve_deck_filename = "reserve"
     generate_image(
@@ -207,7 +233,6 @@ def process_decklist():
     )
     generate_image(deck_data, "main_deck", main_deck_filename, cards_per_row=10)
 
-    # Combine the main deck and reserve deck images into one
     main_deck_image_path = os.path.join(
         OUTPUT_IMAGES_FOLDER, f"{main_deck_filename}.png"
     )
@@ -215,6 +240,83 @@ def process_decklist():
         OUTPUT_IMAGES_FOLDER, f"{reserve_deck_filename}.png"
     )
     combine_images(main_deck_image_path, reserve_deck_image_path, "combined_deck")
+
+
+def generate_text_decklist(deck_data):
+    print("\nWhat type of list would you like to generate?")
+    print("1. Generate Reserve List")
+    print("2. Generate Decklist")
+    print("3. Generate Both")
+
+    while True:
+        choice = input("Enter your choice (1-3): ").strip()
+        if choice in ["1", "2", "3"]:
+            break
+        print("Invalid choice. Please enter 1, 2, or 3.")
+
+    if choice in ["1", "3"]:
+        generate_reserve_list(deck_data.get("reserve", {}))
+    if choice in ["2", "3"]:
+        generate_main_decklist(deck_data.get("main_deck", {}))
+
+
+def generate_reserve_list(reserve_data):
+    # Check reserve size
+    total_cards = sum(
+        card_info.get("quantity", 1) for card_info in reserve_data.values()
+    )
+    assert (
+        total_cards <= 10
+    ), f"Reserve list contains {total_cards} cards. Maximum allowed is 10."
+
+    # Create a temporary file for the text overlay
+    temp_overlay = os.path.join(OUTPUT_PDF_FOLDER, "temp_overlay.pdf")
+    c = canvas.Canvas(temp_overlay, pagesize=(1137, 1469))  # Match template dimensions
+
+    # Start writing text near the top of the page
+    y_position = 968  # Adjusted based on template height of 1469
+    margin_left = 60  # Increased margin for better alignment
+    line_spacing = 16  # Increased spacing for better readability
+    c.setFont("Helvetica", 12)  # Slightly larger font
+
+    # Sort and write each card name
+    for card_name, card_info in sorted(reserve_data.items()):
+        quantity = card_info.get("quantity", 1)
+        text = f"{quantity}x {card_name}"
+        c.drawString(margin_left, y_position, text)
+        y_position -= line_spacing
+
+    c.save()
+
+    # Combine with the template PDF
+    template_path = "data/pdfs/Reserve List T1.pdf"
+    output_path = os.path.join(OUTPUT_PDF_FOLDER, "output_reserve_list.pdf")
+
+    # Merge the overlay with the template
+    try:
+        template_pdf = PdfReader(template_path)
+        overlay_pdf = PdfReader(temp_overlay)
+
+        output = PdfWriter()
+        page = template_pdf.pages[0]
+        page.merge_page(overlay_pdf.pages[0])
+        output.add_page(page)
+
+        with open(output_path, "wb") as output_file:
+            output.write(output_file)
+
+        print(f"Reserve list generated: {output_path}")
+    except Exception as e:
+        print(f"Error generating PDF: {str(e)}")
+    finally:
+        # Clean up temporary file
+        if os.path.exists(temp_overlay):
+            os.remove(temp_overlay)
+
+
+def generate_main_decklist(main_deck_data):
+    # Similar to generate_reserve_list but for main deck
+    print("Main deck list generation to be implemented")
 
 
 if __name__ == "__main__":

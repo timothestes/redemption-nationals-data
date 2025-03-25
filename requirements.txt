@@ -2,3 +2,5 @@ prefect==3.0.4
 pandas==2.2.3
 Pillow
 tinify
+PyPDF2
+reportlab
