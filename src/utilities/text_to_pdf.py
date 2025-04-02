@@ -98,17 +98,17 @@ def generate_decklist(deck_data):
     reserve = deck_data.get("reserve", {})
 
     # Draw card listings
-    place_section_by_type(c, main_deck, "Dominant", 57, height_points - 177, 16)
-    place_section_by_type(c, main_deck, "Hero", 57, height_points - 545, 16)
-    place_section_by_type(c, main_deck, "GE", 54, height_points - 892, 16)
-    place_section_by_type(c, main_deck, "Lost Soul", 310, height_points - 177, 16)
-    place_section_by_type(c, main_deck, "Evil Character", 310, height_points - 545, 16)
-    place_section_by_type(c, main_deck, "EE", 310, height_points - 892, 16)
+    place_section_by_type(c, main_deck, "Dominant", 57, height_points - 180, 16)
+    place_section_by_type(c, main_deck, "Hero", 57, height_points - 548, 16)
+    place_section_by_type(c, main_deck, "GE", 57, height_points - 895, 16)
+    place_section_by_type(c, main_deck, "Lost Soul", 310, height_points - 180, 16)
+    place_section_by_type(c, main_deck, "Evil Character", 310, height_points - 548, 16)
+    place_section_by_type(c, main_deck, "EE", 310, height_points - 895, 16)
     place_section_by_type(
-        c, main_deck, ["Artifact", "Covenant", "Curse"], 560, height_points - 178, 16
+        c, main_deck, ["Artifact", "Covenant", "Curse"], 560, height_points - 181, 16
     )
     place_section_by_type(
-        c, main_deck, ["Fortress", "Site"], 560, height_points - 471, 17
+        c, main_deck, ["Fortress", "Site", "City"], 560, height_points - 474, 16
     )
     # Misc section (cards not fitting other types)
     misc = {
@@ -127,48 +127,49 @@ def generate_decklist(deck_data):
             "Site",
             "Curse",
             "Covenant",
+            "City",
         ]
     }
-    place_section(c, misc, 560, height_points - 709, 17)
+    place_section(c, misc, 560, height_points - 700, 16)
     # Reserve section (without quantity)
-    place_section(c, reserve, 580, height_points - 910, 16, add_quantity=False)
+    place_section(c, reserve, 580, height_points - 913, 16, add_quantity=False)
 
     # Draw section counts (numbers only; positions are fully controlled)
     draw_count(
         c,
         {k: v for k, v in main_deck.items() if v.get("type") == "Dominant"},
-        125,
-        height_points - 150,
+        124,
+        height_points - 153,
     )
     draw_count(
         c,
         {k: v for k, v in main_deck.items() if v.get("type") == "Hero"},
-        95,
-        height_points - 529,
+        97,
+        height_points - 532,
     )
     draw_count(
         c,
         {k: v for k, v in main_deck.items() if v.get("type") == "GE"},
-        188,
-        height_points - 874,
+        189,
+        height_points - 877,
     )
     draw_count(
         c,
         {k: v for k, v in main_deck.items() if v.get("type") == "Lost Soul"},
         381,
-        height_points - 150,
+        height_points - 154,
     )
     draw_count(
         c,
         {k: v for k, v in main_deck.items() if v.get("type") == "Evil Character"},
         408,
-        height_points - 529,
+        height_points - 532,
     )
     draw_count(
         c,
         {k: v for k, v in main_deck.items() if v.get("type") == "EE"},
-        438,
-        height_points - 874,
+        439,
+        height_points - 877,
     )
     draw_count(
         c,
@@ -177,14 +178,18 @@ def generate_decklist(deck_data):
             for k, v in main_deck.items()
             if v.get("type") in ["Artifact", "Covenant", "Curse"]
         },
-        742,
-        height_points - 150,
+        741,
+        height_points - 153,
     )
     draw_count(
         c,
-        {k: v for k, v in main_deck.items() if v.get("type") in ["Fortress", "Site"]},
+        {
+            k: v
+            for k, v in main_deck.items()
+            if v.get("type") in ["Fortress", "Site", "City"]
+        },
         710,
-        height_points - 451,
+        height_points - 454,
     )
     draw_count(
         c,
@@ -204,23 +209,24 @@ def generate_decklist(deck_data):
                 "Site",
                 "Curse",
                 "Covenant",
+                "City",
             ]
         },
-        595,
-        height_points - 685,
+        596,
+        height_points - 687,
     )
-    draw_count(c, reserve, 617, height_points - 872)
+    draw_count(c, reserve, 617, height_points - 875)
 
     # Draw total card count in the top right corner
     box_width = 50
     box_height = 30
-    top_margin = 40
-    side_margin = 92
+    right_margin = 41
+    top_margin = 97
     total_main = sum(int(card.get("quantity", 1)) for card in main_deck.values())
     c.setFont("Helvetica-Bold", 18)  # Changed from 14 to 18
     c.drawString(
-        width_points - top_margin - box_width + 5,
-        height_points - side_margin - box_height + 10,
+        width_points - right_margin - box_width + 5,
+        height_points - top_margin - box_height + 10,
         f"{total_main}",
     )
 
