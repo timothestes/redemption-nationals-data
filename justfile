@@ -8,3 +8,5 @@ snipe:
 	python3 -m src.utilities.sniper
 pdf:
 	python3 -m src.utilities.text_to_pdf
+t2:
+	python3 -m src.utilities.type_2
