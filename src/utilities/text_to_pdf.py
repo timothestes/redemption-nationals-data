@@ -15,28 +15,29 @@ def clean_card_name(card_name, card_data):
     """
     Clean the card name.
     - If the name contains a '/', use the part before it and append any trailing set name in parentheses.
-    - For Lost Soul cards, remove the "Lost Soul " prefix and any hyphenated text inside brackets.
+    - For Lost Soul cards:
+        - Keep quoted nicknames (without quotes)
+        - Keep first verse reference only
+        - Remove set information in brackets
     """
-    if "/" in card_name:
+    # Special handling for Lost Souls
+    if card_data.get("type") == "Lost Soul" and "Lost Soul" in card_name:
+        nickname_match = re.search(r'"([^"]+)"', card_name)
+        if nickname_match:
+            nickname = nickname_match.group(1)  # group(1) gets content without quotes
+            verse_match = re.search(r"\[([^/\]]+)", card_name)
+            if verse_match:
+                verse = f"[{verse_match.group(1)}]"
+                return f"{nickname} {verse}"
+        return card_name.split("[")[0].strip()
+
+    # Handle cards with set information, special case for (I/J+)
+    if "/" in card_name and "(I/J+)" not in card_name:
         base_name = card_name.split("/")[0].strip()
         match = SET_NAME_PATTERN.search(card_name)
         if match:
             return f"{base_name} {match.group(1).strip()}"
         return base_name
-
-    if card_data.get("type") == "Lost Soul" and card_name.startswith("Lost Soul"):
-        display_name = LOST_SOUL_PREFIX_PATTERN.sub("", card_name)
-
-        def bracket_repl(match):
-            inner = match.group(1)
-            inner_clean = HYPHEN_PATTERN.sub("", inner)
-            return f"[{inner_clean.strip()}]"
-
-        display_name = BRACKET_PATTERN.sub(bracket_repl, display_name)
-        first_bracket = BRACKET_PATTERN.search(display_name)
-        if first_bracket:
-            display_name = display_name[: first_bracket.end()].strip()
-        return display_name
 
     return card_name
 
