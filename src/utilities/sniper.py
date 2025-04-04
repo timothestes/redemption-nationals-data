@@ -1,3 +1,4 @@
+import argparse
 import os
 
 import dotenv
@@ -199,27 +200,13 @@ def combine_images(
         print(f"Error optimizing image: {str(e)}")
 
 
-def process_decklist():
-    decklist_name = input("Enter the decklist name: ").strip()
-    decklist_file_path = find_decklist_file(decklist_name)
+def process_decklist(deck_type: str, deck_name: str, mode: str):
+    decklist_file_path = find_decklist_file(deck_name)
     deck_data = load_deck_data(decklist_file_path)
-
-    print("\nWhat would you like to do?")
-    print("1. Generate deck images")
-    print("2. Create text decklist")
-    print("3. Generate both images and text decklist")
-
-    while True:
-        choice = input("Enter your choice (1-3): ").strip()
-        if choice in ["1", "2", "3"]:
-            break
-        print("Invalid choice. Please enter 1, 2, or 3.")
-
-    if choice in ["1", "3"]:
+    if mode == "generate_decklist_png":
         generate_deck_images(deck_data)
-
-    if choice in ["2", "3"]:
-        generate_text_decklist(deck_data)
+    elif mode == "generate_decklist_pdf":
+        generate_text_decklist(deck_type, deck_data)
 
 
 def generate_deck_images(deck_data):
@@ -243,22 +230,9 @@ def generate_deck_images(deck_data):
     combine_images(main_deck_image_path, reserve_deck_image_path, "combined_deck")
 
 
-def generate_text_decklist(deck_data):
-    print("\nWhat type of list would you like to generate?")
-    print("1. Generate Reserve List")
-    print("2. Generate Decklist")
-    print("3. Generate Both")
-
-    while True:
-        choice = input("Enter your choice (1-3): ").strip()
-        if choice in ["1", "2", "3"]:
-            break
-        print("Invalid choice. Please enter 1, 2, or 3.")
-
-    if choice in ["1", "3"]:
-        generate_reserve_list(deck_data.get("reserve", {}))
-    if choice in ["2", "3"]:
-        generate_decklist(deck_data)
+def generate_text_decklist(deck_type: str, deck_data) -> None:
+    # generate_reserve_list(deck_data.get("reserve", {}))
+    generate_decklist(deck_type, deck_data)
 
 
 def generate_reserve_list(reserve_data):
@@ -340,4 +314,12 @@ def generate_reserve_list(reserve_data):
 
 
 if __name__ == "__main__":
-    process_decklist()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--deck-type",
+        help="the type of snipe you want to make",
+    )
+    parser.add_argument("--deck-name", help="the name of the lackey deck file")
+    parser.add_argument("--mode", help="what mode of the program you'd like to run")
+    args = parser.parse_args()
+    process_decklist(deck_type=args.deck_type, deck_name=args.deck_name, mode=args.mode)

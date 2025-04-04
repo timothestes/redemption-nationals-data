@@ -57,148 +57,15 @@ def place_section(c, section_data, x, y, line_spacing, add_quantity=True):
         y -= line_spacing
 
 
-def draw_count(c, section_data, x, y, font="Helvetica", font_size=12):
-    """
-    Draw just the total count (number) for section_data at (x, y).
-    """
-    total = sum(int(card.get("quantity", 1)) for card in section_data.values())
-    c.setFont(font, font_size)
-    c.drawString(x, y, str(total))
-
-
-def place_section_by_type(
-    c, main_deck, card_types, x, y, line_spacing, add_quantity=True
+def draw_count(
+    c, cards, height_points, card_types, x, y, font="Helvetica", font_size=12
 ):
-    """
-    Filter main_deck by card_types and place the section.
-    """
-    if isinstance(card_types, str):
-        filtered = {k: v for k, v in main_deck.items() if v.get("type") == card_types}
-    else:
-        filtered = {k: v for k, v in main_deck.items() if v.get("type") in card_types}
-    place_section(c, filtered, x, y, line_spacing, add_quantity)
-
-
-def generate_decklist(deck_data):
-    """
-    Generate a deck check sheet overlay with card listings, section counts,
-    and a total card count drawn separately. Section counts and the total
-    are drawn independently so you have full control over their positions.
-    """
-    template_path = "data/pdfs/Type 1 Deck Check Sheet.pdf"
-    output_path = "tbd/output_decklist.pdf"
-    temp_overlay = "tbd/temp_overlay.pdf"
-
-    reader = PdfReader(template_path)
-    page = reader.pages[0]
-    width_points = float(page.mediabox.width)
-    height_points = float(page.mediabox.height)
-
-    c = canvas.Canvas(temp_overlay, pagesize=(width_points, height_points))
-    main_deck = deck_data.get("main_deck", {})
-    reserve = deck_data.get("reserve", {})
-
-    # Draw card listings
-    place_section_by_type(c, main_deck, "Dominant", 57, height_points - 180, 16)
-    place_section_by_type(c, main_deck, "Hero", 57, height_points - 548, 16)
-    place_section_by_type(c, main_deck, "GE", 57, height_points - 895, 16)
-    place_section_by_type(c, main_deck, "Lost Soul", 310, height_points - 180, 16)
-    place_section_by_type(c, main_deck, "Evil Character", 310, height_points - 548, 16)
-    place_section_by_type(c, main_deck, "EE", 310, height_points - 895, 16)
-    place_section_by_type(
-        c, main_deck, ["Artifact", "Covenant", "Curse"], 560, height_points - 181, 16
-    )
-    place_section_by_type(
-        c, main_deck, ["Fortress", "Site", "City"], 560, height_points - 474, 16
-    )
-    # Misc section (cards not fitting other types)
-    misc = {
-        k: v
-        for k, v in main_deck.items()
-        if v.get("type")
-        not in [
-            "Dominant",
-            "Hero",
-            "GE",
-            "Lost Soul",
-            "Evil Character",
-            "EE",
-            "Artifact",
-            "Fortress",
-            "Site",
-            "Curse",
-            "Covenant",
-            "City",
-        ]
-    }
-    place_section(c, misc, 560, height_points - 700, 16)
-    # Reserve section (without quantity)
-    place_section(c, reserve, 580, height_points - 913, 16, add_quantity=False)
-
-    # Draw section counts (numbers only; positions are fully controlled)
-    draw_count(
-        c,
-        {k: v for k, v in main_deck.items() if v.get("type") == "Dominant"},
-        124,
-        height_points - 153,
-    )
-    draw_count(
-        c,
-        {k: v for k, v in main_deck.items() if v.get("type") == "Hero"},
-        97,
-        height_points - 532,
-    )
-    draw_count(
-        c,
-        {k: v for k, v in main_deck.items() if v.get("type") == "GE"},
-        189,
-        height_points - 877,
-    )
-    draw_count(
-        c,
-        {k: v for k, v in main_deck.items() if v.get("type") == "Lost Soul"},
-        381,
-        height_points - 154,
-    )
-    draw_count(
-        c,
-        {k: v for k, v in main_deck.items() if v.get("type") == "Evil Character"},
-        408,
-        height_points - 532,
-    )
-    draw_count(
-        c,
-        {k: v for k, v in main_deck.items() if v.get("type") == "EE"},
-        439,
-        height_points - 877,
-    )
-    draw_count(
-        c,
-        {
-            k: v
-            for k, v in main_deck.items()
-            if v.get("type") in ["Artifact", "Covenant", "Curse"]
-        },
-        741,
-        height_points - 153,
-    )
-    draw_count(
-        c,
-        {
-            k: v
-            for k, v in main_deck.items()
-            if v.get("type") in ["Fortress", "Site", "City"]
-        },
-        710,
-        height_points - 454,
-    )
-    draw_count(
-        c,
-        {
-            k: v
-            for k, v in main_deck.items()
-            if v.get("type")
-            not in [
+    """Draw just the total count (number) for cards at (x, y)."""
+    y = height_points - y
+    total = 0
+    for card_data in cards.values():
+        if card_types == "misc":
+            if card_data.get("type") not in [
                 "Dominant",
                 "Hero",
                 "GE",
@@ -211,12 +78,294 @@ def generate_decklist(deck_data):
                 "Curse",
                 "Covenant",
                 "City",
-            ]
-        },
-        596,
-        height_points - 687,
+            ]:
+                total += card_data.get("quantity", 1)
+        elif card_data.get("type") == card_types or card_data.get("type") in card_types:
+            total += card_data.get("quantity", 1)
+        elif card_types == "all":
+            total += card_data.get("quantity", 1)
+
+    c.setFont(font, font_size)
+    c.drawString(x, y, str(total))
+
+
+def place_section_by_type(c, deck, height_points, card_types, x, y, add_quantity=True):
+    """
+    Filter main_deck by card_types and place the section.
+    """
+    y = height_points - y
+    line_spacing = 16
+    if isinstance(card_types, str):
+        filtered = {k: v for k, v in deck.items() if v.get("type") == card_types}
+    else:
+        filtered = {k: v for k, v in deck.items() if v.get("type") in card_types}
+    if card_types == "misc":
+        filtered = {}
+        for key, value in deck.items():
+            if value.get("type") not in [
+                "Dominant",
+                "Hero",
+                "GE",
+                "Lost Soul",
+                "Evil Character",
+                "EE",
+                "Artifact",
+                "Fortress",
+                "Site",
+                "Curse",
+                "Covenant",
+                "City",
+            ]:
+                filtered[key] = value
+    elif card_types == "all":
+        filtered = deck
+    place_section(c, filtered, x, y, line_spacing, add_quantity)
+
+
+def generate_decklist(deck_type: str, deck_data):
+    """
+    Generate a deck check sheet overlay with card listings, section counts,
+    and a total card count drawn separately. Section counts and the total
+    are drawn independently so you have full control over their positions.
+    """
+    if deck_type == "type_1":
+        template_path = "data/pdfs/Type 1 Deck Check Sheet.pdf"
+    elif deck_type == "type_2":
+        template_path = "data/pdfs/Type 2 Deck Check Sheet.pdf"
+    output_path = "tbd/output_decklist.pdf"
+    temp_overlay = "tbd/temp_overlay.pdf"
+
+    reader = PdfReader(template_path)
+    page = reader.pages[0]
+    width_points = float(page.mediabox.width)
+    height_points = float(page.mediabox.height)
+
+    c = canvas.Canvas(temp_overlay, pagesize=(width_points, height_points))
+    main_deck = deck_data.get("main_deck", {})
+    reserve = deck_data.get("reserve", {})
+
+    if deck_type == "type_1":
+        section_mappings = {
+            "lists": {
+                "Dominant": {"x": 57, "y": 180},
+                "Hero": {"x": 57, "y": 548},
+                "GE": {"x": 57, "y": 895},
+                "Lost Soul": {"x": 310, "y": 180},
+                "Evil Character": {"x": 310, "y": 548},
+                "EE": {"x": 310, "y": 895},
+                "Artifact": {"x": 560, "y": 181},
+                "Fortress": {"x": 560, "y": 474},
+                "Misc": {"x": 560, "y": 700},
+                "Reserve": {"x": 580, "y": 913},
+            },
+            "numbers": {
+                "Dominant": {"x": 124, "y": 153},
+                "Hero": {"x": 97, "y": 532},
+                "GE": {"x": 189, "y": 877},
+                "Lost Soul": {"x": 381, "y": 154},
+                "Evil Character": {"x": 408, "y": 532},
+                "EE": {"x": 439, "y": 877},
+                "Artifact": {"x": 741, "y": 153},
+                "Fortress": {"x": 710, "y": 454},
+                "Misc": {"x": 596, "y": 687},
+                "Reserve": {"x": 617, "y": 875},
+            },
+        }
+    elif deck_type == "type_2":
+        section_mappings = section_mappings = {
+            "lists": {
+                "Dominant": {"x": 57, "y": 178},
+                "Hero": {"x": 57, "y": 575},
+                "GE": {"x": 57, "y": 920},
+                "Lost Soul": {"x": 310, "y": 178},
+                "Evil Character": {"x": 310, "y": 572},
+                "EE": {"x": 310, "y": 920},
+                "Artifact": {"x": 560, "y": 178},
+                "Fortress": {"x": 560, "y": 474},
+                "Misc": {"x": 560, "y": 668},
+                "Reserve": {"x": 580, "y": 858},
+            },
+            "numbers": {
+                "Dominant": {"x": 124, "y": 150},
+                "Hero": {"x": 96, "y": 557},
+                "GE": {"x": 188, "y": 901},
+                "Lost Soul": {"x": 380, "y": 150},
+                "Evil Character": {"x": 408, "y": 556},
+                "EE": {"x": 435, "y": 902},
+                "Artifact": {"x": 744, "y": 151},
+                "Fortress": {"x": 710, "y": 451},
+                "Misc": {"x": 596, "y": 655},
+                "Reserve": {"x": 612, "y": 836},
+            },
+        }
+
+    # Draw card listings
+    place_section_by_type(
+        c,
+        main_deck,
+        height_points,
+        "Dominant",
+        x=section_mappings["lists"]["Dominant"]["x"],
+        y=section_mappings["lists"]["Dominant"]["y"],
     )
-    draw_count(c, reserve, 617, height_points - 875)
+    place_section_by_type(
+        c,
+        main_deck,
+        height_points,
+        "Hero",
+        x=section_mappings["lists"]["Hero"]["x"],
+        y=section_mappings["lists"]["Hero"]["y"],
+    )
+    place_section_by_type(
+        c,
+        main_deck,
+        height_points,
+        "GE",
+        x=section_mappings["lists"]["GE"]["x"],
+        y=section_mappings["lists"]["GE"]["y"],
+    )
+    place_section_by_type(
+        c,
+        main_deck,
+        height_points,
+        "Lost Soul",
+        x=section_mappings["lists"]["Lost Soul"]["x"],
+        y=section_mappings["lists"]["Lost Soul"]["y"],
+    )
+    place_section_by_type(
+        c,
+        main_deck,
+        height_points,
+        "Evil Character",
+        x=section_mappings["lists"]["Evil Character"]["x"],
+        y=section_mappings["lists"]["Evil Character"]["y"],
+    )
+    place_section_by_type(
+        c,
+        main_deck,
+        height_points,
+        "EE",
+        x=section_mappings["lists"]["EE"]["x"],
+        y=section_mappings["lists"]["EE"]["y"],
+    )
+    place_section_by_type(
+        c,
+        main_deck,
+        height_points,
+        ["Artifact", "Covenant", "Curse"],
+        x=section_mappings["lists"]["Artifact"]["x"],
+        y=section_mappings["lists"]["Artifact"]["y"],
+    )
+    place_section_by_type(
+        c,
+        main_deck,
+        height_points,
+        ["Fortress", "Site", "City"],
+        x=section_mappings["lists"]["Fortress"]["x"],
+        y=section_mappings["lists"]["Fortress"]["y"],
+    )
+
+    # Misc section (cards not fitting other types)
+    place_section_by_type(
+        c,
+        main_deck,
+        height_points,
+        "misc",
+        x=section_mappings["lists"]["Misc"]["x"],
+        y=section_mappings["lists"]["Misc"]["y"],
+    )
+    # Reserve section (without quantity)
+    place_section_by_type(
+        c,
+        reserve,
+        height_points,
+        card_types="all",
+        x=section_mappings["lists"]["Reserve"]["x"],
+        y=section_mappings["lists"]["Reserve"]["y"],
+        add_quantity=False,
+    )
+
+    # Draw section counts (numbers only; positions are fully controlled)
+    draw_count(
+        c,
+        main_deck,
+        height_points,
+        "Dominant",
+        x=section_mappings["numbers"]["Dominant"]["x"],
+        y=section_mappings["numbers"]["Dominant"]["y"],
+    )
+    draw_count(
+        c,
+        main_deck,
+        height_points,
+        "Hero",
+        x=section_mappings["numbers"]["Hero"]["x"],
+        y=section_mappings["numbers"]["Hero"]["y"],
+    )
+    draw_count(
+        c,
+        main_deck,
+        height_points,
+        "GE",
+        x=section_mappings["numbers"]["GE"]["x"],
+        y=section_mappings["numbers"]["GE"]["y"],
+    )
+    draw_count(
+        c,
+        main_deck,
+        height_points,
+        "Lost Soul",
+        x=section_mappings["numbers"]["Lost Soul"]["x"],
+        y=section_mappings["numbers"]["Lost Soul"]["y"],
+    )
+    draw_count(
+        c,
+        main_deck,
+        height_points,
+        "Evil Character",
+        x=section_mappings["numbers"]["Evil Character"]["x"],
+        y=section_mappings["numbers"]["Evil Character"]["y"],
+    )
+    draw_count(
+        c,
+        main_deck,
+        height_points,
+        "EE",
+        x=section_mappings["numbers"]["EE"]["x"],
+        y=section_mappings["numbers"]["EE"]["y"],
+    )
+    draw_count(
+        c,
+        main_deck,
+        height_points,
+        ["Artifact", "Covenant", "Curse"],
+        x=section_mappings["numbers"]["Artifact"]["x"],
+        y=section_mappings["numbers"]["Artifact"]["y"],
+    )
+    draw_count(
+        c,
+        main_deck,
+        height_points,
+        ["Fortress", "Site", "City"],
+        x=section_mappings["numbers"]["Fortress"]["x"],
+        y=section_mappings["numbers"]["Fortress"]["y"],
+    )
+    draw_count(
+        c,
+        main_deck,
+        height_points,
+        "misc",
+        x=section_mappings["numbers"]["Misc"]["x"],
+        y=section_mappings["numbers"]["Misc"]["y"],
+    )
+    draw_count(
+        c,
+        reserve,
+        height_points,
+        card_types="all",
+        x=section_mappings["numbers"]["Reserve"]["x"],
+        y=section_mappings["numbers"]["Reserve"]["y"],
+    )
 
     # Draw total card count in the top right corner
     box_width = 50
@@ -229,6 +378,54 @@ def generate_decklist(deck_data):
         width_points - right_margin - box_width + 5,
         height_points - top_margin - box_height + 10,
         f"{total_main}",
+    )
+
+    # Draw good count
+    box_width = 50
+    box_height = 30
+    right_margin = 85
+    top_margin = 29
+    total_good = 0
+    for card in main_deck.values():
+        if card.get("alignment") == "Good":
+            total_good += card.get("quantity")
+    c.setFont("Helvetica", 10)  # Changed from 18 to 10
+    c.drawString(
+        width_points - right_margin - box_width + 5,
+        height_points - top_margin - box_height + 10,
+        f"Good Count: {total_good}",
+    )
+
+    # Draw evil count
+    box_width = 50
+    box_height = 30
+    right_margin = 85
+    top_margin = 42
+    total_evil = 0
+    for card in main_deck.values():
+        if card.get("alignment") == "Evil":
+            total_evil += card.get("quantity")
+    c.setFont("Helvetica", 10)  # Changed from 18 to 10
+    c.drawString(
+        width_points - right_margin - box_width + 5,
+        height_points - top_margin - box_height + 10,
+        f"Evil Count: {total_evil}",
+    )
+
+    # Draw neutral count
+    box_width = 50
+    box_height = 30
+    right_margin = 85
+    top_margin = 53
+    total_neutral = 0
+    for card in main_deck.values():
+        if card.get("alignment") == "Neutral":
+            total_neutral += card.get("quantity")
+    c.setFont("Helvetica", 10)  # Changed from 18 to 10
+    c.drawString(
+        width_points - right_margin - box_width + 5,
+        height_points - top_margin - box_height + 10,
+        f"Neutral Count: {total_neutral}",
     )
 
     c.showPage()
