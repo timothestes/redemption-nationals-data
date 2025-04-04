@@ -203,9 +203,9 @@ def combine_images(
 def process_decklist(deck_type: str, deck_name: str, mode: str):
     decklist_file_path = find_decklist_file(deck_name)
     deck_data = load_deck_data(decklist_file_path)
-    if mode == "generate_decklist_png":
+    if mode == "png":
         generate_deck_images(deck_data)
-    elif mode == "generate_decklist_pdf":
+    elif mode == "pdf":
         generate_text_decklist(deck_type, deck_data)
 
 
