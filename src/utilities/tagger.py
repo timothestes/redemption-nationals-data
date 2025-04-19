@@ -50,12 +50,89 @@ def save_card_data(card_database: dict, card_data_path: str) -> None:
 
 
 def add_tags(card_database: dict) -> dict:
-    """Add extra tags to the Identifier field."""
+    """Add scripture reference tags to the Identifier field."""
 
-    extra_identifiers = []
-    # add gospel tags (card that has "Matthew", "Mark", "Luke", "John" in the Reference name)
+    ot_books = [
+        "Genesis",
+        "Exodus",
+        "Leviticus",
+        "Numbers",
+        "Deuteronomy",
+        "Joshua",
+        "Judges",
+        "Ruth",
+        "I Samuel",
+        "II Samuel",
+        "I Kings",
+        "II Kings",
+        "I Chronicles",
+        "II Chronicles",
+        "Ezra",
+        "Nehemiah",
+        "Esther",
+        "Job",
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Song of Solomon",
+        "Isaiah",
+        "Jeremiah",
+        "Lamentations",
+        "Ezekiel",
+        "Daniel",
+        "Hosea",
+        "Joel",
+        "Amos",
+        "Obadiah",
+        "Jonah",
+        "Micah",
+        "Nahum",
+        "Habakkuk",
+        "Zephaniah",
+        "Haggai",
+        "Zechariah",
+        "Malachi",
+    ]
 
-    # add OT/NT tags. Any book that is not in OT is NT. OT books are genesis through malachi.
+    gospel_books = ["Matthew", "Mark", "Luke", "John"]
+
+    johns_epistles = ["I John", "II John", "III John"]
+
+    for card_key, card_data in card_database.items():
+        if not card_data.get("Reference"):
+            continue
+
+        references = [ref for ref in card_data["Reference"].split(";")]
+        tags = []
+
+        for ref in references:
+            #  Check for gospel references (excluding John's epistles)
+            if any(gospel in ref for gospel in gospel_books) and not any(
+                epistle in ref for epistle in johns_epistles
+            ):
+                if "[Gospel]" not in tags:
+                    tags.append("[Gospel]")
+
+            # Check identifier for O.T. first
+            if "O.T." in card_data.get("Identifier", ""):
+                tags.append("[OT]")
+            # Determine testament
+            elif any(ot_book in ref for ot_book in ot_books):
+                if "[OT]" not in tags:
+                    tags.append("[OT]")
+            else:
+                if "[NT]" not in tags:
+                    tags.append("[NT]")
+
+        # Update Identifier field
+        if tags:
+            current_identifier = card_data["Identifier"].strip()
+            tag_string = ",".join(tags)  # No sorting, maintain original order
+            card_data["Identifier"] = (
+                f"{current_identifier},{tag_string}"
+                if current_identifier
+                else tag_string
+            )
 
     return card_database
 
