@@ -200,26 +200,54 @@ def combine_images(
         print(f"Error optimizing image: {str(e)}")
 
 
-def process_decklist(deck_type: str, deck_name: str, mode: str):
-    decklist_file_path = find_decklist_file(deck_name)
-    deck_data = load_deck_data(decklist_file_path)
-    if mode == "png":
-        generate_deck_images(deck_data)
-    elif mode == "pdf":
-        generate_text_decklist(deck_type, deck_data)
+def find_decks(prefix: str):
+    """Return all file names starting with the given prefix.
+
+    Args:
+        prefix (str): The prefix to search for in deck file names
+
+    Returns:
+        list: A list of file paths for decks matching the prefix
+    """
+    matching_decks = []
+    for file_name in os.listdir(DECKLIST_FOLDER):
+        if file_name.lower().startswith(prefix.lower()) and (
+            file_name.endswith(".txt") or file_name.endswith(".dek")
+        ):
+            deck_path = os.path.join(DECKLIST_FOLDER, file_name)
+            matching_decks.append(deck_path)
+
+    if not matching_decks:
+        print(f"No decks found with prefix '{prefix}'")
+        return []
+
+    print(f"Found {len(matching_decks)} deck(s) with prefix '{prefix}'")
+    return matching_decks
 
 
-def generate_deck_images(deck_data):
-    # Move existing image generation code here
-    main_deck_filename = "main_deck"
-    reserve_deck_filename = "reserve"
+def generate_deck_images(deck_data, filename: str):
+    # Extract base filename from path if it's a full path
+    base_filename = (
+        os.path.splitext(os.path.basename(filename))[0]
+        if filename == "dynamic"
+        else filename
+    )
+
+    main_deck_filename = f"{base_filename}_main"
+    reserve_deck_filename = f"{base_filename}_reserve"
+
     generate_image(
         deck_data,
         "reserve",
         reserve_deck_filename,
         cards_per_row=len(deck_data["reserve"]),
     )
-    generate_image(deck_data, "main_deck", main_deck_filename, cards_per_row=10)
+    generate_image(
+        deck_data,
+        "main_deck",
+        main_deck_filename,
+        cards_per_row=len(deck_data["reserve"]),
+    )
 
     main_deck_image_path = os.path.join(
         OUTPUT_IMAGES_FOLDER, f"{main_deck_filename}.png"
@@ -227,12 +255,14 @@ def generate_deck_images(deck_data):
     reserve_deck_image_path = os.path.join(
         OUTPUT_IMAGES_FOLDER, f"{reserve_deck_filename}.png"
     )
-    combine_images(main_deck_image_path, reserve_deck_image_path, "combined_deck")
+    combine_images(
+        main_deck_image_path, reserve_deck_image_path, f"{base_filename}_combined"
+    )
 
 
-def generate_text_decklist(deck_type: str, deck_data) -> None:
+def generate_text_decklist(deck_type: str, deck_data, filename: str) -> None:
     # generate_reserve_list(deck_data.get("reserve", {}))
-    generate_decklist(deck_type, deck_data)
+    generate_decklist(deck_type, deck_data, filename=filename)
 
 
 def generate_reserve_list(reserve_data):
@@ -313,13 +343,69 @@ def generate_reserve_list(reserve_data):
             os.remove(temp_overlay)
 
 
+def process_decklist(
+    deck_type: str, mode: str, deck_name: str = None, prefix: str = None
+):
+    """Process deck list(s) based on either deck name or prefix.
+
+    Args:
+        deck_type (str): Type of deck ('type_1' or 'type_2')
+        mode (str): Processing mode ('png' or 'pdf')
+        deck_name (str, optional): Specific deck name to process
+        prefix (str, optional): Prefix to match multiple decks
+    """
+    if not deck_name and not prefix:
+        raise ValueError("Either deck_name or prefix must be provided")
+
+    if prefix:
+        decks = find_decks(prefix)
+        for deck_path in decks:
+            deck_data = load_deck_data(deck_path)
+            filename = os.path.splitext(os.path.basename(deck_path))[0]
+            if mode == "png":
+                generate_deck_images(deck_data, filename=filename)
+            elif mode == "pdf":
+                generate_text_decklist(deck_type, deck_data, filename=filename)
+    else:
+        decklist_file_path = find_decklist_file(deck_name)
+        deck_data = load_deck_data(decklist_file_path)
+        if mode == "png":
+            generate_deck_images(deck_data, filename=deck_name)
+        elif mode == "pdf":
+            generate_text_decklist(deck_type, deck_data, filename=deck_name)
+
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="Process Redemption deck lists")
     parser.add_argument(
         "--deck-type",
-        help="the type of snipe you want to make",
+        required=True,
+        choices=["type_1", "type_2"],
+        help="the type of deck (type_1 or type_2)",
     )
-    parser.add_argument("--deck-name", help="the name of the lackey deck file")
-    parser.add_argument("--mode", help="what mode of the program you'd like to run")
+    parser.add_argument(
+        "--deck-name",
+        help="the name of a specific lackey deck file",
+    )
+    parser.add_argument(
+        "--mode",
+        required=True,
+        choices=["png", "pdf"],
+        help="output mode (png or pdf)",
+    )
+    parser.add_argument(
+        "--prefix",
+        help="prefix to match multiple deck names",
+    )
+
     args = parser.parse_args()
-    process_decklist(deck_type=args.deck_type, deck_name=args.deck_name, mode=args.mode)
+
+    if not args.deck_name and not args.prefix:
+        parser.error("Either --deck-name or --prefix must be provided")
+
+    process_decklist(
+        deck_type=args.deck_type,
+        mode=args.mode,
+        deck_name=args.deck_name,
+        prefix=args.prefix,
+    )

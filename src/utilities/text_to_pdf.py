@@ -122,18 +122,27 @@ def place_section_by_type(c, deck, height_points, card_types, x, y, add_quantity
     place_section(c, filtered, x, y, line_spacing, add_quantity)
 
 
-def generate_decklist(deck_type: str, deck_data):
+def generate_decklist(deck_type: str, deck_data, filename: str):
     """
     Generate a deck check sheet overlay with card listings, section counts,
-    and a total card count drawn separately. Section counts and the total
-    are drawn independently so you have full control over their positions.
+    and a total card count.
+
+    Args:
+        deck_type (str): The type of deck check sheet ('type_1' or 'type_2')
+        deck_data (dict): The deck data containing main_deck and reserve
+        filename (str): Name for the output file (without extension)
     """
     if deck_type == "type_1":
         template_path = "data/pdfs/Type 1 Deck Check Sheet.pdf"
     elif deck_type == "type_2":
         template_path = "data/pdfs/Type 2 Deck Check Sheet.pdf"
-    output_path = "tbd/output_decklist.pdf"
-    temp_overlay = "tbd/temp_overlay.pdf"
+
+    # Create output directory if it doesn't exist
+    os.makedirs("tbd", exist_ok=True)
+
+    # Use dynamic filename for output
+    output_path = f"tbd/{filename}.pdf"
+    temp_overlay = f"tbd/temp_{filename}.pdf"
 
     reader = PdfReader(template_path)
     page = reader.pages[0]
@@ -438,7 +447,10 @@ def generate_decklist(deck_type: str, deck_data):
     writer.add_page(page)
     with open(output_path, "wb") as f:
         writer.write(f)
-    os.remove(temp_overlay)
+
+    # Clean up temp file
+    if os.path.exists(temp_overlay):
+        os.remove(temp_overlay)
 
 
 if __name__ == "__main__":
@@ -446,4 +458,4 @@ if __name__ == "__main__":
 
     with open("tbd/deck_data.json", "r") as f:
         deck_data = json.load(f)
-    generate_decklist(deck_data)
+    generate_decklist("type_1", deck_data, "output_decklist")
