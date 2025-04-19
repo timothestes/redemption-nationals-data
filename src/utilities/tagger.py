@@ -24,32 +24,43 @@ def load_card_data(card_data_path: str) -> dict:
 
 
 def save_card_data(card_database: dict, card_data_path: str) -> None:
-    """Save the card database to a .txt file"""
+    """Save the card database to a .txt file, then remove the final CRLF."""
     if not card_database:
         print("Error: Card database is empty")
         return
 
     first_card = next(iter(card_database.values()))
+    terminator = "\r\n"
 
-    with open(card_data_path, "w", newline="", encoding="utf-8") as file:
+    with open(card_data_path, "w+", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
-            file,
+            f,
             fieldnames=first_card.keys(),
             delimiter="\t",
-            quoting=csv.QUOTE_NONE,  # Prevent any automatic quoting
-            escapechar=None,  # No escape characters
-            quotechar=None,  # No quote characters
-            lineterminator="\r\n",  # ← enforce CRLF
+            quoting=csv.QUOTE_NONE,
+            escapechar=None,
+            quotechar=None,
+            lineterminator=terminator,
         )
         writer.writeheader()
         for card in card_database.values():
             writer.writerow(card)
+        f.seek(f.tell() - len(terminator))
+        f.truncate()
+
+
+def add_tags(card_database: dict) -> dict:
+    """Add extra tags to the Identifier field."""
+
+    extra_identifiers = []
+    # add gospel tags (card that has "Matthew", "Mark", "Luke", "John" in the Reference name)
+
+    # add OT/NT tags. Any book that is not in OT is NT. OT books are genesis through malachi.
+
+    return card_database
 
 
 if __name__ == "__main__":
-    CARD_DATA = load_card_data(CARD_DATA_PATH)
-
-    with open("tbd.json", "w") as file:
-        json.dump(CARD_DATA, file, indent=4)
-
-    save_card_data(CARD_DATA, CARD_DATA_PATH)
+    card_data = load_card_data(CARD_DATA_PATH)
+    card_data = add_tags(card_data)
+    save_card_data(card_data, CARD_DATA_PATH)
