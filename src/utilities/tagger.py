@@ -177,5 +177,5 @@ if __name__ == "__main__":
     card_data = add_tags(card_data)
     save_card_data(card_data, CARD_DATA_PATH)
     # save_card_data(
-    # card_data, "/Applications/LackeyCCG/plugins/Redemption/sets/carddata.txt"
+    #     card_data, "/Applications/LackeyCCG/plugins/Redemption/sets/carddata.txt"
     # )
