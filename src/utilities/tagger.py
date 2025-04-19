@@ -110,18 +110,19 @@ def add_tags(card_database: dict) -> dict:
             if any(gospel in ref for gospel in gospel_books) and not any(
                 epistle in ref for epistle in johns_epistles
             ):
-                if "[Gospel]" not in tags:
+                if "[Gospel]" not in tags and "[Gospel]" not in card_data["Identifier"]:
                     tags.append("[Gospel]")
 
-            # Check identifier for O.T. first
-            if "O.T." in card_data.get("Identifier", ""):
-                tags.append("[OT]")
             # Determine testament
             elif any(ot_book in ref for ot_book in ot_books):
-                if "[OT]" not in tags:
+                if "[OT]" not in tags and "[OT]" not in card_data["Identifier"]:
                     tags.append("[OT]")
             else:
-                if "[NT]" not in tags:
+                if (
+                    "[NT]" not in tags
+                    and "[NT]" not in card_data["Identifier"]
+                    and "O.T." not in card_data.get("Identifier", "")
+                ):
                     tags.append("[NT]")
 
         # Update Identifier field
@@ -141,3 +142,6 @@ if __name__ == "__main__":
     card_data = load_card_data(CARD_DATA_PATH)
     card_data = add_tags(card_data)
     save_card_data(card_data, CARD_DATA_PATH)
+    # save_card_data(
+    # card_data, "/Applications/LackeyCCG/plugins/Redemption/sets/carddata.txt"
+    # )
