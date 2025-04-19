@@ -100,6 +100,33 @@ def add_tags(card_database: dict) -> dict:
 
     johns_epistles = ["I John", "II John", "III John"]
 
+    def is_nativity_reference(ref: str) -> bool:
+        """Check if reference is a Nativity passage."""
+        ref = ref.strip()
+
+        # Handle specific Matthew references
+        if ref.startswith("Matthew 1:"):
+            try:
+                verse_part = ref.split("Matthew 1:")[1]
+                if "-" in verse_part:
+                    start, end = map(int, verse_part.split("-"))
+                    return start >= 18 and end <= 25
+                verse = int(verse_part)
+                return 18 <= verse <= 25
+            except (ValueError, IndexError):
+                return False
+
+        # Handle specific Luke references
+        if ref.startswith("Luke 1:") or ref.startswith("Luke 2:"):
+            try:
+                chapter = int(ref.split("Luke ")[1].split(":")[0])
+                return chapter in [1, 2]
+            except (ValueError, IndexError):
+                return False
+
+        # Handle full chapter references
+        return ref == "Matthew 2" or ref == "Luke 1" or ref == "Luke 2"
+
     for card_key, card_data in card_database.items():
         if not card_data.get("Reference"):
             continue
@@ -108,7 +135,12 @@ def add_tags(card_database: dict) -> dict:
         tags = []
 
         for ref in references:
-            #  Check for gospel references (excluding John's epistles)
+            # Check for Nativity references
+            if is_nativity_reference(ref):
+                if "Nativity" not in tags and "Nativity" not in card_data["Identifier"]:
+                    tags.append("Nativity")
+
+            # Check for gospel references (excluding John's epistles)
             if any(gospel in ref for gospel in gospel_books) and not any(
                 epistle in ref for epistle in johns_epistles
             ):
