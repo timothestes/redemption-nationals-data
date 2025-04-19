@@ -9,7 +9,7 @@ A New Creation	Ap	A_New_Creation_(Ap)	Apostles	GE	Gold				[NT]	Convert one human
 A New Creation	TEC	A_New_Creation_(EC)	Early Church	GE	Clay			Territory	[NT]	If all your Heroes are clay, you may remove your discard pile and this card from the game to convert a human Evil Character to a clay hero.	Common	II Corinthians 5:17		Good	Rotation
 A Roman Soldier's Faith	Ap	A_Roman_Soldier's_Faith_(Ap)	Apostles	GE	Red	3	3		[Gospel]	Heal any Hero in play.	Common	Matthew 8:5-6		Good	
 A Royal Priesthood	PoC	210-A-Royal-Priesthood-R	Prophecies of Christ	GE	Green/Purple/Teal			Territory	[OT]	(Star) Topdeck The Tabernacle or a Temple from deck or Reserve. (GE) Place on your male human Hero: He gains “High Priest” and “King of Judah”.	Rare	Zechariah 6:13		Good	Rotation
-A Soldier's Prayer	TxP	A_Soldier's_Prayer_(TxP)	Thesaurus ex Preteritus	GE	Red			Territory	[NT]	If used by a warrior class Hero, search your deck or discard pile for a red Enhancement. Shuffle this card into that pile.	Fixed	Psalm 60:5		Good	
+A Soldier's Prayer	TxP	A_Soldier's_Prayer_(TxP)	Thesaurus ex Preteritus	GE	Red			Territory	[OT]	If used by a warrior class Hero, search your deck or discard pile for a red Enhancement. Shuffle this card into that pile.	Fixed	Psalm 60:5		Good	
 A Wife for Isaac	Pat	A_Wife_for_Isaac_(Pa)	Patriarchs	GE	Blue	2	3		[OT]	Hero ignores all female Evil Characters	Uncommon	Genesis 24:16-17		Good	
 Aaron (Di)	Di	Aaron_(Di)	Disciples	Hero	Green/Teal	6	4		Prophet, Tabernacle High Priest,[OT]	Protect your Tabernacle artifacts from opponents' cards.  May band to an Exodus or Leviticus Hero.  Cannot be negated by a good card.	Fixed	Exodus 4:14		Good	
 Aaron (G)	10A	Aaron_(G)	10th Anniversary	Hero	Green	6	4		Priest,[OT]	May band to Miriam.  Protect all active Holy of Holies artifacts from discard while Aaron is in play.	Deck	Exodus 4:14		Good	
@@ -202,9 +202,9 @@ Angel at Shur (Roots)	RR	113-Angel-at-Shur.jpg	Roots	Hero	Silver	7	2		Angel, Gen
 Angel at Shur (Wa)	War	Angel_at_Shur_(Wa)	Warriors	Hero	Silver	7	2		[OT]	Hero is immune to demons and beasts.	Common	Genesis 16:7		Good	
 Angel at the Tomb (Pi)	Pri	Angel_at_the_Tomb_(Pi)	Priests	Hero	Silver	6	6		[Gospel]	If your Son of God card was discarded without making a rescue, shuffle it into draw pile.  Cannot be negated.	Uncommon	Matthew 28:2		Good	
 Angel at the Tomb (Wa)	War	Angel_at_the_Tomb_(Wa)	Warriors	Hero	Silver	6	6		[Gospel]	If holder's Son of God card was discarded without making a rescue, return it to holder's draw pile.  Shuffle draw pile.	Common	Matthew 28:2		Good	
-Angel Chariots (Ki)	Ki	Angel_Chariots_(Ki)	Kings	GE	Silver	3	2		[NT]	Discard any Crimson Brigade Evil Character in play or a set-aside area.	Uncommon	Psalm 68:17		Good	
-Angel Chariots (Roots)	RR	120-Angel-Chariots.jpg	Roots	GE	Silver	3	2	Weapon	Involves music,[NT]	Negate an evil card. You may draw 2.		Psalm 68:17		Good	Rotation
-Angel Chariots (Wa)	War	Angel_Chariots_(Wa)	Warriors	GE	Silver	3	2		[NT]	Discard any Crimson Brigade Evil Character in play or a set-aside area.	Uncommon	Psalm 68:17		Good	
+Angel Chariots (Ki)	Ki	Angel_Chariots_(Ki)	Kings	GE	Silver	3	2		[OT]	Discard any Crimson Brigade Evil Character in play or a set-aside area.	Uncommon	Psalm 68:17		Good	
+Angel Chariots (Roots)	RR	120-Angel-Chariots.jpg	Roots	GE	Silver	3	2	Weapon	Involves music,[OT]	Negate an evil card. You may draw 2.		Psalm 68:17		Good	Rotation
+Angel Chariots (Wa)	War	Angel_Chariots_(Wa)	Warriors	GE	Silver	3	2		[OT]	Discard any Crimson Brigade Evil Character in play or a set-aside area.	Uncommon	Psalm 68:17		Good	
 Angel Departed	AW	Angel_Departed_(AW)	Angel Wars	EE	Pale Green	0	5		[NT]	Return a silver brigade Hero in battle to owner's territory. Cannot be prevented.	Common	Acts 12:10		Evil	
 Angel Food (D)	2E	Angel_Food_(DU)	2nd Edition	GE	White	3	3		[OT]	Heal any Hero in play.	Deck	I Kings 19:8		Good	
 Angel Food (L)	Main	Angel_Food_(B)	Main	GE	White	3	3		[OT]		Common	I Kings 19:8		Good	
@@ -413,13 +413,13 @@ Balm of Gilead (DU)	2ER	Balm_of_Gilead_(DU)	2nd Edition Revised	GE	Blue	2	2		[OT
 Balm of Gilead (UL)	Main UL	Balm_of_Gilead_(UL)	Main Unlimited	GE	Blue				[OT]	Heal any Hero from the Blue Brigade that is being discarded.	Rare	Jeremiah 8:22		Good	
 Banishment	Ap	Banishment_(Ap)	Apostles	EE	Gray				[NT]	Take any demon prisoner and place in your Tartaros site.  If Tartaros is not in play, discard the demon.	Rare	II Peter 2:4		Evil	
 Banks of the Nile/Pharaoh's Court	RoA	Banks_of_the_Nile_(RA)	Rock of Ages	Site	Green/Gold				[OT]	This card enters play as Banks of the Nile. If a Hero rescues a Lost Soul from this Site, it becomes Pharaoh's Court. / While this Site is occupied, prevent ignore abilities on opponent's good O.T. cards.	Fixed	Exodus 7:10		Neutral	
-Banner (B)	Main	Banner_(B)	Main	GE	White	2	2		[NT]		Common	Psalm 60:4		Good	
-Banner (UL)	Main UL	Banner_(UL)	Main Unlimited	GE	White	2	2		[NT]		Common	Psalm 60:4		Good	
+Banner (B)	Main	Banner_(B)	Main	GE	White	2	2		[OT]		Common	Psalm 60:4		Good	
+Banner (UL)	Main UL	Banner_(UL)	Main Unlimited	GE	White	2	2		[OT]		Common	Psalm 60:4		Good	
 Banner of Love (L)	Main	Banner_of_Love_(UL)	Main	GE	Green	2	1		[OT]		Common	Song of Solomon 2:4		Good	
 Banner of Love (UL)	Main UL	Banner_of_Love_(UL)	Main Unlimited	GE	Green	2	1		[OT]		Common	Song of Solomon 2:4		Good	
 Banner of Love [2024 - State]	Pmo-P3	Banner-of-Love-State.jpg	Promo	GE	Purple/White	2	4		Involves music,[OT]	Interrupt the battle. Hero may band to a human. If a male and female human Hero are in battle, you may discard an evil card.	Promo	Song of Solomon 2:4		Good	Rotation
-Banner of Truth (D)	2E	Banner_of_Truth_(DU)	2nd Edition	GE	White	2	2		[NT]	All of holder's Heroes gain 2/2 until end of turn.	Deck	Psalm 60:4		Good	
-Banner of Truth (Pi)	Pri	Banner_of_Truth_(Pi)	Priests	GE	White	2	2		Involves Music,[NT]	Negate all special abilities on evil cards with 'False' or 'Deceit' in the title.  Following battle, you may place this card in your territory.  It remains active until discarded.	Common	Psalm 60:4		Good	
+Banner of Truth (D)	2E	Banner_of_Truth_(DU)	2nd Edition	GE	White	2	2		[OT]	All of holder's Heroes gain 2/2 until end of turn.	Deck	Psalm 60:4		Good	
+Banner of Truth (Pi)	Pri	Banner_of_Truth_(Pi)	Priests	GE	White	2	2		Involves Music,[OT]	Negate all special abilities on evil cards with 'False' or 'Deceit' in the title.  Following battle, you may place this card in your territory.  It remains active until discarded.	Common	Psalm 60:4		Good	
 Baptism	2E	Baptism_(DU)	2nd Edition	GE	Blue				[Gospel]	Convert any human Evil Character in play to a blue brigade Hero.	Deck	Matthew 3:16		Good	
 Baptism of Jesus	Di	Baptism_of_Jesus_(Di)	Disciples	GE	Green	1	3		[Gospel]	Negate special abilities on Evil Character Characters and weapons.  If used by a N.T. prophet, discard an Evil Character card.  Cannot be prevented.	Fixed	Matthew 3:16		Good	
 Baptism of Jesus (GoC)	GoC	075-Baptism-of-Jesus	Gospel of Christ	GE	Clay/White	1	3		Christ/Jesus in Title/Scripture, Gospel,[Gospel]	If used by John the Forerunner (or a meek Hero), negate an evil card and you may draw 2. You may take a clay card from Reserve or banish an evil card.	Common	Matthew 3:16		Good	Rotation
@@ -451,9 +451,9 @@ Battle Axe (UL)	Main UL	Battle_Axe_(UL)	Main Unlimited	GE	Red	2	0		[OT]		Common	
 Battle Axe (Wa)	War	Battle_Axe_(Wa)	Warriors	GE	Red	4	3		[OT]	Hero ignores gray brigade.	Common	Jeremiah 51:20		Good	
 Battle Cry	Pat	Battle_Cry_(Pa)	Patriarchs	GE	Red				[OT]	Interrupt the battle and band into battle as many Heroes from holder's territory as holder chooses.	Rare	Joshua 6:5		Good	
 Battle Neutralized	Ki	Battle_Neutralized_(Ki)	Kings	GE	White				[OT]	The battle immediately ends in a stalemate.  All characters in battle return to territories.  All enhancements in battle are discarded.	Uncommon	I Kings 20:13		Good	
-Battle Prayer (Ki)	Ki	Battle_Prayer_(Ki)	Kings	GE	Gold	4	3		[NT]	Search your draw pile or discard pile for any good gold brigade enhancement and add it to your hand.  Shuffle card pile.	Common	Psalm 140:7-8		Good	
-Battle Prayer (Roots)	RR	103-Battle-Prayer.jpg	Roots	GE	Purple	4	3		Involves music,[NT]	You may take a good O.T. Enhancement from deck, discard pile or Reserve.		Psalm 140:7		Good	Rotation
-Battle Prayer (Wa)	War	Battle_Prayer_(Wa)	Warriors	GE	Gold	3	3		[NT]	Search through your draw pile or discard pile and select one Gold Enhancement Card.  Shuffle card pile.	Common	Psalm 140:7-8		Good	
+Battle Prayer (Ki)	Ki	Battle_Prayer_(Ki)	Kings	GE	Gold	4	3		[OT]	Search your draw pile or discard pile for any good gold brigade enhancement and add it to your hand.  Shuffle card pile.	Common	Psalm 140:7-8		Good	
+Battle Prayer (Roots)	RR	103-Battle-Prayer.jpg	Roots	GE	Purple	4	3		Involves music,[OT]	You may take a good O.T. Enhancement from deck, discard pile or Reserve.		Psalm 140:7		Good	Rotation
+Battle Prayer (Wa)	War	Battle_Prayer_(Wa)	Warriors	GE	Gold	3	3		[OT]	Search through your draw pile or discard pile and select one Gold Enhancement Card.  Shuffle card pile.	Common	Psalm 140:7-8		Good	
 Bear	2E	Bear_(DU)	2nd Edition	Evil Character	Black	7	8		[OT]	Bear is immune to red brigade.	Deck	Daniel 7:5		Evil	
 Bear (CoW AB)	CoW (AB)	CoW_AB_N112-Bear	Cloud of Witnesses (Alternate Border)	Evil Character	Crimson	6	6		Animal, Genderless, Generic, X = # of opponent’s good brigades,[OT]	You may look at X random cards in opponent’s hand and shuffle lamb icon cards. Protect Lost Souls from rescue unless Bear is discarded. Cannot be interrupted by a good card.	Common	I Samuel 17:34		Evil	Rotation
 Bear (CoW)	CoW	Bear_(CoW)	Cloud of Witnesses	Evil Character	Crimson	6	6		Animal, Genderless, Generic, X = # of opponent's good brigades,[OT]	You may look at X random cards in opponent's hand and shuffle lamb icon cards. Protect Lost Souls from rescue unless Bear is discarded. Cannot be interrupted by a good card.	Common	I Samuel 17:34		Evil	Rotation
@@ -570,18 +570,18 @@ Book of the Wars	Pat	Book_of_the_Wars_(Pa)	Patriarchs	GE	Red	2	2		[OT]	Hero may 
 Bound	AW	Bound_(AW)	Angel Wars	GE	Silver				[NT]	Interrupt the last enhancement played this battle and set aside any demon in play for four turns.	Rare	II Peter 2:4		Good	
 Bow and Arrow (Gold) (Ki)	Ki	Bow_and_Arrow_(Gold)_(Ki)	Kings	GE	Gold	2	2		[OT]	Negate the last evil enhancement played in current battle.	Rare	II Samuel 1:18		Good	
 Bow and Arrow (Gold) (Wa)	War	Bow_and_Arrow_(Yellow)_(Wa)	Warriors	GE	Gold	2	2		[OT]	The effect of the last enhancement card played in current battle is interrupted and prevented.	Rare	II Samuel 1:18		Good	
-Bow and Arrow (Gray) ( C)	2E	Bow_and_Arrow_(Gray)_(CU)	2nd Edition	EE	Gray	3	4		[NT]	Evil Character is immune to Silver Brigade.	Deck	Psalm 11:2		Evil	
-Bow and Arrow (Gray) (Ki)	Ki	Bow_and_Arrow_(gray)_(Ki)	Kings	EE	Gray	3	2	Weapon	[NT]	Evil Character is immune to Silver Brigade.	Common	Psalm 11:2		Evil	
-Bow and Arrow (Gray) (L)	Main	Bow_and_Arrow_(Gray)_(UL)	Main	EE	Gray	2	1		[NT]		Common	Psalm 11:2		Evil	
-Bow and Arrow (Gray) (UL)	Main UL	Bow_and_Arrow_(Gray)_(UL)	Main Unlimited	EE	Gray	2	1		[NT]		Common	Psalm 11:2		Evil	
-Bow and Arrow (Gray)( Wa)	War	Bow_and_Arrow_(Gray)_(Wa)	Warriors	EE	Gray	3	4		[NT]	Evil Character is immune to Silver Brigade.	Common	Psalm 11:2		Evil	
+Bow and Arrow (Gray) ( C)	2E	Bow_and_Arrow_(Gray)_(CU)	2nd Edition	EE	Gray	3	4		[OT]	Evil Character is immune to Silver Brigade.	Deck	Psalm 11:2		Evil	
+Bow and Arrow (Gray) (Ki)	Ki	Bow_and_Arrow_(gray)_(Ki)	Kings	EE	Gray	3	2	Weapon	[OT]	Evil Character is immune to Silver Brigade.	Common	Psalm 11:2		Evil	
+Bow and Arrow (Gray) (L)	Main	Bow_and_Arrow_(Gray)_(UL)	Main	EE	Gray	2	1		[OT]		Common	Psalm 11:2		Evil	
+Bow and Arrow (Gray) (UL)	Main UL	Bow_and_Arrow_(Gray)_(UL)	Main Unlimited	EE	Gray	2	1		[OT]		Common	Psalm 11:2		Evil	
+Bow and Arrow (Gray)( Wa)	War	Bow_and_Arrow_(Gray)_(Wa)	Warriors	EE	Gray	3	4		[OT]	Evil Character is immune to Silver Brigade.	Common	Psalm 11:2		Evil	
 Bow and Arrow (Red) ( C)	2E	Bow_and_Arrow_(Red)_(CU)	2nd Edition	GE	Red	3	1		[OT]		Deck	II Samuel 1:18		Good	
 Bow and Arrow (Red) (L)	Main	Bow_and_Arrow_Red)_(UL)	Main	GE	Red	2	1		[OT]		Uncommon	II Samuel 1:18		Good	
 Bow and Arrow (Red) (UL)	Main UL	Bow_and_Arrow_Red)_(UL)	Main Unlimited	GE	Red	2	1		[OT]		Uncommon	II Samuel 1:18		Good	
 Bow of Battle	PoC	212-Bow-of-Battle	Prophecies of Christ	GE	Green/Red	5	0	Weapon, Star	[OT]	STAR: Topdeck a good Enhancement from Reserve. GE: While you have initiative, you may toss an Enhancement.	Common	Zechariah 10:4		Good	Rotation
 Brass Serpent	PoC	039-Brass-Serpent	Prophecies of Christ	Artifact					[OT]	(Star) Topdeck a * Enhancement from Reserve. (Artifact) At any time, you may reveal a good Dominant or a good Exodus card from hand to heal any number of Heroes.	Common	Numbers 21:8		Neutral	Rotation
 Brass Serpent (L)	Main	Brass_Serpent_(UL)	Main	GE	Gold				[OT]	Renders all poisons harmless.	Rare	Numbers 21:8		Good	
-Brass Serpent (Promo)	Pmo-P1	Brass_Serpent_(Promo)	Promo	GE	Multi				[NT]	Discard all poisons and diseases in play.  Heal all Heroes not at full strength.	Promo	Old Testament		Good	
+Brass Serpent (Promo)	Pmo-P1	Brass_Serpent_(Promo)	Promo	GE	Multi				[OT]	Discard all poisons and diseases in play.  Heal all Heroes not at full strength.	Promo	Old Testament		Good	
 Brass Serpent (UL)	Main UL	Brass_Serpent_(UL)	Main Unlimited	GE	Gold				[OT]	Renders all poisons harmless.	Rare	Numbers 21:8		Good	
 Bravery of David (1st Print - K)	K1P	K33-1P-Bravery-of-David	K Starter (1st Print)	GE	Purple	7	0	Territory	[OT]	You may take a good I Samuel Enhancement from deck or Reserve.	Starter	I Samuel 17:45		Good	Rotation
 Bravery of David (L)	Main	Bravery_of_David_(UL)	Main	GE	Red	2	2		[OT]		Common	I Samuel 17:45-46		Good	
@@ -732,7 +732,7 @@ Chariots of the Sun (UL)	Main UL	Chariots_of_the_Sun_(UL)	Main Unlimited	EE	Pale
 Charred Vine	Prp	Charred_Vine_(Pr)	Prophets	GE	White				[OT]	Set Hero aside for five turns.  On turn six Hero returns with abilities increased 7/7.	Rare	Ezekiel 15:6		Good	
 Chastisement of the Lord (L)	Main	Chastisement_of_the_Lord_(UL)	Main	GE	Blue				[OT]	Set Hero aside for three turns.  On turn four Hero returns with abilities increased 6/6.	Rare	Jonah 1:17		Good	
 Chastisement of the Lord (PoC)	PoC	186-Chastisement-of-the-Lord	Prophecies of Christ	GE	Green/Teal			Territory	[OT]	Set aside your human good prophet for 3 turns: Each upkeep, you may shuffle an O.T. green Enhancement from discard pile or Reserve. On return, increase or decrease Hero 6/6.	Common	Jonah 1:17		Good	Rotation
-Chastisement of the Lord (Promo)	Pmo-P1	Chastisement_of_the_Lord_(Promo)	Promo	GE	Blue				[NT]	Set Hero aside for two turns.  On turn three Hero returns with abilities increased 6/6.	Promo	Old Testament		Good	
+Chastisement of the Lord (Promo)	Pmo-P1	Chastisement_of_the_Lord_(Promo)	Promo	GE	Blue				[OT]	Set Hero aside for two turns.  On turn three Hero returns with abilities increased 6/6.	Promo	Old Testament		Good	
 Chastisement of the Lord (UL)	Main UL	Chastisement_of_the_Lord_(UL)	Main Unlimited	GE	Blue				[OT]	Set Hero aside for three turns.  On turn four Hero returns with abilities increased 6/6.	Rare	Jonah 1:17		Good	
 Chemosh	Ki	Chemosh_(Ki)	Kings	EE	Brown				[OT]	Set Evil Character aside.  Evil Character decreases 0/1 each turn until discarded.  At each upkeep, select any Hero in play to decrease 0/2 until discarded.	Common	I Kings 11:7		Evil	
 Chemosh Worship (FoM)	FoM	115-Chemosh-Worship	Fall of Man	EE	Gray	6	-2		[OT]	If used by a Moabite, discard a Hero regardless of protect abilities. If an O.T. idol or Curse is active, you may underdeck this card.	Common	I Kings 11:33		Evil	Rotation
@@ -831,7 +831,7 @@ Consider the Lilies (Roots)	RR	076-Consider-the-Lilies.jpg	Roots	GE	Gold	3	4		Go
 Conspiring Herodians (GoC)	GoC	212-Conspiring-Herodians	Gospel of Christ	Evil Character	Gold	4	6	Territory, Star	[Limit 1 Fool per territory] Fool, Generic, Gospel,[Gospel]	STAR: Give this card to opponent's territory. / EC: Each upkeep, you must reserve the top card of deck. If this card is discarded, discard a Hero in territory.	Common	Mark 3:6		Evil	Rotation
 Conspiring Servants (LoC)	LoC	LoC_186-Conspiring-Servants-R	Lineage of Christ	Evil Character	Brown	2	4	Territory, Star	Generic, Fool, Limit 1 Fool per territory,[OT]	STAR: Give this card to opponent's territory. EC: Negate your idols and Curses. Each upkeep, you must discard a royal human in territory.	Rare	II Chronicles 33:24		Evil	Rotation
 Construction Begins	3E	Construction_Begins_(E)	3rd Edition	GE	Blue	4	2		[OT]	Look at opponent's hand.	Deck	Genesis 6:14		Good	
-Consumed by Doubt	AW	Consumed_by_Doubt_(AW)	Angel Wars	EE	Pale Green				[NT]	Place this card on a Hero in battle. While there, Hero's special ability is negated. If Hero returns to territory without making a successful rescue, that Hero cannot enter battle until this card is removed.	Common	Psalm 55:5		Evil	
+Consumed by Doubt	AW	Consumed_by_Doubt_(AW)	Angel Wars	EE	Pale Green				[OT]	Place this card on a Hero in battle. While there, Hero's special ability is negated. If Hero returns to territory without making a successful rescue, that Hero cannot enter battle until this card is removed.	Common	Psalm 55:5		Evil	
 Consumed by Wants	AW	Consumed_by_Wants_(AW)	Angel Wars	EE	Black				[Gospel]	Place this card on a Lost Soul.  While this card remains, holder's black brigade demons gain 4/4.	Common	Mark 4:19		Evil	
 Consuming Fire	TxP	Consuming_Fire_(TxP)	Thesaurus ex Preteritus	GE	Silver	1	1	Territory	[OT]	Select an evil brigade (or two if you have a good Judge in play). Prevent special abilities on characters and weapons of selected brigades this turn.	Fixed	Judges 6:21		Good	
 Contagious Fear (GoC)	GoC	220-Contagious-Fear	Gospel of Christ	EE	Gold	3	2	Star	[Gospel]	STAR: Reserve the top card of a deck. / EE: Reserve an evil N.T. human in battle to protect Lost Souls from rescue.	Common	Matthew 2:3		Evil	Rotation
@@ -908,10 +908,10 @@ Crown of Thorns (GoC)	GoC	010-Crown-of-Thorns-R	Gospel of Christ	Artifact					Go
 Crucify Him (Ap)	Ap	Crucify_Him_(Ap)	Apostles	EE	Brown				[Gospel]	Discard all activated Artifacts in play.  The effects of all Artifacts this turn are negated.	Ultra Rare	Matthew 27:31		Evil	
 Crucify Him! (J)	J	Crucify_Him!_(J)	J	EE	Gray	3	3		[Gospel]	Negate and discard the last good Enhancement played this battle.	Deck	Matthew 27:31		Evil	Rotation
 Crucify! Crucify! (GoC)	GoC	163-Crucify-Crucify	Gospel of Christ	EE	Black/Gray	6	0		[Gospel]	Name a Hero. Discard all copies of the named Hero. If you control a meek Lost Soul, discard all copies of the named Hero from opponent’s hand, deck and Reserve.	Common	John 19:6		Evil	Rotation
-Cruelty ( C)	2E	Cruelty_(C)	2nd Edition	EE	Brown	3	4		[NT]	Evil Character is immune to White and Silver Brigades.	Deck	Psalm 27:12		Evil	
-Cruelty (L)	Main	Cruelty_(UL)	Main	EE	Brown	1	1		[NT]	Evil Character ignores White Brigade.	Rare	Psalm 27:12		Evil	
-Cruelty (UL)	Main UL	Cruelty_(UL)	Main Unlimited	EE	Brown	1	1		[NT]	Evil Character ignores White Brigade.	Rare	Psalm 27:12		Evil	
-Cruelty (Wa)	War	Cruelty_(Wa)	Warriors	EE	Brown	3	4		[NT]	Evil Character is immune to White and Silver Brigades.	Common	Psalm 27:12		Evil	
+Cruelty ( C)	2E	Cruelty_(C)	2nd Edition	EE	Brown	3	4		[OT]	Evil Character is immune to White and Silver Brigades.	Deck	Psalm 27:12		Evil	
+Cruelty (L)	Main	Cruelty_(UL)	Main	EE	Brown	1	1		[OT]	Evil Character ignores White Brigade.	Rare	Psalm 27:12		Evil	
+Cruelty (UL)	Main UL	Cruelty_(UL)	Main Unlimited	EE	Brown	1	1		[OT]	Evil Character ignores White Brigade.	Rare	Psalm 27:12		Evil	
+Cruelty (Wa)	War	Cruelty_(Wa)	Warriors	EE	Brown	3	4		[OT]	Evil Character is immune to White and Silver Brigades.	Common	Psalm 27:12		Evil	
 Crushing Blow	Ki	Crushing_Blow_(Ki)	Kings	GE	Purple	3	1		[OT]	Selected Hero gains access to any Site until Hero is discarded.	Common	II Samuel 22:30		Good	
 Cubus	AW	Cubus_(AW)	Angel Wars	Evil Character	Crimson	5	7		Demon,[NT]	You may search draw pile for 'Spiritual Realm' and put it in play.  Cubus may band to a female Evil Character.	Rare	I Timothy 4:1		Evil	
 Cup of Wrath	Prp	Cup_of_Wrath_(Pr)	Prophets	GE	Blue				[OT]	Holder may take any two Evil Characters in play and cause them to fight each other.  The loser is discarded.	Rare	Jeremiah 25:15-16		Good	
@@ -1042,7 +1042,7 @@ Deceptive Sin	Pri	Deceptive_Sin_(Pi)	Priests	EE	Gray				[OT]	Place in a player's
 Dedication of Samuel (L)	Main	Dedication_of_Samuel_(UL)	Main	GE	Gold	2	2		[OT]		Common	I Samuel 3:19-20		Good	
 Dedication of Samuel (UL)	Main UL	Dedication_of_Samuel_(UL)	Main Unlimited	GE	Gold	2	2		[OT]		Common	I Samuel 3:19-20		Good	
 Deepening Lie	Pat	Deepening_Lie_(Pa)	Patriarchs	EE	Gray	0	5		[OT]	Opponent must immediately discard a card from hand without using it.	Rare	Genesis 12:15		Evil	
-Defeating the Enemy	AW	Defeating_the_Enemy_(AW)	Angel Wars	GE	Silver				[NT]	Discard a demon in battle.	Common	Psalm 34:7		Good	
+Defeating the Enemy	AW	Defeating_the_Enemy_(AW)	Angel Wars	GE	Silver				[OT]	Discard a demon in battle.	Common	Psalm 34:7		Good	
 Defenestrated!	RoA	Defenestrated!_(RA2)	Rock of Ages	GE/EE	Purple/Brown				[OT]	If you have a King of Israel in play, you may remove an Evil Chartacter from the game. Cannot be prevented if King Jehu is in play.	Fixed	II Kings 9:32-33		Neutral	
 Defenestrated! (Roots)	RR	030-Defenestrated.jpg	Roots	GE/EE	Purple (Brown)	3 (1)	3 (3)		[OT]	GE: Banish an Evil Character. / EE: Human may band to an Evil Character.		II Kings 9:33		Good/Evil	Rotation
 Defiant	AW	Defiant_(AW)	Angel Wars	EE	Pale Green				[NT]	Place this card on a demon.  While this card remains, Three Nails does not prevent that demon from blocking and this demon cannot be ignored.	Common	Acts 19:15		Evil	
@@ -1368,8 +1368,8 @@ Evicted (CoW AB)	CoW (AB)	CoW_AB_N118-Evicted	Cloud of Witnesses (Alternate Bord
 Evil (L)	Main	Evil_(UL)	Main	EE	Pale Green	2	2		[Gospel]		Common	Matthew 12:35		Evil	
 Evil (UL)	Main UL	Evil_(UL)	Main Unlimited	EE	Pale Green	2	2		[Gospel]		Common	Matthew 12:35		Evil	
 Evil Advice	AW	Evil_Advice_(AW)	Angel Wars	EE	Gray				[NT]	Place this card on a Lost Soul.  If it is not rescued by the end of the current player's next turn, discard this card to place the Lost Soul beneath owner's draw pile.	Common	I Timothy 4:1		Evil	
-Evil Angel (Pi)	Pri	Evil_Angel_(Pi)	Priests	Evil Character	Orange	8	8		Generic, Demon,[NT]	Discard any Silver Brigade Hero of */6 or less in play or a set-aside area.	Common	Psalm 78:49		Evil	
-Evil Angel (Wa)	War	Evil_Angel_(Wa)	Warriors	Evil Character	Gold	8	8		[NT]	Discard any Silver Brigade Hero of 6/6 or less in play or set-aside area.	Uncommon	Psalm 78:49		Evil	
+Evil Angel (Pi)	Pri	Evil_Angel_(Pi)	Priests	Evil Character	Orange	8	8		Generic, Demon,[OT]	Discard any Silver Brigade Hero of */6 or less in play or a set-aside area.	Common	Psalm 78:49		Evil	
+Evil Angel (Wa)	War	Evil_Angel_(Wa)	Warriors	Evil Character	Gold	8	8		[OT]	Discard any Silver Brigade Hero of 6/6 or less in play or set-aside area.	Uncommon	Psalm 78:49		Evil	
 Evil Arises	AW	Evil_Arises_(AW)	Angel Wars	EE	Black	3	3		[NT]	Band one of your demons into battle from territory, hand, or The Pit.	Common	Revelation 9:2		Evil	
 Evil Armor (D)	2E	Evil_Armor_(DU)	2nd Edition	EE	Gold	2	3		[Gospel]	All of holder's Evil Characters gain 2/3 until end of battle.	Deck	Luke 11:22		Evil	
 Evil Armor (GoC)	GoC	253-Evil-Armor	Gospel of Christ	EE	Orange	X	4	Weapon	[X = # of your Gospel demons] Gospel,[Gospel]	Protect demon from Heroes with strength greater than demon’s toughness. Look at the top X (limit 6) cards of deck: Take up to 1 and underdeck the rest.	Common	Luke 11:22		Evil	Rotation
@@ -1377,7 +1377,7 @@ Evil Armor (Pi)	Pri	Evil_Armor_(Pi)	Priests	EE	Orange	2	4		[Gospel]	Interrupt th
 Evil Fire ( C)	2E	Evil_Fire_(CU)	2nd Edition	EE	Brown	3	5		[OT]		Deck	II Kings 17:17		Evil	
 Evil Fire (Pi)	Pri	Evil_Fire_(Pi)	Priests	EE	Brown	1	5		[OT]	Discard a Hero with toughness */3 or less	Common	II Kings 17:17		Evil	
 Evil Released (Roots)	RR	207-Evil-Released.jpg	Roots	EE	Orange	6	0	Territory	[NT]	Play a demon from discard pile or Reserve. If it is unique, banish this card.		Revelation 20:7		Evil	Rotation
-Evil Sacrifices	TEC	Evil_Sacrifices_(EC)	Early Church	EE	Orange	1	5		[NT]	Negate and discard all Artifacts that do not depict an Idol. Search deck or discard pile for a generic demon. Cannot be negated.	Ultra Rare	Psalm 97:7		Evil	Rotation
+Evil Sacrifices	TEC	Evil_Sacrifices_(EC)	Early Church	EE	Orange	1	5		[OT]	Negate and discard all Artifacts that do not depict an Idol. Search deck or discard pile for a generic demon. Cannot be negated.	Ultra Rare	Psalm 97:7		Evil	Rotation
 Evil Spawn (D)	2E	Evil_Spawn_(DU)	2nd Edition	Evil Character	Gold	4	5		False Religious Practice,[Gospel]	Discard the top card from any draw pile.	Deck	John 8:44		Evil	
 Evil Spawn (Pi)	Pri	Evil_Spawn_(Pi)	Priests	Evil Character	Orange	4	5		Generic, Demon,[Gospel]	Reveal the bottom card of draw pile.  If it is an evil card, take it into hand or add it to the battle.	Common	John 8:44		Evil	
 Evil Spawn [GoC] (GoC)	GoC	247-Evil-Spawn	Gospel of Christ	Evil Character	Orange	5	4	Warrior	Demon, Generic, Gospel,[Gospel]	You may take an orange Gospel Enhancement from deck. After battle, you may place this card on a Hero: You may underdeck this card to underdeck that Hero.	Common	John 8:44		Evil	Rotation
@@ -1512,12 +1512,12 @@ Famine of Egypt	IR	123-Famine-in-Egypt	Israel's Rebellion	EE	Pale Green	5	0		[OT
 Famished	IR	125-Famished	Israel's Rebellion	EE	Pale Green	2	4		[OT]	If used by a pharaoh, interrupt the battle. You may discard the top 3 cards of a deck and play an Enhancement.	Common	Genesis 47:19		Evil	Rotation
 Father Abraham / Faithful Abraham (LoC Plus)	LoC	064-Abraham-UR-Plus	Lineage of Christ	Hero	Blue/Green (Blue/Red)	12(1)	12(1)	Warrior, Cloud, Star	Patriarch, Prophet, Patriarch, Prophet, X = # of your patriarchs (Patriarch, Prophet),[OT]	STAR: Play a meek red Hero from deck. TOP: You may activate this card’s * ability and/or draw X (limit 3). If you do, convert this card to meek. Cannot be negated. BOTTOM: Meek	Ultra Rare	Genesis 11:26		Good	Rotation
 Father Abraham / Faithful Abraham (LoC)	LoC	LoC_064-Abraham-UR	Lineage of Christ	Hero	Blue/Green (Blue/Red)	12(1)	12(1)	Warrior, Cloud, Star	Patriarch, Prophet, Patriarch, Prophet, X = # of your patriarchs (Patriarch, Prophet),[OT]	STAR: Play a meek red Hero from deck. TOP: You may activate this card’s * ability and/or draw X (limit 3). If you do, convert this card to meek. Cannot be negated. BOTTOM: Meek	Ultra Rare	Genesis 11:26		Good	Rotation
-Fear of Danger	AW	Fear_of_Danger_(AW)	Angel Wars	EE	Pale Green				[NT]	Place this card on a Hero in a territory.  Hero cannot enter battle until this card is removed.	Common	Psalm 55:4		Evil	
+Fear of Danger	AW	Fear_of_Danger_(AW)	Angel Wars	EE	Pale Green				[OT]	Place this card on a Hero in a territory.  Hero cannot enter battle until this card is removed.	Common	Psalm 55:4		Evil	
 Fear of Man (GoC)	GoC	235-Fear-of-Man	Gospel of Christ	EE	Gray	6	0	Territory	[Gospel]	Negate a good or neutral card this turn. Character may band to a Pharisee, or you may take a N.T. gray card from Reserve.	Common	John 12:42		Evil	Rotation
 Fear of the Lord	Pri	Fear_of_the_Lord_(Pi)	Priests	GE	Gold	3	4		[OT]	Discard an evil Enhancement or Curse in play.	Common	II Chronicles 19:9		Good	
 Fearfulness	AW	Fearfulness_(AW)	Angel Wars	EE	Gray				[NT]	Look at opponent's hand and select one good card in that hand.  Place that card beneath owner's draw pile.	Common	II Corinthians 7:5		Evil	
 Fearfulness (EC)	TEC	Fearfulness_(EC)	Early Church	EE	Orange				X=# of evil brigades in battle,[NT]	Withdraw and paralyze X Heroes in battle for X turns. Cannot be negated if more than one Hero is in battle.	Common	II Corinthians 7:6		Evil	Rotation
-Fearless Traveler (Promo)	Pmo-P2	Fearless-Traveler_(Promo)	Promo	Hero	White	2	1		Generic, Involves Music, X=# of your Evil Characters,[NT]	You may underdeck up to X cards from hand to look at an equal number of cards from top of deck. Add any number to hand, and topdeck and/or underdeck the rest. Cannot be interrupted.	Promo	Psalm 23:4		Good	Rotation
+Fearless Traveler (Promo)	Pmo-P2	Fearless-Traveler_(Promo)	Promo	Hero	White	2	1		Generic, Involves Music, X=# of your Evil Characters,[OT]	You may underdeck up to X cards from hand to look at an equal number of cards from top of deck. Add any number to hand, and topdeck and/or underdeck the rest. Cannot be interrupted.	Promo	Psalm 23:4		Good	Rotation
 Fearlessness of Joshua (L)	Main	Fearlessness_of_Joshua_(UL)	Main	GE	Gold	2	2		[OT]		Common	Numbers 14:9		Good	
 Fearlessness of Joshua (UL)	Main UL	Fearlessness_of_Joshua_(UL)	Main Unlimited	GE	Gold	2	2		[OT]		Common	Numbers 14:9		Good	
 Feast of Atonement (LoC)	LoC	LoC_137-Feast-of-Atonement	Lineage of Christ	GE	Blue/Gold/Teal	4	2	Territory	Feast,[OT]	Negate an evil or neutral card. If played in battle, you may banish an evil card from a discard pile to resurrect a meek Hero. Hero may band to that Hero.	Common	Ezra 3:5		Good	Rotation
@@ -1613,7 +1613,7 @@ Forgiveness of Joseph (FooF)	FoOF	Forgiveness_of_Joseph_(FF2)	Faith of Our Fathe
 Forgiveness of Joseph (L)	Main	Forgiveness_of_Joseph_(UL)	Main	GE	White	2	2		[OT]		Common	Genesis 50:19-21		Good	
 Forgiveness of Joseph (UL)	Main UL	Forgiveness_of_Joseph_(UL)	Main Unlimited	GE	White	2	2		[OT]		Common	Genesis 50:19-21		Good	
 Forgiveness of Joseph [IR]	IR	051-Forgiveness-of-Joseph	Israel's Rebellion	GE	Blue	1	4		[OT]	Negate an evil card. Opponent must underdeck an evil card from hand. Cannot be negated.	Common	Genesis 45:1		Good	Rotation
-Forgotten History	Pri	Forgotten_History_(Pi)	Priests	EE	Pale Green	0	4		[NT]	Select up to four cards from one opponent's discard pile and remove them from the game.  The battle immediately ends.  Cannot be negated	Common	Psalm 106:13		Evil	
+Forgotten History	Pri	Forgotten_History_(Pi)	Priests	EE	Pale Green	0	4		[OT]	Select up to four cards from one opponent's discard pile and remove them from the game.  The battle immediately ends.  Cannot be negated	Common	Psalm 106:13		Evil	
 Formal Training	3E	Formal_Training_(F)	3rd Edition	GE	Gold	3	3		[Gospel]	Hero is immune to crimson brigade.	Deck	Luke 2:46		Good	
 Fortify Site (Ki)	Ki	Fortify_Site_(Ki)	Kings	EE	Gray	2	2		[OT]	Take an Evil Character from your hand and place it face down on an occupied Site.  A rescue attempt at that Site allows the character to band into battle.	Uncommon	Judges 9:31		Evil	
 Fortify Site (RoA)	RoA	Fortify_Site_(RA2)	Rock of Ages	EE	Black	1	5	Territory	[OT]	Search discard pile for a black Canaanite of a Canaanite Site and put it in play to discard an Artifact. Protect it from opponents while it remains in territory.	Fixed	Judges 9:31		Evil	
@@ -1815,9 +1815,9 @@ Greek Scholars	Ap	Greek_Scholars_(Ap)	Apostles	Evil Character	Black	3	7		[NT]	Wo
 Greek Scholars (Roots)	RR	146-Greek-Scholars.jpg	Roots	Evil Character	Black	7	9		Generic, Greek,[NT]	If opponent has used a search ability this turn, discard a card in their territory. Cannot be interrupted.		I Corinthians 1:20		Evil	Rotation
 Greeting (RoJ AB)	RoJ (AB)	RoJ_AB_N65-Greeting	Revelation of John (Alternate Border)	GE	Clay	1	5		[NT]	Interrupt the battle. Name a Hero. Your Hero may band to the named Hero from opponent’s hand, deck, discard pile and/or territory.	Common	III John 1:15		Good	Rotation
 Greeting (RoJ)	RoJ	65-Greeting	Revelation of John	GE	Clay	1	5		[NT]	Interrupt the battle. Name a Hero. Your Hero may band to the named Hero from opponent's hand, deck, discard pile and/or territory.	Common	III John 1:15		Good	Rotation
-Grief (A)	Main	Grief_(A)	Main	EE	Gold	2	2		[NT]		Common	Psalm 69:26		Evil	
-Grief (D)	2E	Grief_(DU)	2nd Edition	EE	Gold	2	3		[NT]		Deck	Psalm 69:26		Evil	
-Grief (UL)	Main UL	Grief_(UL)	Main Unlimited	EE	Gold	2	2		[NT]		Common	Psalm 69:26		Evil	
+Grief (A)	Main	Grief_(A)	Main	EE	Gold	2	2		[OT]		Common	Psalm 69:26		Evil	
+Grief (D)	2E	Grief_(DU)	2nd Edition	EE	Gold	2	3		[OT]		Deck	Psalm 69:26		Evil	
+Grief (UL)	Main UL	Grief_(UL)	Main Unlimited	EE	Gold	2	2		[OT]		Common	Psalm 69:26		Evil	
 Grievous Departure	3E	Grievous_Departure_(E)	3rd Edition	EE	Crimson	2	4		[Gospel]	Opponent must discard a card from hand.  Holder may draw a card.	Deck	Luke 15:13		Evil	
 Grumbling at God	IR	086-Grumbling-at-God	Israel's Rebellion	EE	Brown/Gray	3	1		[OT]	If used by a wilderness human, negate other Enhancements. Withdraw all characters (except 1 Hero and 1 Evil Character). Cannot be prevented.	Common	Numbers 11:1		Evil	Rotation
 Guardian Angel (Ap)	Ap	Guardian_Angel_(Ap)	Apostles	Hero	Silver	7	3		[Gospel]	Heal any Hero in play.	Uncommon	Matthew 18:10		Good	
@@ -1885,8 +1885,8 @@ Hate (D)	2E	Hate_(DU)	2nd Edition	EE	Black	2	3		[Gospel]	Evil Character repels g
 Hate (L)	Main	Hate_(UL)	Main	EE	Black	1	1		[Gospel]	Evil Character repels Green Brigade.	Rare	John 3:20		Evil	
 Hate (UL)	Main UL	Hate_(UL)	Main Unlimited	EE	Black	1	1		[Gospel]	Evil Character repels Green Brigade.	Rare	John 3:20		Evil	
 Hate the Light (GoC)	GoC	252-Hate-the-Light-R	Gospel of Christ	EE	Orange	3	2	Territory	Gospel,[Gospel]	If played in battle, underdeck all Heroes. You may place in a territory: Protect Heroes in that territory from Artifacts and other Heroes.	Rare	John 3:20		Evil	Rotation
-Hate Wickedness	CoW	Hate_Wickedness_(CoW)	Cloud of Witnesses	GE	White	4	3		Involves Music,[NT]	Remove an Evil Character from the game.	Common	Hebrews 1:9 (Psalm 45:7)		Good	Rotation
-Hate Wickedness (CoW AB)	CoW (AB)	CoW_AB_N88-Hate-Wickedness	Cloud of Witnesses (Alternate Border)	GE	White	4	3		Involves music,[NT]	Remove an Evil Character from the game.	Common	Hebrews 1:9 (Psalm 45:7)		Good	Rotation
+Hate Wickedness	CoW	Hate_Wickedness_(CoW)	Cloud of Witnesses	GE	White	4	3		Involves Music,[OT]	Remove an Evil Character from the game.	Common	Hebrews 1:9 (Psalm 45:7)		Good	Rotation
+Hate Wickedness (CoW AB)	CoW (AB)	CoW_AB_N88-Hate-Wickedness	Cloud of Witnesses (Alternate Border)	GE	White	4	3		Involves music,[OT]	Remove an Evil Character from the game.	Common	Hebrews 1:9 (Psalm 45:7)		Good	Rotation
 Hating the Light	Di	Hating_the_Light_(Di)	Disciples	EE	Multi			Territory	[Gospel]	Place on your human Evil Character Character: This Evil Character Character cannot be ignored and is protected from capture, conversion, and shuffle.	Fixed	John 3:20		Evil	
 He Is Risen	RoA	He_Is_Risen_(RA)	Rock of Ages	GE	White	3	3		X = the number of your N.T. Female Heroes in play,[Gospel]	Interrupt the battle and set aside X Evil Characters for X turns. You may add a N.T. angel to battle.	Fixed	Matthew 28:6		Good	
 He is Risen (GoC)	GoC	LR59-He-is-Risen	Gospel of Christ	GE	White	3	3		X = # of your N.T. female Heroes in play,[Gospel]	Interrupt the battle. Set aside X Evil Characters for X turns. Hero may band to a N.T. angel.	Legacy Rare	Matthew 28:6		Good	Rotation
@@ -2008,8 +2008,8 @@ Honey from a Lion (CoW)	CoW	Honey_from_a_Lion_(CoW)	Cloud of Witnesses	Curse	Cri
 Honor Thy Enemy	PoC	080-Honor-Thy-Enemy	Prophecies of Christ	GE/EE	White/Brown	-(0)	-(5)		[OT]	GE: Set aside all Evil Characters in battle for 2 turns. EE: If used by a Persian, end the battle.	Common	Esther 6:11		Neutral	Rotation
 Hooked and Shackled (LoC)	LoC	LoC_237-Hooked-and-Shackled	Lineage of Christ	EE	Pale Green	3	3	Territory	[OT]	You may capture a king of Judah (or a character if played in battle) to a player. If used by a blocking Assyrian, you may reserve this card after battle.	Common	II Chronicles 33:11		Evil	Rotation
 Hope	FoM	146-Hope-R	Fall of Man	Hero/GE	Clay/White/Green/Teal	0	12	Territory	Symbolic, Hero is Territory Class,[NT]	HERO: You may take Joy, Peace or The Holy Spirit from deck, discard pile or Reserve. GE: Interrupt the battle. Look at the top 7 cards of deck: Take a good card (or add it to battle).	Rare	Romans 15:13		Good	Rotation
-Hope (L)	Main	Hope_(UL)	Main	GE	Red	2	2		[NT]		Common	Psalm 31:24		Good	
-Hope (UL)	Main UL	Hope_(UL)	Main Unlimited	GE	Red	2	2		[NT]		Common	Psalm 31:24		Good	
+Hope (L)	Main	Hope_(UL)	Main	GE	Red	2	2		[OT]		Common	Psalm 31:24		Good	
+Hope (UL)	Main UL	Hope_(UL)	Main Unlimited	GE	Red	2	2		[OT]		Common	Psalm 31:24		Good	
 Hophni, son of Eli	Pri	Hophni_son_of_Eli_(Pi)	Priests	Evil Character	Pale Green	2	2		Israelite Priest, House of Ithamar,[OT]	May band to Phinehas, son of Eli.	Uncommon	I Samuel 2:12		Evil	
 Hophni, the Profane	IR	108-Hophni-the-Profane	Israel's Rebellion	Evil Character	Gray	5	4		Tabernacle Priest,[OT]	Negate Heroes. If opponent has board advantage, you may exchange this card with Phinehas, the Useless from deck or territory.	Common	I Samuel 2:17		Evil	Rotation
 Hormah	FoOF	Hormah_(FF)	Faith of Our Fathers	Site	Blue				[OT]	If your human Evil Character is discarded, you may place this Site and its contents beneath owner's deck.	Fixed	Judges 1:17		Neutral	
@@ -2034,7 +2034,7 @@ Huge Egyptian (Roots)	RR	215-Huge-Egyptian.jpg	Roots	Evil Character	Pale Green	9
 Huldah	Prp	Huldah_(Pr)	Prophets	Hero	Gold	7	5		[OT]		Uncommon	II Kings 22:14		Good	
 Huldah (PoC)	PoC	074-Huldah	Prophecies of Christ	Hero	Green	3	4		Prophet,[OT]	If a good king of Judah is in play, you may shuffle an Evil Character. Its owner may shuffle an evil Enhancement from their discard pile.	Common	II Kings 22:14		Good	Rotation
 Human Wisdom	Ap	Human_Wisdom_(Ap)	Apostles	EE	Pale Green	0	7		[NT]		Common	I Corinthians 1:21		Evil	
-Humble Seeker	Pmo-P2	Humble-Seeker-2021	Promo	Hero	Clay/Red	4	4		Generic, Symbolic, Invovles Music,[NT]	You may exchange this card with a meek Hero from deck, Reserve or discard pile. Protect meek Heroes and Lost Souls from an evil brigade of your choice. Cannot be prevented.	Promo	Psalm 69:32		Good	Rotation
+Humble Seeker	Pmo-P2	Humble-Seeker-2021	Promo	Hero	Clay/Red	4	4		Generic, Symbolic, Invovles Music,[OT]	You may exchange this card with a meek Hero from deck, Reserve or discard pile. Protect meek Heroes and Lost Souls from an evil brigade of your choice. Cannot be prevented.	Promo	Psalm 69:32		Good	Rotation
 Humility of Moses (L)	Main	Humility_of_Moses_(UL)	Main	GE	Gold	2	2		[OT]		Common	Numbers 12:3		Good	
 Humility of Moses (UL)	Main UL	Humility_of_Moses_(UL)	Main Unlimited	GE	Gold	2	2		[OT]		Common	Numbers 12:3		Good	
 Hunger	Prp	Hunger_(Pr)	Prophets	EE	Black				[OT]	All Heroes of one opponent decrease 6/6 for remainder of turn.  If result is */0 or less, discard Hero.	Rare	Lamentations 4:9		Evil	
@@ -2056,14 +2056,14 @@ I AM Has Sent Me	PoC	021-I-AM-Has-Sent-Me	Prophecies of Christ	GE	Green/Teal	3	2
 I Am He (GoC)	GoC	118-I-Am-He	Gospel of Christ	GE	Purple	7	0	Territory, Star	[Gospel]	STAR: Look at a hand or a Reserve. GE: You may reveal a good Dominant from hand to protect Lost Souls from evil cards and disciples from harm this turn.	Common	John 18:6		Good	Rotation
 I am Healing	AW	I_am_Healing_(AW)	Angel Wars	Covenant	Gold	0	4		[OT]	Holder may heal all of holder's Heroes in play.  May be used twice.	Common	Exodus 15:26		Good	
 I am Holy	AW	I_am_Holy_(AW)	Angel Wars	Covenant	Blue	5	2		[OT]	Upon activation, holder may discard a good card from hand to make an opponent discard an evil card from hand.  If opponent has no evil cards in hand, opponent must reveal hand.	Common	Leviticus 19:2		Good	
-I am Justice	AW	I_am_Justice_(AW)	Angel Wars	Covenant	Silver	5	2		[NT]	If an Evil Character discards your Hero this battle, you may discard that Evil Character at the end of the turn.  Limit two discards per game.	Rare	Psalm 119:137		Good	
+I am Justice	AW	I_am_Justice_(AW)	Angel Wars	Covenant	Silver	5	2		[OT]	If an Evil Character discards your Hero this battle, you may discard that Evil Character at the end of the turn.  Limit two discards per game.	Rare	Psalm 119:137		Good	
 I am Love	AW	I_am_Love_(AW)	Angel Wars	Covenant	White	3	4		[NT]	If a human Evil Character (except warrior class) is blocking your Hero, interrupt the battle and search discard pile for a white brigade enhancement with "ignores" in the special ability and play it. Limit once per turn.	Common	I John 4:8		Good	
-I am Mercy	AW	I_am_Mercy_(AW)	Angel Wars	Covenant	Purple	2	5		[NT]	Protect holder's hand and draw pile from discard abilities on evil cards.	Common	Psalm 103:8		Good	
+I am Mercy	AW	I_am_Mercy_(AW)	Angel Wars	Covenant	Purple	2	5		[OT]	Protect holder's hand and draw pile from discard abilities on evil cards.	Common	Psalm 103:8		Good	
 I am Patience	AW	I_am_Patience_(AW)	Angel Wars	Covenant	Green	2	5		[NT]	At the end of your turn, if your rescue attempt failed you may convert one human Evil Character (except warrior class) to a green brigade Hero.	Common	II Peter 3:9		Good	
 I am Redemption	AW	I_am_Redemption_(AW)	Angel Wars	Covenant	Gold	3	4		[NT]	Return your captured Heroes to your territory.  Cannot be negated by an evil card.	Common	Ephesians 1:7		Good	
 I Am Redemption (Roots)	RR	025-I-Am-Redemption.jpg	Roots	Covenant	Silver	3	4		[NT]	GE: Convert all evil humans in battle. Discard all evil non-humans in battle. / A: Negate Lost Souls. Release all captured Heroes.		Ephesians 1:7		Good	Rotation
 I am Salvation	AW	I_am_Salvation_(AW)	Angel Wars	Covenant	Green	3	4		[Gospel]	Negate all special abilities on Lost Soul cards (except the 'Lost Souls' card).  May be used twice.	Common	John 3:16		Good	
-I am Sustainer	AW	I_am_Sustainer_(AW)	Angel Wars	Covenant	Silver	2	5		[NT]	Protect holder's Heroes from having their abilities reduced.  Restore all of holder's Heroes to full abilities.	Common	Psalm 55:22		Good	
+I am Sustainer	AW	I_am_Sustainer_(AW)	Angel Wars	Covenant	Silver	2	5		[OT]	Protect holder's Heroes from having their abilities reduced.  Restore all of holder's Heroes to full abilities.	Common	Psalm 55:22		Good	
 I Am Sustainer (Roots)	RR	024-I-Am-Sustainer.jpg	Roots	Covenant	Gold	2	5		[OT]	GE: Banish an evil card. / A: Your single-brigade O.T. Heroes cannot be prevented in battle.		Nehemiah 1:5		Good	Rotation
 I am Truth	AW	I_am_Truth_(AW)	Angel Wars	Covenant	White	2	3		[Gospel]	Good enhancements with "ignore" in the special ability cannot be negated by evil cards.	Common	John 14:6		Good	
 Ibzan	FoOF	Ibzan_(FF)	Faith of Our Fathers	Hero	Gold	7	7		Judge,[OT]	Good Enhancements with a Judges reference cannot be negated.	Fixed	Judges 12:8		Good	
@@ -2248,7 +2248,7 @@ Jezebel's Teaching (RoJ)	RoJ	97-Jezebels-Teaching	Revelation of John	EE	Black/Cr
 Joab (CoW AB)	CoW (AB)	CoW_AB_N23-Joab	Cloud of Witnesses (Alternate Border)	Hero/Evil Character	Red/Brown	11(10)	10(11)	Warrior	When put in play, choose Joab to be good or evil,[OT]	Protect Joab from underdeck. After battle, you may discard a warrior class Evil Character. May band to an O.T. warrior class character matching Joab’s brigade.	Common	I Chronicles 11:6		Neutral	Rotation
 Joab (CoW)	CoW	Joab_(CoW)	Cloud of Witnesses	Hero/Evil Character	Red/Brown	11	10	Warrior	When put in play, choose Joab to be good or evil,[OT]	Protect Joab from underdeck. After battle, you may discard a warrior class Evil Character. May band to an O.T. warrior class character matching Joab's brigade.	Common	I Chronicles 11:6		Neutral	Rotation
 Joab (L)	Main	Joab_(UL)	Main	Hero	Red	6	6		[OT]		Rare	I Chronicles 11:6		Good	
-Joab (Promo)	Pmo-P1	Joab_(Promo)	Promo	Hero	Red	8	10		[NT]	Joab may band to any red brigade Hero mentioned in I and II Samuel.	Promo	Old Testament		Good	
+Joab (Promo)	Pmo-P1	Joab_(Promo)	Promo	Hero	Red	8	10		[OT]	Joab may band to any red brigade Hero mentioned in I and II Samuel.	Promo	Old Testament		Good	
 Joab (UL)	Main UL	Joab_(UL)	Main Unlimited	Hero	Red	6	6		[OT]		Rare	I Chronicles 11:6		Good	
 Joanna (Di)	Di	Joanna_(Di)	Disciples	Hero	White	7	6		[Gospel]	Discard Herod's Dungeon.  Immune to Herods.  Negate special abilities on Evil Character Characters with toughness 2 or less.	Fixed	Luke 8:3		Good	
 Joanna (Wo)	Wom	Joanna_(Wo)	Women	Hero	Green	7	6		[Gospel]	Discard Herod's Dungeon when Joanna is involved in a successful rescue at that Site.	Common	Luke 8:3		Good	
@@ -2315,7 +2315,7 @@ Joseph's Brothers' Scheme	Pat	Joseph's_Brothers'_Scheme_(Pa)	Patriarchs	EE	Gold	
 Joseph's House	IR	018-Josephs-House-R	Israel's Rebellion	Fortress					Holds a son of Jacob,[OT]	Protect sons of Jacob in territory from harm. Each upkeep, if occupied, each player must underdeck an evil card from hand or territory.	Rare	Genesis 43:17		Good	Rotation
 Joseph's Silver Cup	Pat	Joseph's_Silver_Cup_(Pa)	Patriarchs	Artifact					[OT]	All opponents' currently activated Artifacts must remain activated for one round.  No new artifacts may be activated.  May be used twice	Rare	Genesis 44:2		Neutral	
 Joseph's Silver Cup (PoC)	PoC	019-Josephs-Silver-Cup-R	Prophecies of Christ	Artifact					Unity: Heroes (Genesis),[OT]	Look at the top 3 cards of deck: Take 1 and underdeck the rest in any order. At any time, you may discard this card to capture your son of Jacob to a Land of Bondage.	Rare	Genesis 44:2		Neutral	Rotation
-Joshua	Pmo-P1	Joshua_(Promo)	Promo	Hero	Gold	11	9		[NT]	If a rescue or battle challenge is successful, take one unoccupied single color Lost Soul site from your opponent and add it to your territory.	Promo	Old Testament		Good	
+Joshua	Pmo-P1	Joshua_(Promo)	Promo	Hero	Gold	11	9		[OT]	If a rescue or battle challenge is successful, take one unoccupied single color Lost Soul site from your opponent and add it to your territory.	Promo	Old Testament		Good	
 Joshua Burns the City	Ki	Joshua_Burns_the_City_(Ki)	Kings	GE	Gold	4	0		[OT]	Discard a single color Lost Soul Site and all evil cards guarding it.  Lost Soul(s) remains in play.	Common	Joshua 8:19		Good	
 Joshua the High Priest	Pri	Joshua_the_High_Priest_(Pi)	Priests	Hero	Teal	7	8		Zerubabel's Temple High Priest, House of Eleazar,[OT]	Enhancements used by this Hero cannot be negated.  If a silver brigade Hero is in play, this Hero is immune to pale green brigade.	Rare	Zechariah 3:1		Good	
 Joshua the High Priest (PoC)	PoC	LR35-Joshua-the-High-Priest	Prophecies of Christ	Hero	Teal	7	8		Zerubbabel's Temple High Priest, House of Eleazar,[OT]	Enhancements used by this Hero cannot be negated. If a silver Hero is in play, protect this Hero from pale green.	Legacy Rare	Zechariah 3:1		Good	Rotation
@@ -2393,7 +2393,7 @@ King Ben-Hadad I	Ki	King_Ben_Hadad_I_(Ki)	Kings	Evil Character	Gray	7	7	Warrior	
 King Cushan-Rishathaim	FoOF	King_Cushan-Rishathaim_(FF)	Faith of Our Fathers	Evil Character	Gray	8	8	Warrior	King of Aram Nahariam (Syria),[OT]	Prevent the special ability on the next Enhancement opponent plays this battle.	Fixed	Judges 3:8		Evil	
 King Cushan-Rishathaim (Roots)	RR	188-King-Cushan-rishathaim.jpg	Roots	Evil Character	Gray	8	8	Warrior	Syrian King,[OT]	Prevent the next Enhancement played by opponent. You may capture a Hero in a territory.		Judges 3:8		Evil	Rotation
 King Darius, the Mede	PoC	157-King-Darius-R	Prophecies of Christ	Evil Character	Brown	8	9	Warrior	Persian King,[OT]	After battle, you may take a City and play it, or take an evil human warrior to territory and convert it to brown: That character gains “Persian”. May band to a Persian warrior. Cannot be negated.	Rare	Daniel 5:31		Evil	Rotation
-King David	Pmo-P1	King_David_(Promo)	Promo	Hero	Purple	11	11		[NT]	May not be blocked by any member of any royal family.	Promo	Old Testament		Good	
+King David	Pmo-P1	King_David_(Promo)	Promo	Hero	Purple	11	11		[OT]	May not be blocked by any member of any royal family.	Promo	Old Testament		Good	
 King Eglon	FoM	089-King-Eglon	Fall of Man	Evil Character	Gray	3	12	Warrior	Moabite King,[OT]	You may draw 1, take a Moabite from deck or Reserve, or opponent must give you an Enhancement from hand. Search abilities cannot be interrupted.	Common	Judges 3:17		Evil	Rotation
 King Elah	Ki	King_Elah_(Ki)	Kings	Evil Character	Gold	1	1		Israelite King,[OT]	Discard King Elah after this battle if King Zimri is in play.	Uncommon	I Kings 16:8		Evil	
 King Evil-merodach	Pri	King_Evil-merodach_(Pi)	Priests	Evil Character	Crimson	8	11	Warrior	Babylonian King,[OT]	Protect all human Evil Characters in your territory from opponent's cards.	Uncommon	II Kings 25:27		Evil	
@@ -2471,8 +2471,8 @@ King Zedekiah	Ki	King_Zedekiah_(Ki)	Kings	Evil Character	Brown	1	1	Warrior	Judea
 King Zedekiah (Roots)	RR	164-King-Zedekiah.jpg	Roots	Evil Character	Brown	1	1	Warrior	King of Judah,[OT]	Each player may topdeck a meek Lost Soul. You may underdeck a brown Enhancement with a capture ability from discard pile.		II Kings 24:17		Evil	Rotation
 King Zimri	Ki	King_Zimri_(Ki)	Kings	Evil Character	Crimson	4	3	Warrior	Israelite King,[OT]	Discard King Elah.  Holder may discard a crimson enhancement from hand to discard all cards in battle.  Discard King Zimri after one block.	Uncommon	I Kings 16:15		Evil	
 King Zimri (Roots)	RR	161-King-Zimri.jpg	Roots	Evil Character	Brown	4	3	Warrior	King of Israel,[OT]	You may discard an O.T. brown Enhancement from hand to discard all cards in battle.		I Kings 16:15		Evil	Rotation
-King's Daughter	Wom	King's_Daughter_(Wo)	Women	Hero	Purple	6	3		[NT]	Character has access to any Site.	Common	Psalm 45:13-14		Good	
-King's Daughter (Roots)	RR	097-Kings-Daughter.jpg	Roots	Hero	Purple	6	8		Generic, Involves music, Royalty,[NT]	Prevent the next evil Enhancement used by a male in battle.		Psalm 45:13		Good	Rotation
+King's Daughter	Wom	King's_Daughter_(Wo)	Women	Hero	Purple	6	3		[OT]	Character has access to any Site.	Common	Psalm 45:13-14		Good	
+King's Daughter (Roots)	RR	097-Kings-Daughter.jpg	Roots	Hero	Purple	6	8		Generic, Involves music, Royalty,[OT]	Prevent the next evil Enhancement used by a male in battle.		Psalm 45:13		Good	Rotation
 King's Pomp	TEC	King's_Pomp_(EC)	Early Church	EE	Multi			Territory	[NT]	Discard opponents' good placed Enhancements. Place on your evil King: Negate Ignore and Site Access abilities. Protect your hand from opponents' cards.	Rare	Acts 12:21		Evil	Rotation
 King's Signet Ring (LoC)	LoC	LoC_008-Kings-Signet-Ring	Lineage of Christ	Artifact					May be activated on your king of Judah,[OT]	If your lone king attacks, you may take a good O.T. weapon from deck (or equip one from deck or discard pile if that king is meek). While active on a king, negate O.T. Lost Souls.	Common	II Kings 18:14		Neutral	Rotation
 King's Sword ( C)	2E	King's_Sword_(C)	2nd Edition	Artifact					[NT]	Negate all immune abilities on characters.	Deck	Revelation 19:15		Neutral	
@@ -2499,7 +2499,7 @@ Laban (F)	3E	Laban_(F)	3rd Edition	Evil Character	Gray	9	9		[OT]		Deck	Genesis 3
 Laban (Promo)	Pmo-P1	Laban_(Promo)	Promo	Evil Character	Gray/Pale Green	2	7		Syrian/Aramean, Magician,[OT]	You may exchange your female Genesis Hero with opponent's male, human Hero for 7 turns.  Limit twice per game.	Promo	Genesis 31:2-3		Evil	
 Laban [2018 - State]	Pmo-P2	Laban-FoM-Promo	Promo	Evil Character	Gray/Pale Green	2	7		Syrian, Magician,[OT]	You may exchange your Genesis female Hero with opponent's male human Hero for 7 turns. Limit twice per game.	Promo	Genesis 31:2-3		Evil	Rotation
 Laban, the Deal Breaker (Roots)	RR	143-Laban.jpg	Roots	Evil Character	Gray/Pale Green	2	7		Magician, Syrian,[OT]	You may look at the top 6 cards of deck: Take up to 1 evil card and topdeck or underdeck the rest.		Genesis 30:27		Evil	Rotation
-Lacking Prophecy	PoC	083-Lacking-Prophecy-R	Prophecies of Christ	Curse	Brown/Crimson/Gray				[NT]	EE: Banish this card to shuffle all prophets. Cannot be negated. ART: Restrict all players with more than 4 cards in hand from playing Dominants.	Rare	Psalm 74:9		Evil	Rotation
+Lacking Prophecy	PoC	083-Lacking-Prophecy-R	Prophecies of Christ	Curse	Brown/Crimson/Gray				[OT]	EE: Banish this card to shuffle all prophets. Cannot be negated. ART: Restrict all players with more than 4 cards in hand from playing Dominants.	Rare	Psalm 74:9		Evil	Rotation
 Lacking Sleep	Ap	Lacking_Sleep_(Ap)	Apostles	EE	Brown				[NT]	Hero decreases 1/1 each turn until */1.  While Hero is Lacking Sleep, player must allow the opponent to play the first enhancement in battle.  Treat as a disease.	Rare	II Corinthians 6:5		Evil	
 Lahmi (I)	I	Lahmi_(I)	I	Evil Character	Black	10	10	Warrior	Philistine Giant,[OT]		Deck	I Chronicles 20:5		Evil	Rotation
 Lahmi (Ki)	Ki	Lahmi_(Ki)	Kings	Evil Character	Gold	10	10	Warrior	Philistine Giant,[OT]	May band to one warrior class Philistine Evil Character.	Uncommon	II Samuel 21:19		Evil	
@@ -2558,7 +2558,7 @@ Letters to the Corinthians	TEC	Letters_to_the_Corinthians	Early Church	Artifact	
 Letters to the Thessalonians	TEC	Letters_to_the_Thessalonians	Early Church	Artifact					[NT]	On activation, you may exchange a card in hand with a good I or II Thessalonians card in discard pile. Protect your discard pile from opponents. Thessalonian Heroes ignore Heretics.	Common	I Thessalonians 1:1		Neutral	Rotation
 Levi	RoA	Levi_(RA)	Rock of Ages	Hero	Blue	10	10	Warrior	Patriarch, son of Jacob,[OT]	If a captured Genesis Hero is in opponent's territory, discard a male human Evil Character from that territory. Levi has access to all Sites.	Fixed	Genesis 34:25		Good	
 Levi, the Fierce	IR	036-Levi-the-Fierce	Israel's Rebellion	Hero	Blue	10	12		Patriarch, Son of Jacob,[OT]	Opponent may underdeck an evil card from hand. If they do not, you may discard an evil card from a Reserve. You may draw 1.	Common	Genesis 49:5		Good	Rotation
-Leviathan	Pat	Leviathan_(Pa)	Patriarchs	Evil Character	Crimson	12	12		[NT]	All effects of all enhancements with ship in the title are negated.  Leviathan cannot be captured.	Ultra Rare	Psalm 104:26		Evil	
+Leviathan	Pat	Leviathan_(Pa)	Patriarchs	Evil Character	Crimson	12	12		[OT]	All effects of all enhancements with ship in the title are negated.  Leviathan cannot be captured.	Ultra Rare	Psalm 104:26		Evil	
 Leviathan (FoM)	FoM	138-Leviathan-R	Fall of Man	GE/Evil Character	Blue/Brown/Crimson	13	13	Territory	Animal, Generic, Character is Territory Class,[OT]	If your Job character blocks, you may take an evil Job card from Reserve. If your animal blocks, you may take an animal from deck. Protect Job animals from opponents' Dominants. Cannot be negated.	Rare	Job 41		Neutral	Rotation
 Lewd Men	3E	Lewd_Men_(E)	3rd Edition	EE	Brown	0	3		[NT]	Repel all female Heroes.	Deck	Jude 1:4		Evil	
 Liberating Angel (Ap)	Ap	Liberating_Angel_(Ap)	Apostles	Hero	Silver	7	8		[NT]	Hero has access to any site where a Hero is held prisoner as a Lost Soul.	Uncommon	Acts 5:18-20		Good	
@@ -2655,7 +2655,7 @@ Lost Soul "Lawless" [Hebrews 12:8] [2021 - 1st Place]	Pmo-P2	Lost-Soul-Lawless-H
 Lost Soul "Lawless" [Hebrews 12:8] [AB - CoW]	CoW (AB)	CoW_AB_N22-Lost-Soul---Heb-12.8	Cloud of Witnesses (Alternate Border)	Lost Soul					["Lawless"],[NT]	If you draw this card, you may reveal the top 6 cards of a deck: Put Lost Souls in play, and the deck’s owner may add a revealed evil card to hand. Underdeck the rest.	Common	Hebrews 12:18		Neutral	Rotation
 Lost Soul "Lost Boy" [Ezekiel 34:12 - PoC]	PoC	144-Lost-Soul-Lost-Boy-Ezekiel-34_12	Prophecies of Christ	Lost Soul					["Lost Boy"],[OT]	Protect this Lost Soul from rescue (except by a lone Hero). If your evil human is discarded (except by your ability), you may shuffle all Heroes (except one) in battle.	Common	Ezekiel 34:12		Neutral	Rotation
 Lost Soul "Lost Souls" [Proverbs 2:16-17]	RR	019-Lost-Soul-Lost-Souls.jpg	Roots	Lost Soul					["Lost Souls"],[OT]	If an O.T. Lost Soul (except a token) is put in play, you may create a Lost Soul token in a Land of Bondage.		Proverbs 2:16-17		Neutral	Rotation
-Lost Soul "O.T. Only" [Psalm 78:22]	FoM	140-Lost_Soul_Psalm_78-22	Fall of Man	Lost Soul					["O.T. Only"]	Protect this Lost Soul from rescue (except by an O.T. Hero).	Common	Psalm 78:22		Neutral	Rotation
+Lost Soul "O.T. Only" [Psalm 78:22]	FoM	140-Lost_Soul_Psalm_78-22	Fall of Man	Lost Soul					["O.T. Only"],[OT]	Protect this Lost Soul from rescue (except by an O.T. Hero).	Common	Psalm 78:22		Neutral	Rotation
 Lost Soul "Obstinate" [Exodus 33:3 - K]	K	K9-Lost-Soul-Exodus-33_3	K Starter	Lost Soul					["Obstinate"],[OT]	If rescued, you may draw 1.	Starter	Exodus 33:3		Neutral	Rotation
 Lost Soul "Obstinate" [Exodus 33:3] [1st Print - K]	K1P	K9-1P-Lost-Soul-Exodus-33_3	K Starter (1st Print)	Lost Soul					["Obstinate"],[OT]	If rescued, you may draw 1.	Starter	Exodus 33:3		Neutral	Rotation
 Lost Soul "One for One" [Genesis 47:17]	IR	024-Lost-Soul-One-for-One	Israel's Rebellion	Lost Soul					["One for One"],[OT]	If put in play, you may shuffle a son of Jacob from hand or territory to take an animal or Genesis human from deck.	Common	Genesis 47:17		Neutral	Rotation
@@ -2671,7 +2671,7 @@ Lost Soul "Punisher" [Jeremiah 17:9 - RR]	RR	020-Lost-Soul-Punisher.jpg	Roots	Lo
 Lost Soul "Rejoice" [Luke 15:6 - J]	J	Lost_Soul_Luke_15_6_(Force_Draw)_(J)	J	Lost Soul					["Rejoice"],[Gospel]	When this Lost Soul is rescued, each player must draw 1.	Deck	Luke 15:6		Neutral	Rotation
 Lost Soul "Remiss" [II Chronicles 24:19]	LoC	LoC_031-Lost-Soul-IIChr-24-19	Lineage of Christ	Lost Soul					["Remiss"],[OT]	If put in territory, you may bounce a character in a territory.	Common	II Chronicles 24:19		Neutral	Rotation
 Lost Soul "Remnant" [Jeremiah 31:8]	PoC	134-Lost-Soul-Remnant-Jeremiah-31_8-UR	Prophecies of Christ	Lost Soul					["Remnant"],[OT]	If put in play, you may take a Hero from Reserve, or you may take a character in an opponent’s territory to territory until this card leaves play.	Ultra Rare	Jeremiah 31:8		Neutral	Rotation
-Lost Soul "Resurrection" [Psalm 30:3]	I	Lost_Soul_Psalm_30_3_(Retriever)_(I)	I	Lost Soul					["Resurrection"],[NT]	When this Lost Soul is rescued from your territory, you may search your discard pile for a Hero.	Deck	Psalm 30:3		Neutral	Rotation
+Lost Soul "Resurrection" [Psalm 30:3]	I	Lost_Soul_Psalm_30_3_(Retriever)_(I)	I	Lost Soul					["Resurrection"],[OT]	When this Lost Soul is rescued from your territory, you may search your discard pile for a Hero.	Deck	Psalm 30:3		Neutral	Rotation
 Lost Soul "Retribution" [Acts 16:22]	TEC	Lost_Soul_Acts_16_22_(EC)	Early Church	Lost Soul					["Retribution"],[NT]	If an opponent's special ability targets your hand, he must discard a card from his territory (except a Lost Soul).	Common	Acts 18:22		Neutral	Rotation
 Lost Soul "Revealer" [John 3:20]	GoC	039-Lost-Soul-Revealer	Gospel of Christ	Lost Soul					["Revealer"] Unity: Lost Souls (N.T.), Gospel,[Gospel]	If drawn (or put in play by an opponent), you may reveal cards from the top of a deck until a Lost Soul is revealed: Play it (or an Evil Character if you do not control one) and underdeck the rest.	Common	John 3:20		Neutral	Rotation
 Lost Soul "Salty" [Matthew 5:13]	GoC	035-Lost-Soul-Salty-R	Gospel of Christ	Lost Soul					["Salty"],[Gospel]	While no Evil Character is in battle, prevent Enhancements.	Rare	Matthew 5:13		Neutral	Rotation
@@ -2813,20 +2813,20 @@ Lost Soul Proverbs 21:24 (I)	I	Lost_Soul_Proverbs_21_24_(I)	I	Lost Soul					[OT]
 Lost Soul Proverbs 22:10 (Anti Ignore)	RoA	Lost_Soul_Proverbs_22_10_(Anti_Ignore)_(RA)	Rock of Ages	Lost Soul					[OT]	While you have only one evil brigade in play, negate all ignore abilities on O.T. good cards.	Fixed	Proverbs 22:10		Neutral	
 Lost Soul Proverbs 7:27 (H)	10A	Lost_Soul_Proverbs_7_27_(H)	10th Anniversary	Lost Soul					[OT]		Deck	Proverbs 7:27		Neutral	
 Lost Soul Proverbs 7:27 (Wo)	Wom	Lost_Soul_Proverbs_7_27_(Wo)	Women	Lost Soul					[OT]		Common	Proverbs 7:27		Neutral	
-Lost Soul Psalm 1:4 (Site Doubler)	Ki	Lost_Soul_Psalm_1_4_(Site_Doubler)_(Ki)	Kings	Lost Soul					[NT]	This Lost Soul may be held captive in a Site currently occupied by another Lost Soul.	Common	Psalm 1:4		Neutral	
-Lost Soul Psalm 1:4 (Site Doubler)	War	Lost_Soul_Psalm_1_4_(Site_Doubler)_(Wa)	Warriors	Lost Soul					[NT]	This Lost Soul may be held captive in a Site currently occupied by another Lost Soul.	Common	Psalm 1:4		Neutral	
-Lost Soul Psalm 119:176 ( C)	2E	Lost_Soul_Psalm_119_176_(C)	2nd Edition	Lost Soul					[NT]		Deck	Psalm 119:176		Neutral	
-Lost Soul Psalm 119:176 (Anti Angel)	Pri	Lost_Soul_Psalm_119_176_(Anti_Angel)_(Pi)	Priests	Lost Soul					[NT]	If an angel rescues this card from your territory, you may place any other Lost Soul beneath owner's draw pile.	Uncommon	Psalm 119:176		Neutral	
-Lost Soul Psalm 119:176 (I)	I	Lost_Soul_Psalm_119_176_(I)	I	Lost Soul					[NT]		Deck	Psalm 119:176		Neutral	Rotation
-Lost Soul Psalm 119:50 (Martian)	FoOF	Lost_Soul_Psalm_119_150_(Martian)_(FF)	Faith of Our Fathers	Lost Soul					[NT]	When you draw this card, you may discard an evil card from your territory to make an opponent discard a good card from hand or territory.	Fixed	Psalm 119:50		Neutral	
-Lost Soul Psalm 35:20 (Site Guard)	RoA	Lost_Soul_Psalm_35_20_(Site_Guard)_(RA)	Rock of Ages	Lost Soul					[NT]	When you place this card in a Site, you may put an Evil Character face down from hand, The Darkness or Tartaros on that Site. During a rescue attempt at that Site, you may add that Character to battle.	Fixed	Psalm 35:20		Neutral	
-Lost Soul Psalm 68:6 (E)	3E	Lost_Soul_Psalm_68_6_(E)	3rd Edition	Lost Soul					[NT]		Deck	Psalm 68:6		Neutral	
-Lost Soul Psalm 68:6 (I)	I	Lost_Soul_Psalm_68_6_(I)	I	Lost Soul					[NT]		Deck	Psalm 68:6		Neutral	Rotation
+Lost Soul Psalm 1:4 (Site Doubler)	Ki	Lost_Soul_Psalm_1_4_(Site_Doubler)_(Ki)	Kings	Lost Soul					[OT]	This Lost Soul may be held captive in a Site currently occupied by another Lost Soul.	Common	Psalm 1:4		Neutral	
+Lost Soul Psalm 1:4 (Site Doubler)	War	Lost_Soul_Psalm_1_4_(Site_Doubler)_(Wa)	Warriors	Lost Soul					[OT]	This Lost Soul may be held captive in a Site currently occupied by another Lost Soul.	Common	Psalm 1:4		Neutral	
+Lost Soul Psalm 119:176 ( C)	2E	Lost_Soul_Psalm_119_176_(C)	2nd Edition	Lost Soul					[OT]		Deck	Psalm 119:176		Neutral	
+Lost Soul Psalm 119:176 (Anti Angel)	Pri	Lost_Soul_Psalm_119_176_(Anti_Angel)_(Pi)	Priests	Lost Soul					[OT]	If an angel rescues this card from your territory, you may place any other Lost Soul beneath owner's draw pile.	Uncommon	Psalm 119:176		Neutral	
+Lost Soul Psalm 119:176 (I)	I	Lost_Soul_Psalm_119_176_(I)	I	Lost Soul					[OT]		Deck	Psalm 119:176		Neutral	Rotation
+Lost Soul Psalm 119:50 (Martian)	FoOF	Lost_Soul_Psalm_119_150_(Martian)_(FF)	Faith of Our Fathers	Lost Soul					[OT]	When you draw this card, you may discard an evil card from your territory to make an opponent discard a good card from hand or territory.	Fixed	Psalm 119:50		Neutral	
+Lost Soul Psalm 35:20 (Site Guard)	RoA	Lost_Soul_Psalm_35_20_(Site_Guard)_(RA)	Rock of Ages	Lost Soul					[OT]	When you place this card in a Site, you may put an Evil Character face down from hand, The Darkness or Tartaros on that Site. During a rescue attempt at that Site, you may add that Character to battle.	Fixed	Psalm 35:20		Neutral	
+Lost Soul Psalm 68:6 (E)	3E	Lost_Soul_Psalm_68_6_(E)	3rd Edition	Lost Soul					[OT]		Deck	Psalm 68:6		Neutral	
+Lost Soul Psalm 68:6 (I)	I	Lost_Soul_Psalm_68_6_(I)	I	Lost Soul					[OT]		Deck	Psalm 68:6		Neutral	Rotation
 Lost Soul Romans 3:23 (Revealer)	AW	Lost_Soul_Romans_3_23_(Revealer)_(AW)	Angel Wars	Lost Soul					[NT]	When you draw this card, each opponent must reveal the top two cards of his draw pile.  Place each revealed Lost Soul in owner's Land of Bondage.  Place the rest beneath owner's draw pile.	Rare	Romans 3:23		Neutral	
 Lost Soul Token "Harvest" [John 4:35]	GoC	Lost-Soul-Harvest-Token	Gospel of Christ Token	Lost Soul Token					["Harvest"],[Gospel]		Token	John 4:35		Neutral	Rotation
 Lost Soul Token "Lost Souls" [Proverbs 2:16-17]	RR	Lost-Soul-Token-Lost-Souls.jpg	Roots	Lost Soul Token					["Lost Souls"],[OT]		Token	Proverbs 2:16-17		Neutral	Rotation
 Lost Soul Token NT (Majestic Heavens)	Pmo-P2	Lost-Soul-Token-Majestic-Heavens-NT	Promo Token	Lost Soul Token					[NT]		Token	New Testament		Neutral	Rotation
-Lost Soul Token OT (Majestic Heavens)	Pmo-P2	Lost-Soul-Token-Majestic-Heavens-OT	Promo Token	Lost Soul Token					[NT]		Token	Old Testament		Neutral	Rotation
+Lost Soul Token OT (Majestic Heavens)	Pmo-P2	Lost-Soul-Token-Majestic-Heavens-OT	Promo Token	Lost Soul Token					[OT]		Token	Old Testament		Neutral	Rotation
 Lost Souls (Three Liner)	Main UL [Ban]	Lost_Souls_(Three_Liner)_(UL)	Main Unlimited	Lost Soul					[OT]	This card counts as two Lost Souls.  It must be rescued twice by the same player to count.	Rare	Proverbs 22:14		Neutral	Banned
 Lost Souls (Two Liner)	Main [Ban]	Lost_Souls_(Two_Liner)_(Li)	Main	Lost Soul					[OT]	This card counts as two Lost Souls.  It must be rescued twice.	Rare	Proverbs 22:14		Neutral	Banned
 Lot	Pat	Lot_(Pa)	Patriarchs	Hero	Red	2	2		[OT]	Cannot be blocked by Lot's Wife.	Common	Genesis 13:1		Good	
@@ -2848,8 +2848,8 @@ Love of Money	10A	Love_of_Money_(G)	10th Anniversary	EE	Multi	3	3		[NT]	Evil cha
 Love of Money (CoW AB)	CoW (AB)	CoW_AB_N96-Love-of-Money	Cloud of Witnesses (Alternate Border)	EE	Multi			Territory	[NT]	Place on your evil human: It may use any evil Enhancement. Cannot be negated.	Common	Hebrews 13:5		Evil	Rotation
 Love of Money (CoW)	CoW	Love_of_Money_(CoW)	Cloud of Witnesses	EE	Multi			Territory	[NT]	Place on your evil human: It may use any evil Enhancement. Cannot be negated.	Common	Hebrews 13:5		Evil	Rotation
 Love One Another (GoC)	GoC	078-Love-One-Another	Gospel of Christ	GE	Clay/Purple	X	2	Star	X = # of your meek clay cards,[Gospel]	STAR: Discard an evil card from a Reserve. GE: Select up to X evil cards. Convert the selected humans and bounce the rest. Regardless of protect abilities if used by a meek Hero.	Common	John 13:34		Good	Rotation
-Love Righteousness	CoW	Love_Righteousness_(CoW)	Cloud of Witnesses	GE	White			Territory	Involves Music,[NT]	Search deck or discard pile for a white Hero.	Common	Hebrews 1:9 (Psalm 45:7)		Good	Rotation
-Love Righteousness (CoW AB)	CoW (AB)	CoW_AB_N89-Love-Righteousness	Cloud of Witnesses (Alternate Border)	GE	White			Territory	Involves music,[NT]	Search deck or discard pile for a white Hero.	Common	Hebrews 1:9 (Psalm 45:7)		Good	Rotation
+Love Righteousness	CoW	Love_Righteousness_(CoW)	Cloud of Witnesses	GE	White			Territory	Involves Music,[OT]	Search deck or discard pile for a white Hero.	Common	Hebrews 1:9 (Psalm 45:7)		Good	Rotation
+Love Righteousness (CoW AB)	CoW (AB)	CoW_AB_N89-Love-Righteousness	Cloud of Witnesses (Alternate Border)	GE	White			Territory	Involves music,[OT]	Search deck or discard pile for a white Hero.	Common	Hebrews 1:9 (Psalm 45:7)		Good	Rotation
 Loyalty of Jonathan (L)	Main	Loyalty_of_Jonathan_(UL)	Main	GE	Purple	2	2		[OT]		Common	I Samuel 19:4		Good	
 Loyalty of Jonathan (UL)	Main UL	Loyalty_of_Jonathan_(UL)	Main Unlimited	GE	Purple	2	2		[OT]		Common	I Samuel 19:4		Good	
 Loyalty of Ruth (J)	J	Loyalty_of_Ruth_(J)	J	GE	White	3	2		[OT]	Withdraw an Evil Character. You may draw 1.	Deck	Ruth 1:16		Good	Rotation
@@ -2859,8 +2859,8 @@ Loyalty to David [K]	K	K54-Loyalty-to-David	K Starter	GE	Green/Purple	2	4		[OT]	
 Luke	Ap	Luke_(Ap)	Apostles	Hero	Gold	9	10		[NT]	Luke may heal one Hero or prevent one Hero, not himself, from being discarded.	Uncommon	Colossians 4:14-15		Good	
 Luke (EC)	TEC	Luke_(EC)	Early Church	Hero	Clay	9	10		[NT]	Once per round, you may discard a clay card from hand to heal a clay Hero and search discard pile for a good Luke or Acts Enhancement and underdeck it.	Common	Colossians 4:14-15		Good	Rotation
 Lukewarm	Pri	Lukewarm_(Pi)	Priests	EE	Orange				[NT]	Place on a Hero.  Negate that Hero's special ability while this card remains.  Negate all search and card drawing abilities used by that Hero.	Common	Revelation 3:15-16		Evil	
-Lurking	AW	Lurking_(AW)	Angel Wars	EE	Multi				[NT]	Interrupt the battle and band one of your Evil Characters into battle from hand, territory, 'The Darkness', or from face down on a site.	Rare	Psalm 56:6		Evil	
-Lurking (Promo)	Pmo-P2	Promo_Lurking	Promo	EE	Multi				[NT]	Interrupt the battle. Evil Character may band to an Evil Character from hand, territory, set-aside area or Reserve.	Seasonal	Psalm 56:6		Evil	Rotation
+Lurking	AW	Lurking_(AW)	Angel Wars	EE	Multi				[OT]	Interrupt the battle and band one of your Evil Characters into battle from hand, territory, 'The Darkness', or from face down on a site.	Rare	Psalm 56:6		Evil	
+Lurking (Promo)	Pmo-P2	Promo_Lurking	Promo	EE	Multi				[OT]	Interrupt the battle. Evil Character may band to an Evil Character from hand, territory, set-aside area or Reserve.	Seasonal	Psalm 56:6		Evil	Rotation
 Lycaonia	Ap	Lycaonia_(Ap)	Apostles	Site	Green				[NT]		Common	Acts 14:5-6		Neutral	
 Lycaonia (EC)	TEC	Lycaonia_(EC)	Early Church	Site	Clay				[NT]	If opponent does not have a clay missionary in battle at the start of a rescue attempt at this Site, you may draw 1 or reveal opponent's hand.	Common	Acts 14:5-6		Neutral	Rotation
 Lydia (EC)	TEC	Lydia_(EC)	Early Church	Hero	Clay	5	4		Phillippi,[NT]	Protected from capture. May use purple Enhancements. Cannot be interrupted.	Common	Acts 16:14		Good	Rotation
@@ -2886,7 +2886,7 @@ Magnifying Multitude (GoC)	GoC	125-Magnifying-Multitude	Gospel of Christ	Hero	Si
 Mahalalel, the Interpreter / Mahalalel (Blessed God) (LoC)	LoC	LoC_087-Mahalalel	Lineage of Christ	Hero	Blue (Blue/Red)	6(5)	8(6)	Star	Antediluvian,[OT]	STAR: Discard an evil Enhancement. TOP: If you control a meek antediluvian, you may play a Lost Soul from a deck. Protect Lost Souls from evil cards. BOTTOM: Meek	Common	Genesis 5:15		Good	Rotation
 Maharai (Ki)	Ki	Maharai_(Ki)	Kings	Hero	White	6	2	Warrior	[OT]	May band with any warrior class Hero with a reference from I Chronicles or II Samuel.	Uncommon	I Chronicles 27:13		Good	
 Maharai (Wa)	War	Maharai_(Wa)	Warriors	Hero	White	6	2		[OT]	May band with any Hero in the Blue Brigade.	Uncommon	I Chronicles 27:13		Good	
-Majestic Heavens (Promo)	Pmo-P2	Majestic-Heavens_(Promo)	Promo	Site	Gold/Silver/White				[NT]	If a Lost Soul is put here, you may topdeck a card matching that Lost Soul's testament from Reserve to create a Lost Soul token in opponent's Land of Bondage.	Promo	Psalm 8		Neutral	Rotation
+Majestic Heavens (Promo)	Pmo-P2	Majestic-Heavens_(Promo)	Promo	Site	Gold/Silver/White				[OT]	If a Lost Soul is put here, you may topdeck a card matching that Lost Soul's testament from Reserve to create a Lost Soul token in opponent's Land of Bondage.	Promo	Psalm 8		Neutral	Rotation
 Make Bricks! (1st Print - K)	K1P	K49-1P-Make-Bricks	K Starter (1st Print)	EE	Pale Green	4	2	Territory	[OT]	You may take an evil card from Reserve or underdeck a Hero.	Starter	Exodus 5:16		Evil	Rotation
 Make Bricks! [K]	K	K49-Make-Bricks	K Starter	EE	Pale Green	4	2	Territory	[OT]	You may topdeck an evil card from Reserve or underdeck a Hero.	Starter	Exodus 5:16		Evil	Rotation
 Malachi	Prp	Malachi_(Pr)	Prophets	Hero	Red	7	5		[OT]		Uncommon	Malachi 1:1-2		Good	
@@ -2940,8 +2940,8 @@ Mask of Pride	War	Mask_of_Pride_(Wa)	Warriors	EE	Gray	3	4		[OT]	Remove any Silve
 Mask of Pride (Roots)	RR	192-Mask-of-Pride.jpg	Roots	EE	Gray	6	0		[OT]	Interrupt the battle. You may draw 3 and play an evil Enhancement.		Proverbs 16:5		Evil	Rotation
 Mask of Self-glorification	War	Mask_of_Self-glorification_(Wa)	Warriors	EE	Black	2	3		[Gospel]	Discard one active Artifact.	Rare	Matthew 23:24		Evil	
 Mask of Self-glorification (Roots)	RR	151-Mask-of-Self-Glorification.jpg	Roots	EE	Black	5	1		Gospel,[Gospel]	Interrupt the battle. You may draw 3 and play an evil Enhancement.		Matthew 23:24		Evil	Rotation
-Mask of Vanity	War	Mask_of_Vanity_(Wa)	Warriors	EE	Crimson	0	3		[NT]	Each opponent must discard one unoccupied Site.  If this causes the rescuer to lose access, rescue attempt fails.	Common	Psalm 62:9		Evil	
-Mask of Vanity (Roots)	RR	179-Mask-of-Vanity.jpg	Roots	EE	Crimson	2	4		[NT]	Interrupt the battle. You may draw 3 and play an evil Enhancement.		Psalm 62:9		Evil	Rotation
+Mask of Vanity	War	Mask_of_Vanity_(Wa)	Warriors	EE	Crimson	0	3		[OT]	Each opponent must discard one unoccupied Site.  If this causes the rescuer to lose access, rescue attempt fails.	Common	Psalm 62:9		Evil	
+Mask of Vanity (Roots)	RR	179-Mask-of-Vanity.jpg	Roots	EE	Crimson	2	4		[OT]	Interrupt the battle. You may draw 3 and play an evil Enhancement.		Psalm 62:9		Evil	Rotation
 Mask of Worldliness	War	Mask_of_Worldliness_(Wa)	Warriors	EE	Crimson				[NT]	Evil Character may use evil enhancements from any brigade color until end of battle.	Rare	James 4:4		Evil	
 Mask of Worldliness (Roots)	RR	208-Mask-of-Worldliness.jpg	Roots	EE	Orange	4	2		[NT]	Interrupt the battle. You may draw 3 and play an evil Enhancement.		James 4:4		Evil	Rotation
 Masquerading	AW	Masquerading_(AW)	Angel Wars	EE	Crimson				[NT]	Place this card on a demon.  While this card remains, Three Nails does not prevent this demon from blocking, and this demon cannot be ignored.	Common	II Corinthians 11:14		Evil	
@@ -3159,9 +3159,9 @@ Nergal-sar-ezer, Rab-Mag (Roots)	RR	172-Nergalsarezer.jpg	Roots	Evil Character	C
 Nergalsharezer	FoOF	Nergalsharezer_(FF)	Faith of Our Fathers	Evil Character	Crimson	7	7	Warrior	Babylonian,[OT]	If another Babylonian is in play, O.T. Enhancements used by Nergalsharezer cannot be negated.	Fixed	Jeremiah 39:3		Evil	
 Nero's Realm	Ap	Nero's_Realm_(Ap)	Apostles	Site	Silver				[NT]	If a N.T. Hero is prisoner here, discard Hero if not rescued after five turns.	Common	II Timothy 1:12		Neutral	
 Nero's Realm	TPC	Neros_Realm_(PC)	Persecuted Church	Site	Silver				Roman,[NT]	Protected from Romans. If your Roman emperor blocks, you may discard a captured N.T. character.	Common	II Timothy 1:12		Neutral	Rotation
-Net (B)	Main	Net_(B)	Main	EE	Black	2	2		[NT]	Take any Hero in play prisoner and place in your Land of Bondage.  Hero is treated as a Lost Soul.	Rare	Psalm 9:15		Evil	
-Net (D)	2E	Net_(DU)	2nd Edition	EE	Black	2	2		[NT]	Take any Hero in play prisoner and place in your Land of Bondage.  Hero is treated as a Lost Soul.	Deck	Psalm 9:15		Evil	
-Net (UL)	Main UL	Net_(UL)	Main Unlimited	EE	Black	2	2		[NT]	Take any Hero in play prisoner and place in your Land of Bondage.  Hero is treated as a Lost Soul.	Rare	Psalm 9:15		Evil	
+Net (B)	Main	Net_(B)	Main	EE	Black	2	2		[OT]	Take any Hero in play prisoner and place in your Land of Bondage.  Hero is treated as a Lost Soul.	Rare	Psalm 9:15		Evil	
+Net (D)	2E	Net_(DU)	2nd Edition	EE	Black	2	2		[OT]	Take any Hero in play prisoner and place in your Land of Bondage.  Hero is treated as a Lost Soul.	Deck	Psalm 9:15		Evil	
+Net (UL)	Main UL	Net_(UL)	Main Unlimited	EE	Black	2	2		[OT]	Take any Hero in play prisoner and place in your Land of Bondage.  Hero is treated as a Lost Soul.	Rare	Psalm 9:15		Evil	
 New Covenant	PoC	145-New-Covenant-Ezekiel	Prophecies of Christ	Covenant	Green/Silver/Teal	5	2		[OT]	HE: Convert an evil human. After battle, you may underdeck this card. ART: Discard an evil card from a player’s Reserve to resurrect their human Hero.	Rare	Ezekiel 36:26		Good	Rotation
 New Covenant (Isaiah)	PoC	119-New-Covenant-Isaiah-R	Prophecies of Christ	Covenant	Green/Purple/Teal	1	6		[OT]	GE: Convert an evil human in battle. Convert this card to an inactive Artifact. ART: Underdeck this card and a good O.T. Enhancement from each discard pile.	Rare	Isaiah 59:21		Good	Rotation
 New Covenant (Jeremiah)	PoC	135-New-Covenant-Jeremiah-R	Prophecies of Christ	Covenant	Clay/Green/Teal	3	3		Artifact has Unity: Heroes (Share a brigade),[OT]	GE: Convert all evil humans in battle. You may draw 1 and topdeck this card. ART: Shuffle this card: Your human Hero gains “May band to a human.” this turn.	Rare	Jeremiah 31:33 (Hebrews 1:10)		Good	Rotation
@@ -3496,10 +3496,10 @@ Plotting Priests (GoC)	GoC	182-Plotting-Priests	Gospel of Christ	Evil Character	
 Plunder and Pillage	PoC	105-Plunder-and-Pillage	Prophecies of Christ	EE	Gray/Pale Green	5	-2	Territory	[OT]	You may negate and discard an Artifact, or take an Artifact or Enhancement from opponent’s discard pile. If played in battle, underdeck a good card.	Common	Isaiah 17:14		Evil	Rotation
 Plunderers	Ki	Plunderers_(Ki)	Kings	EE	Pale Green	0	2		[OT]	Discard the top card from opponent's draw pile and draw the top card from your draw pile.  Cannot be negated if holder has Assyria Site in play.	Common	II Kings 17:20		Evil	
 Plunderers (GoC)	GoC	191-Plunderers	Gospel of Christ	Evil Character	Crimson	8	9		Generic, Gospel, Thief,[Gospel]	If blocking, prevent the next good Enhancement played in battle to take it. May band to a thief, or you may bounce a character in a territory.	Common	Mark 3:27		Evil	Rotation
-Poison (D)	2E	Poison_(D)	2nd Edition	EE	Black	2	3		[NT]	Selected Hero decreases 0/2 per turn.  If Hero reaches */0 or less, discard Hero.	Deck	Psalm 58:4		Evil	
-Poison (L)	Main	Poison_(UL)	Main	EE	Black	2	0		[NT]		Common	Psalm 58:4		Evil	
-Poison (UL)	Main UL	Poison_(UL)	Main Unlimited	EE	Black	2	0		[NT]		Common	Psalm 58:4		Evil	
-Poison (Wa)	War	Poison_(Wa)	Warriors	EE	Black	2	3		[NT]	Selected Hero decreases 0/2 per turn.  If Hero reaches */0 or less, discard Hero.	Common	Psalm 58:4		Evil	
+Poison (D)	2E	Poison_(D)	2nd Edition	EE	Black	2	3		[OT]	Selected Hero decreases 0/2 per turn.  If Hero reaches */0 or less, discard Hero.	Deck	Psalm 58:4		Evil	
+Poison (L)	Main	Poison_(UL)	Main	EE	Black	2	0		[OT]		Common	Psalm 58:4		Evil	
+Poison (UL)	Main UL	Poison_(UL)	Main Unlimited	EE	Black	2	0		[OT]		Common	Psalm 58:4		Evil	
+Poison (Wa)	War	Poison_(Wa)	Warriors	EE	Black	2	3		[OT]	Selected Hero decreases 0/2 per turn.  If Hero reaches */0 or less, discard Hero.	Common	Psalm 58:4		Evil	
 Poison of Dragons ( C)	2E	Poison_of_Dragons_(CU)	2nd Edition	EE	Gray	2	3		[OT]	Selected Hero decreases 0/2 per turn.  If Hero reaches */0 or less, discard Hero.	Deck	Deuteronomy 32:33		Evil	
 Poison of Dragons (Pi)	Pri	Poison_of_Dragons_(Pi)	Priests	EE	Orange				Poison,[OT]	Place on a Hero.  Each turn, that Hero decreases 0/3.  When that Hero reaches */0 or less, discard this card and place that Hero in owner's Land of Bondage.	Common	Deuteronomy 32:33		Evil	
 Poison of Dragons (Roots)	RR	008-Poison-of-Dragons.jpg	Roots	Artifact					Poison,[OT]	Paralyze a Hero for 2 turns. If you control an evil O.T. human, decrease that Hero 0/3.		Deuteronomy 32:33		Neutral	Rotation
@@ -3534,7 +3534,7 @@ Power of the Cross (EC)	TEC	Power_of_the_Cross_(EC)	Early Church	GE	Clay	2	1		[N
 Power of the Cross (Pi)	Pri	Power_of_the_Cross_(Pi)	Priests	GE	Red	2	1		[NT]	Convert a human Evil Character to a red brigade Hero.	Common	I Corinthians 1:18		Good	
 Power of the Spirit (GoC)	GoC	089-Power-of-the-Spirit-R	Gospel of Christ	GE	Clay	2	X	Star	[X = # of your meek clay Heroes] Christ/Jesus in Title/Scripture, Gospel,[Gospel]	STAR: Reveal hand: If there is no Hero, play a meek clay Hero from deck. / GE: Negate an evil or neutral card. If used by a meek Hero, you may discard up to X evil and/or neutral cards instead.	Rare	Luke 4:14		Good	Rotation
 Praise from Prison	TEC	Praise_from_Prison	Early Church	GE	Clay/White	2	5		Involves Music,[NT]	Release cpatured Heroes. Convert a human Evil Character to a clay Hero. Cannot be negated if played against a Roman.	Common	Acts 18:26		Good	Rotation
-Praise Him, Moon	AW	Praise_Him_Moon_(AW)	Angel Wars	GE	Silver/White				[NT]	Selected player must reveal hand.  You may band any Hero from that hand into battle.	Rare	Psalm 148:3		Good	
+Praise Him, Moon	AW	Praise_Him_Moon_(AW)	Angel Wars	GE	Silver/White				[OT]	Selected player must reveal hand.  You may band any Hero from that hand into battle.	Rare	Psalm 148:3		Good	
 Praises	Wom	Praises_(Wo)	Women	GE	White				[OT]	All White brigade Heroes in Holder's territory must join the battle.	Common	Exodus 15:20-21		Good	
 Prayer and Fasting (EC)	TEC	Prayer_and_Fasting_(EC)	Early Church	GE	Clay			Territory	X=# of Heroes set aside with this card,[NT]	Set aside any number of clay missionaries for 1 turn. On return, look at the top X cards of your deck; add up to 1 card to hand (or 2 if The Holy Spirit is in play) and underdeck the rest.	Common	Acts 13:2		Good	Rotation
 Prayer and Fasting (L)	Main	Prayer_and_Fasting_(UL)	Main	GE	Gold				[NT]	Set Hero aside.  Hero gains 1/1 for every turn Hero prays.  Discard after Hero returns.	Rare	Acts 13:2		Good	
@@ -3607,9 +3607,9 @@ Prophets of Samaria (PoC)	PoC	130-Prophets-of-Samaria	Prophecies of Christ	Evil 
 Proselyte Token	GoC	Proselyte-Token	Gospel of Christ Token	Evil Character Token	Gray	2	2		Generic, Pharisee,[Gospel]		Token	Matthew 23:15		Evil	Rotation
 Prosperity	Pat	Prosperity_(Pa)	Patriarchs	GE	Purple				[OT]	Draw three cards and add to your hand.  At the end of battle you may place any cards from your hand back on top of your draw pile.	Ultra Rare	Numbers 13:23		Good	
 Prosperity (Roots)	RR	108-Prosperity.jpg	Roots	GE	Purple	0	0		[OT]	You may draw 3 and topdeck any number of cards from hand.		I Kings 10:7		Good	Rotation
-Protection of Angels (Pi)	Pri	Protection_of_Angels_(Pi)	Priests	GE	Silver	2	3		[NT]	Interrupt the battle and protect all heroes in play and set aside areas from evil cards until end of turn.	Common	Psalm 91:11		Good	
+Protection of Angels (Pi)	Pri	Protection_of_Angels_(Pi)	Priests	GE	Silver	2	3		[OT]	Interrupt the battle and protect all heroes in play and set aside areas from evil cards until end of turn.	Common	Psalm 91:11		Good	
 Protection of Angels (Roots)	RR	123-Protection-of-Angels.jpg	Roots	GE	Silver	2	3		Gospel, Involves music,[Gospel]	Interrupt the battle. Protect Heroes you control from harm.		Psalm (Matthew) 91 (4):11 (6)		Good	Rotation
-Protection of Angels (Wa)	War	Protection_of_Angels_(Wa)	Warriors	GE	Silver	2	3		[NT]	All Heroes in holder's territory are immune to harm or effect until end of turn.	Uncommon	Psalm 91:11		Good	
+Protection of Angels (Wa)	War	Protection_of_Angels_(Wa)	Warriors	GE	Silver	2	3		[OT]	All Heroes in holder's territory are immune to harm or effect until end of turn.	Uncommon	Psalm 91:11		Good	
 Protection of Jerusalem (FooF)	FoOF	Protection_of_Jerusalem_(FF2)	Faith of Our Fathers	GE	Silver			Territory	Limit one per territory,[OT]	Place in your territory: Protect your good O.T. Fortresses from opponents. If you discard an evil Assyrian from play, you may negate and discard an evil card.	Fixed	Isaiah 37:35		Good	
 Protection of Jerusalem (Pa)	Pat	Protection_of_Jerusalem_(Pa)	Patriarchs	GE	Silver				[OT]	Set aside two silver brigade Heroes.  Holder chooses one Fortress Site that cannot be discarded while Heroes are set-aside.  When Heroes return to territory, discard set-aside.	Common	II Kings 19:35		Good	
 Proud Pharisee	TxP	Proud_Pharisee_(TxP)	Thesaurus ex Preteritus	Evil Character	Gray	2	6		Generic Pharisee,[Gospel]	If another Pharisee is in play, you may reveal your hand to draw two cards. If you have played no Enhancements this turn, you may play an Enhancement.	Fixed	Matthew 23:5-7		Evil	
@@ -3618,8 +3618,8 @@ Providing Angel	Pat	Providing_Angel_(Pa)	Patriarchs	Hero	Silver	3	5		[OT]	Holder
 Provisions	Ki	Provisions_(Ki)	Kings	GE	Green				[OT]	Set Hero aside for 2 turns.  On return holder may draw 2 cards and may choose the Evil Character his [opponent] uses to block Hero's next rescue attempt.	Uncommon	I Samuel 17:20		Good	
 Provisions in the Desert (1st Print - L)	L1P	L33-1P-Provisions-in-the-Desert	L Starter (1st Print)	GE	White	7	0	Territory	[OT]	You may take a good Exodus Enhancement from deck or Reserve.	Starter	Exodus 16:4,8		Good	Rotation
 Provisions in the Desert [L]	L	L33-Provisions-in-the-Desert	L Starter	GE	White	7	0	Territory	[OT]	You may topdeck a good Exodus Enhancement from deck or Reserve.	Starter	Exodus 16:4,8		Good	Rotation
-Provoked	CoW	Provoked_(CoW)	Cloud of Witnesses	EE	Brown	2	2		X = # of opponent's good brigades,[NT]	Decrease a Hero X/X and increase an Evil Character X/X to draw X. Cannot be prevented.	Common	Hebrews 3:7-8 (Psalm 95:7-8)		Evil	Rotation
-Provoked (CoW AB)	CoW (AB)	CoW_AB_N111-Provoked	Cloud of Witnesses (Alternate Border)	EE	Brown	2	2		X = # of opponent’s good brigades,[NT]	Decrease a Hero X/X and increase an Evil Character X/X to draw X. Cannot be prevented.	Common	Hebrews 3:7-8 (Psalm 95:7-8)		Evil	Rotation
+Provoked	CoW	Provoked_(CoW)	Cloud of Witnesses	EE	Brown	2	2		X = # of opponent's good brigades,[OT]	Decrease a Hero X/X and increase an Evil Character X/X to draw X. Cannot be prevented.	Common	Hebrews 3:7-8 (Psalm 95:7-8)		Evil	Rotation
+Provoked (CoW AB)	CoW (AB)	CoW_AB_N111-Provoked	Cloud of Witnesses (Alternate Border)	EE	Brown	2	2		X = # of opponent’s good brigades,[OT]	Decrease a Hero X/X and increase an Evil Character X/X to draw X. Cannot be prevented.	Common	Hebrews 3:7-8 (Psalm 95:7-8)		Evil	Rotation
 Purging Evil	FoM	128-Purging-Evil	Fall of Man	GE	Purple/Teal	2	3		X = # of idols and Curses discarded by this card,[OT]	Negate and discard all idols and Curses. Banish an Evil Character. If used by a Solomon's Temple Priest or King Josiah, you may draw X.	Common	II Kings 23:4		Good	Rotation
 Purifying the Unclean	Pri	Purifying_the_Unclean_(Pi)	Priests	GE	Teal	3	4		[OT]	Heal a Hero in play or in a set-aside area.  Discard all evil cards placed on that Hero.  Cannot be negated.	Common	Leviticus 15:30		Good	
 Purity of Enoch (D)	2E	Purity_of_Enoch_(DU)	2nd Edition	GE	White	3	2		[OT]		Deck	Genesis 5:24		Good	
@@ -3646,9 +3646,9 @@ Raamses	FoM	052-Raamses	Fall of Man	City	White/Evil				Holds any # of evil Enhan
 Rachel (FooF)	FoOF	Rachel_(FF2)	Faith of Our Fathers	Hero	Blue	5	6		Syrian, Israelite,[OT]	May band to Jacob or exchange this Hero with Joseph or Benjamin in your deck or discard pile.	Fixed	Genesis 30:22		Good	
 Rachel (Wo)	Wom	Rachel_(Wo)	Women	Hero	Green	5	6		[OT]		Common	Genesis 30:22		Good	
 Rachel, the Favored (Roots)	RR	041-Rachel.jpg	Roots	Hero	Blue	5	6		Syrian,[OT]	You may underdeck an idol or Curse. May band to Jacob, or you may take a Genesis Enhancement from deck.		Genesis 30:22		Good	Rotation
-Rage (L)	Main	Rage_(UL)	Main	EE	Pale Green				[NT]	Two Evil Characters of 6/6 or less may band together.	Rare	Psalm 2:1		Evil	
-Rage (Promo)	Pmo-P1	Rage_(Promo)	Promo	EE	Pale Green				[NT]	Two evil characters may band this turn	Promo	Old Testament		Evil	
-Rage (UL)	Main UL	Rage_(UL)	Main Unlimited	EE	Pale Green				[NT]	Two Evil Characters of 6/6 or less may band together.	Rare	Psalm 2:1		Evil	
+Rage (L)	Main	Rage_(UL)	Main	EE	Pale Green				[OT]	Two Evil Characters of 6/6 or less may band together.	Rare	Psalm 2:1		Evil	
+Rage (Promo)	Pmo-P1	Rage_(Promo)	Promo	EE	Pale Green				[OT]	Two evil characters may band this turn	Promo	Old Testament		Evil	
+Rage (UL)	Main UL	Rage_(UL)	Main Unlimited	EE	Pale Green				[OT]	Two Evil Characters of 6/6 or less may band together.	Rare	Psalm 2:1		Evil	
 Rahab	Wom	Rahab_(Wo)	Women	Hero	Red	4	5		[OT]	Character may attempt to rescue any Hero that is being held captive in any opponent's Sites or general Land of Bondage.	Common	Joshua 6:25		Good	
 Rahab (CoW AB)	CoW (AB)	CoW_AB_N39-Rahab	Cloud of Witnesses (Alternate Border)	Hero	Red/White	4	5	Territory, Cloud	Canaanite, May activate Stalks of Flax on Rahab,[OT]	Protect Joshua Heroes in territory from harm. Joshua Heroes have Site access. If Spy enters battle, search a deck for a Lost Soul. Scarlet Line cannot be negated.	Common	Joshua 6:25		Good	Rotation
 Rahab (CoW)	CoW	Rahab_(CoW)	Cloud of Witnesses	Hero	Red/White	4	5	Territory, Cloud	Canaanite, May activate Stalks of Flax on Rahab,[OT]	Protect Joshua Heroes in territory from harm. Joshua Heroes have Site access. If Spy enters battle, search a deck for a Lost Soul. Scarlet Line cannot be negated.	Common	Joshua 6:25		Good	Rotation
@@ -3685,7 +3685,7 @@ Rebekah (L)	Main	Rebekah_(UL)	Main	Hero	Blue	4	4		[OT]		Uncommon	Genesis 24:58		
 Rebekah (UL)	Main UL	Rebekah_(UL)	Main Unlimited	Hero	Blue	4	4		[OT]		Uncommon	Genesis 24:58		Good	
 Rebekah meets Isaac	Pat	Rebekah_meets_Isaac_(Pa)	Patriarchs	GE	White	2	2		[OT]	Rebekah and Isaac may band together for the rest of the game.	Common	Genesis 24:64-65		Good	
 Rebekah, the Bride / Rebekah, the Barren (LoC)	LoC	LoC_092-Rebekah	Lineage of Christ	Hero	Blue (Blue/Red)	2(6)	3(5)	Star	Syrian,[OT]	STAR: Topdeck Esau and Jacob from deck. TOP: You may convert your patriarch to meek to draw 2. You may exchange this card with Jacob from hand or territory. BOTTOM: Meek	Common	Genesis 25:21		Good	Rotation
-Rebellious	AW	Rebellious_(AW)	Angel Wars	EE	Brown				[NT]	Place this card on a Hero.  While this card remains, negate the Hero's special ability and decrease that Hero 0/1 per turn.  Treat as a disease.	Common	Psalm 78:56		Evil	
+Rebellious	AW	Rebellious_(AW)	Angel Wars	EE	Brown				[OT]	Place this card on a Hero.  While this card remains, negate the Hero's special ability and decrease that Hero 0/1 per turn.  Treat as a disease.	Common	Psalm 78:56		Evil	
 Rebellious Israelites	IR	090-Rebellious-Israelites	Israel's Rebellion	Evil Character	Brown	12	11		Generic, Wilderness,[OT]	Opponent may discard a good card from hand. If they do not, you may activate an O.T. Curse from Reserve. May band to an evil wilderness human.	Common	Numbers 16:3		Evil	Rotation
 Rebellious Spirit	TPC	Rebellious_Spirit_(PC)	Persecuted Church	Evil Character	Orange	5	5		Demon, Generic,[NT]	Discard a good Enhancement or underdeck a generic demon from discard pile or Tartaros. Cannot be prevented by a good card.	Common	II Peter 2:4		Evil	Rotation
 Reckless Endangerment	Pri	Reckless_Endangerment_(Pi)	Priests	EE	Black				[OT]	Place on a Hero.  Negate that Hero's special ability while this card remains on that Hero.  If that Hero is discarded, its holder must discard another of his Characters in play.	Common	Leviticus 19:16		Evil	
@@ -3703,7 +3703,7 @@ Redeeming Branch	PoC	098-Redeeming-Branch	Prophecies of Christ	GE	Clay/Green/Pur
 Redemption (GoC)	GoC	086-Redemption	Gospel of Christ	GE	Clay	5	X	Star	X = # of your meek Heroes,[Gospel]	STAR: Protect meek Heroes from evil cards until end of turn. GE: Select up to X evil cards. Convert the selected humans and reserve the rest.	Common	Luke 21:28		Good	Rotation
 Redemption (Pi)	Pri	Redemption_(Pi)	Priests	GE	White	2	2		[Gospel]	Convert any Hero being treated as a Lost Soul or as an Evil Character to a Hero and place it in your territory.	Common	Luke 21:28		Good	
 Redemption (Wa)	War	Redemption_(Wa)	Warriors	GE	White	2	2		[Gospel]	Return any Hero being treated as a Lost Soul or as an Evil Character to your hand and treat as a Hero.  Does not count as a rescue.	Common	Luke 21:28		Good	
-Refined by Fire	AW	Refined_by_Fire_(AW)	Angel Wars	GE	Silver				[NT]	Select a Hero in battle.  Discard all evil cards placed on that Hero.  If that Hero survives battle, Hero gains 7/7 until discarded.	Common	Psalm 12:6		Good	
+Refined by Fire	AW	Refined_by_Fire_(AW)	Angel Wars	GE	Silver				[OT]	Select a Hero in battle.  Discard all evil cards placed on that Hero.  If that Hero survives battle, Hero gains 7/7 until discarded.	Common	Psalm 12:6		Good	
 Regrets	PoC	215-Regrets-R	Prophecies of Christ	EE	Black/Crimson	6	-3		[OT]	(Star) Reveal a hand: You may underdeck this card to underdeck a good Dominant. (EE) Discard an evil human to discard an Artifact and a good card.	Rare	Zechariah 11:13		Evil	Rotation
 Rehoboam, the Divider (LoC)	LoC	LoC_191-Rehoboam-R	Lineage of Christ	Evil Character	Brown	10	11	Warrior, Star	King of Judah, Unity: Lost Souls (meek),[OT]	STAR: Discard a good card from a Reserve. EC: Negate Enhancements and other characters.	Rare	I Kings 11:43		Evil	Rotation
 Rejected Advice	Ki	Rejected_Advice_(Ki)	Kings	EE	Crimson				[OT]	Negate and discard any covenant being used as an active artifact.	Common	I Kings 12:8		Evil	
@@ -3739,17 +3739,17 @@ Rezon, Son of Eliada (LoC)	LoC	LoC_201-Rezon-son-of-Eliada	Lineage of Christ	Evi
 Rhoda (EC)	TEC	Rhoda_(EC)	Early Church	Hero	Clay	2	2		X = # of Jerusalem Heroes in play,[NT]	Look at the top X cards of deck. Your Heroes are protected from evil N.T. discard and capture abilities. You may exchange Rhoda with your clay Jerusalem Hero.	Rare	Acts 12:13-14		Good	Rotation
 Rhoda (Promo)	Pmo-P1	Rhoda_(Promo)	Promo	Hero	Green	2	2		[NT]	Look at the top card of your draw pile. You may withdraw Rhoda from battle.	Promo	Acts 12:13-14		Good	
 Rhoda's Gladness	Wom	Rhoda's_Gladness_(Wo)	Women	GE	Green	2	1		[NT]	All Heroes in play are immune to Crimson Brigade until end of current turn.	Common	Acts 12:13-14		Good	
-Ride on Victoriously / Awesome Things (LoC)	LoC	LoC_002-Ride-Awesome-R	Lineage of Christ	Dominant					Involves music,[NT]	RoV: If an Evil Character is blocking, add a meek Hero to battle. Limit once per game. AT: Play an Enhancement on your meek Hero in battle. Limit once per game.	Rare	Psalm 45:4		Good	Rotation
+Ride on Victoriously / Awesome Things (LoC)	LoC	LoC_002-Ride-Awesome-R	Lineage of Christ	Dominant					Involves music,[OT]	RoV: If an Evil Character is blocking, add a meek Hero to battle. Limit once per game. AT: Play an Enhancement on your meek Hero in battle. Limit once per game.	Rare	Psalm 45:4		Good	Rotation
 Ridicule (GoC)	GoC	021-Ridicule	Gospel of Christ	Curse	Gold/Gray	2	4		May be activated on your evil Herod,[Gospel]	EE: Negate a Hero. Hero's controller must reserve the top 2 cards of their deck or bounce that Hero. Cannot be negated. ART: Paralyze opponents’ Heroes with a draw ability for 1 round.	Common	Luke 23:11		Evil	Rotation
 Righteous Judge	PoC	099-Righteous-Judge	Prophecies of Christ	GE	Gold/Green	4	1		[OT]	(Star) Discard an evil card from a Reserve. (HE) Discard an evil card in play or a set-aside area.	Common	Isaiah 11:4		Good	Rotation
-Righteous Seeker	IR	064-Righteous-Seeker-R	Israel's Rebellion	Hero	White	12	7		Generic, Symbolic, Involves Music,[NT]	May band to a Hero.	Rare	Psalm 99:2-3		Good	Rotation
+Righteous Seeker	IR	064-Righteous-Seeker-R	Israel's Rebellion	Hero	White	12	7		Generic, Symbolic, Involves Music,[OT]	May band to a Hero.	Rare	Psalm 99:2-3		Good	Rotation
 Rivalry	Ap	Rivalry_(Ap)	Apostles	EE	Gold				[NT]	Holder chooses two N.T. Heroes in battle that must return to owner's territory.	Uncommon	I Corinthians 1:12-13		Evil	
 River Flowing From the Temple	Prp	River_Flowing_From_the_Temple_(Pr)	Prophets	GE	Purple				[OT]	Add a Hero from your hand to the battle.	Rare	Ezekiel 47:9		Good	
 Rizpah's Sackcloth	Wom	Rizpah's_Sackcloth_(Wo)	Women	EE	Gold				[OT]	Discard all cards in the Field of Battle including yours.	Common	II Samuel 21:10		Evil	
 Rizpah’s Sackcloth (Roots)	RR	155-Rizpahs-Sackcloth.jpg	Roots	EE	Black	2	1		[OT]	Discard all cards in battle.		II Samuel 21:10		Evil	Rotation
-Rod of Iron (L)	Main	Rod_of_Iron_(UL)	Main	GE	Blue	2	1		[NT]		Common	Psalm 2:9		Good	
-Rod of Iron (UL)	Main UL	Rod_of_Iron_(UL)	Main Unlimited	GE	Blue	2	1		[NT]		Common	Psalm 2:9		Good	
-Rod of Iron (Wa)	War	Rod_of_Iron_(Wa)	Warriors	GE	Blue	4	2		[NT]	Discard one Evil Character from each opponent's territory or set aside area.	Uncommon	Psalm 2:9		Good	
+Rod of Iron (L)	Main	Rod_of_Iron_(UL)	Main	GE	Blue	2	1		[OT]		Common	Psalm 2:9		Good	
+Rod of Iron (UL)	Main UL	Rod_of_Iron_(UL)	Main Unlimited	GE	Blue	2	1		[OT]		Common	Psalm 2:9		Good	
+Rod of Iron (Wa)	War	Rod_of_Iron_(Wa)	Warriors	GE	Blue	4	2		[OT]	Discard one Evil Character from each opponent's territory or set aside area.	Uncommon	Psalm 2:9		Good	
 Roman Citizenship	TPC	Roman_Citizenship_(PC)	Persecuted Church	GE/EE	Red/Gray			Territory	[NT]	If used by a Roman, place on your non-Roman N.T. human: Character is Roman. If character enters battle, each player must discard 1 from hand.	Common	Acts 22:28		Neutral	Rotation
 Roman Horses (Roots)	RR	196-Roman-Horses.jpg	Roots	EE	Gray	2	2	Weapon	[X = # of your evil Romans],[NT]	You may draw X (limit 2). If opponent has hand advantage, you may play a N.T. gray Enhancement.		Acts 23:23		Evil	Rotation
 Roman Jailer	Ap	Roman_Jailer_(Ap)	Apostles	Evil Character	Pale Green	4	5		[NT]	If defeated by Paul or Silas, character repents and becomes a white brigade Hero.	Common	Acts 16:27		Evil	
@@ -3813,7 +3813,7 @@ Samaritan Water Jar	TxP	Samaritan_Water_Jar_(TxP)	Thesaurus ex Preteritus	Artifa
 Samaritan Water Jar (GoC)	GoC	014-Samaritan-Water-Jar	Gospel of Christ	Artifact					[Gospel]	You may discard this card (or reserve it if you control a Samaritan) to reserve the top 3 cards of a deck. If your Samaritan is blocked, you may draw 1.	Common	John 4:7		Neutral	Rotation
 Samson (J)	J	Samson_(J)	J	Hero	Gold	12	6	Warrior	Judge,[OT]		Deck	Judges 13:24		Good	Rotation
 Samson (L)	Main	Samson_(UL)	Main	Hero	Gold	6	6		[OT]		Rare	Judges 14:5-6		Good	
-Samson (Promo)	Pmo-P1	Samson_(Promo)	Promo	Hero	Gold	12	6		[NT]	All good gold enhancements without special abilities double in value unless a female Evil Character is in battle.	Promo	Old Testament		Good	
+Samson (Promo)	Pmo-P1	Samson_(Promo)	Promo	Hero	Gold	12	6		[OT]	All good gold enhancements without special abilities double in value unless a female Evil Character is in battle.	Promo	Old Testament		Good	
 Samson (UL)	Main UL	Samson_(UL)	Main Unlimited	Hero	Gold	6	6		[OT]		Rare	Judges 14:5-6		Good	
 Samson, the Nazirite	CoW	Samson_the_Nazirite_(CoW)	Cloud of Witnesses	Hero	Gold	12	6	Warrior, Cloud	Judge,[OT]	You may discard an animal. While no female Evil Character is in play, protect Samson from discard abilities on evil cards.	Common	Judges 13:24		Good	Rotation
 Samson, the Nazirite (CoW AB)	CoW (AB)	CoW_AB_N79-Samson	Cloud of Witnesses (Alternate Border)	Hero	Gold	12	6	Warrior, Cloud	Judge,[OT]	You may discard an animal. While no female Evil Character is in play, protect Samson from discard abilities on evil cards.	Common	Judges 13:24		Good	Rotation
@@ -3966,7 +3966,7 @@ Shem (CoW AB)	CoW (AB)	CoW_AB_N67-Shem	Cloud of Witnesses (Alternate Border)	Her
 Shem, Covenant Keeper / Shem, Faithful Son (LoC)	LoC	LoC_097-Shem	Lineage of Christ	Hero	Blue (Blue/Red)	5(6)	5(6)	Star	Antediluvian, Flood survivor,[OT]	STAR: Topdeck a blue Covenant from deck. TOP: Protect Noah from lone Evil Characters. May band to a flood survivor or meek Genesis Hero.  BOTTOM: Meek	Common	Genesis 5:32		Good	Rotation
 Shem's Wife	FoM	023-Shems-Wife	Fall of Man	Hero	Blue	5	7	Territory	Flood Survivor,[OT]	Return an opponent's evil card to hand. If your Shem enters battle and you control Noah's Ark, you may take an O.T. Lost Soul from a deck to give it to owner's territory.	Common	Genesis 8:15		Good	Rotation
 Shemaiah	Prp	Shemaiah_(Pr)	Prophets	Evil Character	Black	4	4		[OT]		Uncommon	Jeremiah 29:31		Evil	
-Sheol	PoC	082-Sheol-UR	Prophecies of Christ	Fortress					Plays to Set-Aside, Unity: Evil Characters (Share a brigade),[NT]	If opponent uses a search ability, you may underdeck a Lost Soul. At any time, you may discard this card and banish an evil card from discard pile to add an evil human of matching brigade to battle.	Ultra Rare	Psalm 16:10 (Acts 2:27)		Evil	Rotation
+Sheol	PoC	082-Sheol-UR	Prophecies of Christ	Fortress					Plays to Set-Aside, Unity: Evil Characters (Share a brigade),[OT]	If opponent uses a search ability, you may underdeck a Lost Soul. At any time, you may discard this card and banish an evil card from discard pile to add an evil human of matching brigade to battle.	Ultra Rare	Psalm 16:10 (Acts 2:27)		Evil	Rotation
 Shepherd	3E	Shepherd_(E)	3rd Edition	Hero	Blue	7	6		[OT]		Deck	Isaiah 40:11		Good	
 Shepherds of Bethlehem (GoC)	GoC	140-Shepherds-of-Bethlehem	Gospel of Christ	Hero	White	9	7		Generic, Gospel, Nativity,[Gospel]	You may play and negate a Lost Soul from a deck. If opponent has hand advantage, toss all evil Enhancements with a brigade not already in battle.	Common	Luke 2:20		Good	Rotation
 Sheshai, son of Anak	FoM	069-Sheshai	Fall of Man	Evil Character	Black	11	9	Warrior	Canaanite, Giant,[OT]	You may take Hebron or a Canaanite giant from Reserve. May band to a son of Anak. Weapons cannot be prevented.	Common	Numbers 13:22		Evil	Rotation
@@ -4063,15 +4063,15 @@ Slave Trade	3E	Slave_Trade_(F)	3rd Edition	EE	Pale Green				[OT]	Capture a Hero 
 Slaves in Egypt	FoM	051-Slaves-in-Egypt	Fall of Man	Hero/Evil Character	White/Brown/Gold	1	1		Generic,[OT]	You may capture this character to opponent's Land of Bondage to take an Exodus Fortress from deck or Reserve and add an Exodus character to battle.	Common	Exodus 1:11		Neutral	Rotation
 Slayer's Glee (RoJ AB)	RoJ (AB)	RoJ_AB_N101-Slayers-Glee	Revelation of John (Alternate Border)	EE	Black/Gold			Territory	[NT]	Place on your Canaanite or Egyptian: Negate resurrect abilities. At any time, you may discard this card and its bearer to underdeck a Hero (or 2 N.T. Heroes).	Common	Revelation 11:8		Evil	Rotation
 Slayer's Glee (RoJ)	RoJ	101-Slayers-Glee	Revelation of John	EE	Black/Gold			Territory	[NT]	Place on your Canaanite or Egyptian: Negate resurrect abilities. At any time, you may discard this card and it's bearer to underdeck a Hero (or 2 N.T. Heroes).	Common	Revelation 11:8		Evil	Rotation
-Sleep (L)	Main	Sleep_(UL)	Main	GE	White				[NT]	Set Hero aside.  Hero gains 1/1 for every turn Hero sleeps.  Discard after Hero awakes.	Rare	Psalm 3:5		Good	
-Sleep (UL)	Main UL	Sleep_(UL)	Main Unlimited	GE	White				[NT]	Set Hero aside.  Hero gains 1/1 for every turn Hero sleeps.  Discard after Hero awakes.	Rare	Psalm 3:5		Good	
+Sleep (L)	Main	Sleep_(UL)	Main	GE	White				[OT]	Set Hero aside.  Hero gains 1/1 for every turn Hero sleeps.  Discard after Hero awakes.	Rare	Psalm 3:5		Good	
+Sleep (UL)	Main UL	Sleep_(UL)	Main Unlimited	GE	White				[OT]	Set Hero aside.  Hero gains 1/1 for every turn Hero sleeps.  Discard after Hero awakes.	Rare	Psalm 3:5		Good	
 Sling (Ki)	Ki	Sling_(Ki)	Kings	GE	Gold	3	1	Weapon	[OT]	If used by a warrior class Hero holder may distribute the 4 ability points as holder chooses each battle.	Common	Judges 20:16		Good	
 Sling (Wa)	War	Sling_(Wa)	Warriors	GE	Gold	4	2		[OT]		Common	Judges 20:16		Good	
 Sling Stones (LoC)	LoC	LoC_156-Sling	Lineage of Christ	GE	Purple/Red	7	0	Weapon	[OT]	While in battle, you may discard this card to negate and discard an evil Enhancement or the last evil Enhancement played in battle.	Common	II Chronicles 26:14		Good	Rotation
 Smashing Tablets	Pat	Smashing_Tablets_(Pa)	Patriarchs	EE	Gold	2	3		[OT]	Remove all activated Tables of the Law Artifact(s) from the game.	Common	Exodus 32:19		Evil	
 Snake into the Fire	TPC	Snake_into_the_Fire_(PC)	Persecuted Church	GE	Clay	3	4		[NT]	Interrupt the battle and remove an evil Enhancement or a non-human Evil Character from the game.	Common	Acts 28:5		Good	Rotation
-Snare (L)	Main	Snare_(UL)	Main	EE	Gray				[NT]	Take any Hero prisoner and place Hero in your Land of Bondage.  Hero is treated as a Lost Soul.	Rare	Psalm 119:110		Evil	
-Snare (UL)	Main UL	Snare_(UL)	Main Unlimited	EE	Gray				[NT]	Take any Hero prisoner and place Hero in your Land of Bondage.  Hero is treated as a Lost Soul.	Rare	Psalm 119:110		Evil	
+Snare (L)	Main	Snare_(UL)	Main	EE	Gray				[OT]	Take any Hero prisoner and place Hero in your Land of Bondage.  Hero is treated as a Lost Soul.	Rare	Psalm 119:110		Evil	
+Snare (UL)	Main UL	Snare_(UL)	Main Unlimited	EE	Gray				[OT]	Take any Hero prisoner and place Hero in your Land of Bondage.  Hero is treated as a Lost Soul.	Rare	Psalm 119:110		Evil	
 Snaring Spirit (GoC)	GoC	246-Snaring-Spirit	Gospel of Christ	Evil Character	Orange	6	8		Demon, Generic, Gospel,[Gospel]	Evil N.T. Enhancements used by this card are regardless of protect abilities. You may take an orange card with a place ability from discard pile.	Common	Matthew 26:41		Evil	Rotation
 Sodom	War	Sodom_(Wa)	Warriors	Site	Silver				[OT]		Common	Genesis 19:15		Neutral	
 Sodom & Gomorrah	FoM	036-Sodom-and-Gomorrah-R	Fall of Man	City	Silver/Evil				Canaanite,[OT]	SITE: You may discard a captured human from here to add your evil Canaanite to battle. FORT: If your Canaanite human blocks, you may take an evil O.T. card from Reserve.	Rare	Genesis 19:24		Evil	Rotation
@@ -4088,7 +4088,7 @@ Solomon’s Dream (LoC)	LoC	LoC_157-Solomons-Dream-R	Lineage of Christ	GE	Purple
 Solomon’s Oppression (LoC)	LoC	LoC_230-Solomons-Oppression-R	Lineage of Christ	EE	Brown	0	3	Territory	[OT]	You may take an evil O.T. card from Reserve. Protect meek Lost Souls from rescue (except by meek Heroes). Cannot be prevented if used by a king of Judah.	Rare	I Kings 12:3		Evil	Rotation
 Solomon's Temple (Pa)	Pat	Solomon's_Temple_(Pa)	Patriarchs	Fortress					[OT]	Holder may activate a second Artifact from Artifact pile or hand on this Fortress if that Artifact was found in Solomon's Temple.  Artifact takes immediate effect.	Rare	I Kings 6:1		Good	
 Solomon's Temple (RoA)	RoA 3	Solomon's_Temple_(tin)	Rock of Ages	Fortress					Holds a Solomon's Temple Artifact,[OT]	If a Solomon's Temple Priest, King of Judah, or Solomon is captured or discarded by an opponent's special ability, you may discard a teal card from hand instead.	Fixed	I Kings 6:1		Good	Rotation
-Solomon's Temple [2024 - Seasonal]	Pmo-P3	Solomons-Temple-Seasonal.jpg	Promo	Fortress					Involves music, Holds a Temple Artifact,[NT]	At any time, you may underdeck an Artifact held here. If you do, you may take a Solomon's Temple priest from deck or negate an evil card.	Promo	Psalm 48:9		Good	Rotation
+Solomon's Temple [2024 - Seasonal]	Pmo-P3	Solomons-Temple-Seasonal.jpg	Promo	Fortress					Involves music, Holds a Temple Artifact,[OT]	At any time, you may underdeck an Artifact held here. If you do, you may take a Solomon's Temple priest from deck or negate an evil card.	Promo	Psalm 48:9		Good	Rotation
 Son of God "Manger" (Promo)	Pmo-P2	Promo_Son-of-God-Christmas	Promo	Dominant					[Gospel]	Negate and rescue a Lost Soul.	Seasonal	Luke 2:7		Good	Rotation
 Son of God ( C)	2E	Son_of_God_(C)	2nd Edition	Dominant					[NT]	Rescue any Lost Soul in play.	Deck	Revelation 19:16		Good	
 Son of God (1st Print - K)	K1P	K1-1P-Son-of-God	K Starter (1st Print)	Dominant					[OT]	Negate and rescue a Lost Soul.	Starter	Daniel 7:13		Good	Rotation
@@ -4145,7 +4145,7 @@ Spirit of Fear	TEC	Spirit_of_Fear	Early Church	Evil Character	Orange	0	1		Generi
 Spirit of Temptation	TxP	Spirit_of_Temptation_(TxP)	Thesaurus ex Preteritus	Evil Character	Orange	0	4		Demon, Generic,[Gospel]	May place a card from hand beneath deck. Opponent must do the same. May band to a human Evil Character. Cannot be interrupted.	Fixed	Matthew 26:41		Evil	
 Spiritual Beings	AW	Spiritual_Beings_(AW)	Angel Wars	GE	Silver	1	3		[NT]	Hero is immune to human Evil Characters.  Cannot be prevented by an evil card.	Rare	Hebrews 1:14		Good	
 Spiritual Gifts	Ap	Spiritual_Gifts_(Ap)	Apostles	GE	Green	2	2		[NT]	Any enhancement that is a spiritual gift can be played this turn regardless of brigade color.	Uncommon	Galatians 5:22-23		Good	
-Spiritual Protection	Pat	Spiritual_Protection_(Pa)	Patriarchs	GE	Silver	2	5		[NT]	If a N.T. human Hero is in play, search draw pile or discard pile for an Armor of God enhancement.	Common	Psalm 91:11		Good	
+Spiritual Protection	Pat	Spiritual_Protection_(Pa)	Patriarchs	GE	Silver	2	5		[OT]	If a N.T. human Hero is in play, search draw pile or discard pile for an Armor of God enhancement.	Common	Psalm 91:11		Good	
 Spiritual Realm	AW	Spiritual_Realm_(AW)	Angel Wars	Fortress					Holds 0 cards,[NT]	Holder's demons are protected from capture unless the capturing player has Tartaros in play.  While holder's demon is in battle, weapon-class enhancements on human heroes are worth 0/0.	Rare	Ephesians 6:12		Evil	
 Spiritual Sacrifices	Pri	Spiritual_Sacrifices_(Pi)	Priests	GE	Blue	2	4		[NT]	Discard a good card from hand to discard up to two evil Enhancements or Curses in play.	Common	I Peter 2:5		Good	
 Spiritual Sight	AW	Spiritual_Sight_(AW)	Angel Wars	GE	Silver	3	2		[NT]	Look at opponent's hand.  If opponent has a demon in hand, holder may band a silver brigade Hero into battle.	Common	I Timothy 3:16		Good	
@@ -4172,8 +4172,8 @@ Stephanus	TEC	Stephanus	Early Church	Hero	Clay	9	4		Corinth, X=# of Corinth Hero
 Stephen (Ap)	Ap	Stephen_(Ap)	Apostles	Hero	Purple	7	7		[NT]		Common	Acts 6:15		Good	
 Stephen (EC)	TEC	Stephen_(EC)	Early Church	Hero	Clay	7	7		Deacon, Jerusalem,[NT]	Reveal opponent's hand and shuffle all evil Dominants except Christian Martyr into opponent's deck. Acts Enhancements cannot be negated.	Rare	Acts 6:16		Good	Rotation
 Stiff-Necked	FoOF	Stiff-Necked_(FF)	Faith of Our Fathers	EE	Brown	0	6		[OT]	Negate and discard the last good Enhancement played this battle. Cannot be negated if used by an O.T. human.	Fixed	Deuteronomy 31:27		Evil	
-Stillness (B)	1EU	Stillness_(BU)	1st Edition Unlimited	GE	Blue				[NT]	Hero may withdraw from battle unharmed.  All enhancement cards played may be returned to the player's hand except this one.	Deck	Psalm 46:10		Good	
-Stillness (Promo)	Pmo-P1	Stillness_(Promo)	Promo	GE	Blue				[NT]	Hero may withdraw from battle unharmed.  All enhancement cards played may be returned to the player's hand except this one.	Promo	Psalm 46:10		Good	
+Stillness (B)	1EU	Stillness_(BU)	1st Edition Unlimited	GE	Blue				[OT]	Hero may withdraw from battle unharmed.  All enhancement cards played may be returned to the player's hand except this one.	Deck	Psalm 46:10		Good	
+Stillness (Promo)	Pmo-P1	Stillness_(Promo)	Promo	GE	Blue				[OT]	Hero may withdraw from battle unharmed.  All enhancement cards played may be returned to the player's hand except this one.	Promo	Psalm 46:10		Good	
 Stirring the Water	War	Stirring_the_Water_(Wa)	Warriors	GE	Silver				[Gospel]	Set Hero aside.  Hero gains 1/1 for every turn Hero is set aside.	Common	John 5:4		Good	
 Stocks (L)	Main	Stocks_(UL)	Main	EE	Pale Green				[NT]	Take any Hero prisoner and place Hero in your Land of Bondage.  Hero is treated as a Lost Soul.	Rare	Acts 16:23-24		Evil	
 Stocks (Roots)	RR	010-Stocks.jpg	Roots	Artifact					[OT]	You may capture a character. Limit twice.		Jeremiah 20:2		Neutral	Rotation
@@ -4689,8 +4689,8 @@ Titus (EC)	TEC	Titus_(EC)	Early Church	Hero	Clay	4	5		Greek, Missionary,[NT]	Eac
 Titus Justus	TEC	Titus_Justus	Early Church	Hero	Clay	3	2	Territory	Corinth,[NT]	If a missionary is in play, protect your Corinth Heroes from opponents' Evil Characters of */4 or less.	Common	Acts 18:7		Good	Rotation
 Titus, the Messenger (Roots)	RR	057-Titus.jpg	Roots	Hero	Clay	4	5		Greek, Missionary,[NT]	Protect Evil Characters from band abilities. If alone, you may choose an evil N.T. human to block.		Titus 1:4		Good	Rotation
 To Each His Own	I	To_Each_His_Own_(I)	I	EE	Brown	1	1		[OT]	Each player may search his discard pile for an evil Enhancement.	Deck	Judges 21:25		Evil	Rotation
-Today	CoW	Today_(CoW)	Cloud of Witnesses	GE/EE	White/Brown	1	7	Territory	Involves music,[NT]	You may convert an Evil Character in battle or discard an evil card in a set aside area. Shuffle all Heroes that are set aside.	Common	Hebrews 4:7 (Psalm 95:7-8)		Neutral	Rotation
-Today (CoW AB)	CoW (AB)	CoW_AB_N27-Today	Cloud of Witnesses (Alternate Border)	GE/EE	White/Brown	1	7	Territory	Involves music,[NT]	You may convert an Evil Character in battle or discard an evil card in a set aside area. Shuffle all Heroes that are set aside.	Common	Hebrews 4:7 (Psalm 95:7-8)		Neutral	Rotation
+Today	CoW	Today_(CoW)	Cloud of Witnesses	GE/EE	White/Brown	1	7	Territory	Involves music,[OT]	You may convert an Evil Character in battle or discard an evil card in a set aside area. Shuffle all Heroes that are set aside.	Common	Hebrews 4:7 (Psalm 95:7-8)		Neutral	Rotation
+Today (CoW AB)	CoW (AB)	CoW_AB_N27-Today	Cloud of Witnesses (Alternate Border)	GE/EE	White/Brown	1	7	Territory	Involves music,[OT]	You may convert an Evil Character in battle or discard an evil card in a set aside area. Shuffle all Heroes that are set aside.	Common	Hebrews 4:7 (Psalm 95:7-8)		Neutral	Rotation
 Tola	Ki	Tola_(Ki)	Kings	Hero	Gold	6	4		Israelite Judge,[OT]	Holder may draw a card.	Uncommon	Judges 10:1		Good	
 Torment	AW	Torment_(AW)	Angel Wars	EE	Multi	0	3		[NT]	Heal any Evil Character that is being discarded, except by a dominant.	Ultra Rare	Revelation 9:5-6		Evil	
 Torment (Roots)	RR	213-Torment.jpg	Roots	EE	Orange	0	5	Territory	[NT]	Heal an Evil Character or underdeck a Hero.		Revelation 9:5		Evil	Rotation
@@ -4708,7 +4708,7 @@ Trapped in Cleverness	Ap	Trapped_in_Cleverness_(Ap)	Apostles	GE	Blue				[NT]	Tak
 Trapped in Cleverness (EC)	TEC	Trapped_in_Cleverness_(EC)	Early Church	GE	Clay				[NT]	Capture a human Evil Character to opponent's Land of Bondage.	Common	I Corinthians 3:18		Good	Rotation
 Treacherous Land	PoC	127-Treacherous-Land-R	Prophecies of Christ	Site	Green/White				[OT]	If you activate a Curse, you may underdeck an evil card from Reserve. If an opponent plays a good multi-brigade card in battle or a Dominant, you may draw 1 from bottom of deck.	Rare	Jeremiah 18:16		Neutral	Rotation
 Treacherous Land (2022 - 2nd Place)	Pmo-P2	Treacherous-Land-alt	Promo	Site	Green/White				[OT]	If you activate a Curse, you may underdeck an evil card from Reserve. If an opponent plays a good multi-brigade card in battle or a Dominant, you may draw 1 from bottom of deck.	Promo	Jeremiah 18:16		Neutral	Rotation
-Treachery	FoM	139-Treachery	Fall of Man	EE	Crimson/Brown	3	-3		[NT]	Opponent must give you an evil Enhancement from hand. Play that Enhancement regardless of brigade. Cannot be interrupted.	Common	Psalm 38:12		Evil	Rotation
+Treachery	FoM	139-Treachery	Fall of Man	EE	Crimson/Brown	3	-3		[OT]	Opponent must give you an evil Enhancement from hand. Play that Enhancement regardless of brigade. Cannot be interrupted.	Common	Psalm 38:12		Evil	Rotation
 Treachery (L)	Main	Treachery_(UL)	Main	EE	Crimson	2	2		[OT]		Common	Malachi 2:10		Evil	
 Treachery (UL)	Main UL	Treachery_(UL)	Main Unlimited	EE	Crimson	2	2		[OT]		Common	Malachi 2:10		Evil	
 Treachery Afoot	Pat	Treachery_Afoot_(Pa)	Patriarchs	EE	Brown	5	0		[OT]	Discard any O.T. male Evil Character in an opponent's territory.	Common	II Kings 9:23		Evil	
@@ -4846,10 +4846,10 @@ War in Heaven (RoJ)	RoJ	39-War-in-Heaven-R	Revelation of John	GE/EE	Silver/Orang
 War in Heaven [2023 - Worker]	Pmo-P3	War-in-Heaven	Promo	GE/EE	Silver/Orange	5	2		[NT]	Negate and discard an opposing card in battle (except a human).	Rare	Revelation 12:7		Neutral	Rotation
 War in the Heavens	AW	War_in_the_Heavens_(AW)	Angel Wars	EE	Brown	1	5		[NT]	This card is worth 2/10 if used by a demon.	Common	Revelation 12:7		Evil	
 War Officer	Ki	War_Officer_(Ki)	Kings	Hero	White	5	6	Warrior	Judean,[OT]	Hero has access to any Site.  If defeated place in opponent's Land of Bondage.  Hero is treated as a Lost Soul.	Uncommon	II Kings 25:19		Good	
-Warning Against Rebellion	CoW	Warning_Against_Rebellion_(CoW)	Cloud of Witnesses	GE/EE	White/Brown	1	5	Territory	Involves music,[NT]	Reveal the top 5 cards of opponent's deck: Put Lost Souls in play and underdeck the rest. If blocking, you may topdeck a Lost Soul.	Common	Hebrews 3:15  (Psalm 95:7-8)		Neutral	Rotation
-Warning Against Rebellion (CoW AB)	CoW (AB)	CoW_AB_N28-Warning-Against-Rebellion	Cloud of Witnesses (Alternate Border)	GE/EE	White/Brown	1	5	Territory	Involves music,[NT]	Reveal the top 5 cards of opponent’s deck: Put Lost Souls in play and underdeck the rest. If blocking, you may topdeck a Lost Soul.	Common	Hebrews 3:15 (Psalm 95:7-8)		Neutral	Rotation
-Warrior in Training	War	Warrior_in_Training_(Wa)	Warriors	Hero	Blue	4	4		[NT]	This Hero decreases 1/1 each time he enters battle.  The turn after reaching 1/1 he increases to 10/10 until discarded.	Uncommon	Psalm 144:1		Good	
-Warrior in Training [2024 - Seasonal]	Pmo-P3	Warrior-in-Training-Seasonal.jpg	Promo	Hero	White	1	1	Warrior	Generic, Symbolic, Involves music, X = # of Redeemed Souls,[NT]	You may look at a hand or draw X (limit 3). If this card is discarded, you may take a good Dominant from deck.	Promo	Psalm 144:1		Good	Rotation
+Warning Against Rebellion	CoW	Warning_Against_Rebellion_(CoW)	Cloud of Witnesses	GE/EE	White/Brown	1	5	Territory	Involves music,[OT]	Reveal the top 5 cards of opponent's deck: Put Lost Souls in play and underdeck the rest. If blocking, you may topdeck a Lost Soul.	Common	Hebrews 3:15  (Psalm 95:7-8)		Neutral	Rotation
+Warning Against Rebellion (CoW AB)	CoW (AB)	CoW_AB_N28-Warning-Against-Rebellion	Cloud of Witnesses (Alternate Border)	GE/EE	White/Brown	1	5	Territory	Involves music,[OT]	Reveal the top 5 cards of opponent’s deck: Put Lost Souls in play and underdeck the rest. If blocking, you may topdeck a Lost Soul.	Common	Hebrews 3:15 (Psalm 95:7-8)		Neutral	Rotation
+Warrior in Training	War	Warrior_in_Training_(Wa)	Warriors	Hero	Blue	4	4		[OT]	This Hero decreases 1/1 each time he enters battle.  The turn after reaching 1/1 he increases to 10/10 until discarded.	Uncommon	Psalm 144:1		Good	
+Warrior in Training [2024 - Seasonal]	Pmo-P3	Warrior-in-Training-Seasonal.jpg	Promo	Hero	White	1	1	Warrior	Generic, Symbolic, Involves music, X = # of Redeemed Souls,[OT]	You may look at a hand or draw X (limit 3). If this card is discarded, you may take a good Dominant from deck.	Promo	Psalm 144:1		Good	Rotation
 Warrior Overtaken (1st Print - L)	L1P	L3-1P-Warrior-Overtaken	L Starter (1st Print)	Dominant					[OT]	You may take an evil Philistine from deck or Reserve. Discard a Hero in a territory to add an evil Philistine to battle.	Starter	I Samuel 31:2		Evil	Rotation
 Warrior Overtaken [L]	L	L3-Warrior-Overtaken	L Starter	Dominant					[OT]	You may take an evil Philistine from deck or Reserve. Discard a Hero in a territory to add an evil Philistine to battle.	Starter	I Samuel 31:2		Evil	Rotation
 Warrior's Spear	RoA	Warrior's_Spear_(RA)	Rock of Ages	GE	Red	3	2	Weapon	[OT]	Discard the top card of opponent's deck. If it is a Lost Soul, put it in play instead, and discard this card after battle.	Fixed	I Chronicles 12:24		Good	
@@ -4947,7 +4947,7 @@ Women of Israel (1st Print - L)	L1P	L51-1P-Women-of-Israel	L Starter (1st Print)
 Women of Israel [L]	L	L53-Women-of-Israel	L Starter	Hero	White	1	2		Generic, Wilderness,[OT]	You may look at the top 3 cards of deck: Take up to 1 and underdeck the rest.	Starter	Exodus 15:20		Good	Rotation
 Wonderment (Ap)	Ap	Wonderment_(Ap)	Apostles	GE	Purple	4	3		[Gospel]		Common	Matthew 14:25-27		Good	
 Wonderment (I)	I	Wonderment_(I)	I	GE	Purple	4	3		[Gospel]	Negate and discard the last evil Enhancement played in battle.	Deck	Matthew 14:26-27		Good	Rotation
-Wonders Forgotten	Pri	Wonders_Forgotten_(Pi)	Priests	EE	Gold	0	4		[NT]	Select up to four good cards from one player's discard pile and remove them from the game.  The battle immediately ends.  Cannot be negated	Common	Psalm 78:11		Evil	
+Wonders Forgotten	Pri	Wonders_Forgotten_(Pi)	Priests	EE	Gold	0	4		[OT]	Select up to four good cards from one player's discard pile and remove them from the game.  The battle immediately ends.  Cannot be negated	Common	Psalm 78:11		Evil	
 Wool Fleece	Pat	Wool_Fleece_(Pa)	Patriarchs	Artifact					[OT]	No Evil Characters may band.	Rare	Judges 6:37		Neutral	
 Wool Fleece (CoW AB)	CoW (AB)	CoW_AB_N06-Wool-Fleece-R	Cloud of Witnesses (Alternate Border)	Artifact					May be activated on Gideon,[OT]	Protect Evil Characters from band abilities.	Rare	Judges 6:37		Neutral	Rotation
 Wool Fleece (CoW)	CoW	Wool_Fleece_(CoW)	Cloud of Witnesses	Artifact					May be activated on Gideon,[OT]	Protect Evil Characters from band abilities.	Rare	Judges 6:37		Neutral	Rotation
@@ -4982,7 +4982,7 @@ Yoke of Iron (Roots)	RR	182-Yoke-of-Iron.jpg	Roots	EE	Crimson	1	4		[OT]	Capture 
 You Are the Christ	I	You_Are_the_Christ_(I)	I	GE	Purple	3	3		[Gospel]	Discard an evil card.	Deck	Matthew 16:16		Good	Rotation
 You Will Be Well (1st Print - K)	K1P	K22-1P-You-Will-Be-Well	K Starter (1st Print)	GE	Green	5	2		[OT]	Negate an evil card. Opponent must topdeck an evil card from hand.	Starter	I Samuel 16:16		Good	Rotation
 You Will Be Well [K]	K	K22-You-Will-Be-Well	K Starter	GE	Green	5	2		[OT]	Negate an evil card. Opponent must topdeck an evil card from hand.	Starter	I Samuel 16:16		Good	Rotation
-You Will Remain	CoW	You_Will_Remain_(CoW)	Cloud of Witnesses	Covenant	Clay/White	0	7		Involves Music,[NT]	If opponent uses an evil 'end the battle' ability this turn, you may begin a new battle. If an opponent removes your last Hero from battle, you may remove this from the game to add your Hero to battle.	Rare	Hebrews 1:11-12  Psalm 102:26-27		Good	Rotation
+You Will Remain	CoW	You_Will_Remain_(CoW)	Cloud of Witnesses	Covenant	Clay/White	0	7		Involves Music,[OT]	If opponent uses an evil 'end the battle' ability this turn, you may begin a new battle. If an opponent removes your last Hero from battle, you may remove this from the game to add your Hero to battle.	Rare	Hebrews 1:11-12  Psalm 102:26-27		Good	Rotation
 You Will Remain (CoW AB)	CoW (AB)	CoW_AB_N08-You-Will-Remain-R	Cloud of Witnesses (Alternate Border)	Covenant	Clay/White	0	7		Involves music,[NT]	If opponent uses an evil “end the battle” ability this turn, you may begin a new battle. If an opponent removes your last Hero from battle, you may remove this from the game to add your Hero to battle.	Rare	Hebrews 1:11-12		Good	Rotation
 Your God Will Be My God (LoC)	LoC	LoC_160-Your-God-Will-be-My-God	Lineage of Christ	GE	Red/White	6	1		[OT]	Negate an evil or neutral card. If used by a Ruth Hero, discard that card unless it is human. Cannot be negated if used by a meek Hero.	Common	Ruth 1:16		Good	Rotation
 Zaccheus	Ap	Zaccheus_(Ap)	Apostles	Hero	Gold	5	2		[Gospel]	Holder may search draw pile for one Fortress card.  Shuffle draw pile.	Uncommon	Luke 19:5		Good	

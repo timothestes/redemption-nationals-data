@@ -72,6 +72,7 @@ def add_tags(card_database: dict) -> dict:
         "Esther",
         "Job",
         "Psalms",
+        "Psalm",
         "Proverbs",
         "Ecclesiastes",
         "Song of Solomon",
@@ -92,6 +93,7 @@ def add_tags(card_database: dict) -> dict:
         "Haggai",
         "Zechariah",
         "Malachi",
+        "Old Testament",
     ]
 
     gospel_books = ["Matthew", "Mark", "Luke", "John"]
