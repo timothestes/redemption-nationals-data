@@ -48,7 +48,8 @@ def generate_image(
     deck_data: dict, deck_key: str, output_filename: str, cards_per_row: int = 10
 ):
     """Generate an image for the specified deck (either 'main_deck' or 'reserve')."""
-
+    if cards_per_row == 0:
+        cards_per_row = 10
     # Get the deck data
     deck = deck_data.get(deck_key, {})
     if not deck:

@@ -131,7 +131,27 @@ def add_tags(card_database: dict) -> dict:
         if not card_data.get("Reference"):
             continue
 
-        references = [ref for ref in card_data["Reference"].split(";")]
+        # Handle both semicolon separated references and parenthetical references
+        references = []
+
+        # First split by semicolons
+        for ref_group in card_data["Reference"].split(";"):
+            ref_group = ref_group.strip()
+
+            # Check if there are parenthetical references
+            if "(" in ref_group and ")" in ref_group:
+                # Extract the main reference
+                main_ref = ref_group.split("(")[0].strip()
+                references.append(main_ref)
+
+                # Extract parenthetical references
+                paren_content = ref_group[ref_group.find("(") + 1 : ref_group.find(")")]
+                # Split by commas if multiple references in parentheses
+                paren_refs = [pr.strip() for pr in paren_content.split(",")]
+                references.extend(paren_refs)
+            else:
+                references.append(ref_group)
+
         tags = []
 
         for ref in references:
