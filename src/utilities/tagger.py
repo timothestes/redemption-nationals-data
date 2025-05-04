@@ -167,8 +167,8 @@ def add_tags(card_database: dict) -> dict:
                 if "[Gospel]" not in tags and "[Gospel]" not in card_data["Identifier"]:
                     tags.append("[Gospel]")
 
-            # Determine testament
-            elif any(ot_book in ref for ot_book in ot_books):
+            # Determine testament (separate logic from gospel check)
+            if any(ot_book in ref for ot_book in ot_books):
                 if "[OT]" not in tags and "[OT]" not in card_data["Identifier"]:
                     tags.append("[OT]")
             else:
