@@ -226,7 +226,7 @@ def find_decks(prefix: str):
     return matching_decks
 
 
-def generate_deck_images(deck_data, filename: str):
+def generate_deck_images(deck_type: str, deck_data, filename: str):
     # Extract base filename from path if it's a full path
     base_filename = (
         os.path.splitext(os.path.basename(filename))[0]
@@ -236,18 +236,21 @@ def generate_deck_images(deck_data, filename: str):
 
     main_deck_filename = f"{base_filename}_main"
     reserve_deck_filename = f"{base_filename}_reserve"
-
+    if deck_type == "type_2":
+        cards_per_row = 15
+    else:
+        cards_per_row = 10
     generate_image(
         deck_data,
         "reserve",
         reserve_deck_filename,
-        cards_per_row=len(deck_data["reserve"]),
+        cards_per_row=cards_per_row,
     )
     generate_image(
         deck_data,
         "main_deck",
         main_deck_filename,
-        cards_per_row=len(deck_data["reserve"]),
+        cards_per_row=cards_per_row,
     )
 
     main_deck_image_path = os.path.join(
@@ -259,6 +262,17 @@ def generate_deck_images(deck_data, filename: str):
     combine_images(
         main_deck_image_path, reserve_deck_image_path, f"{base_filename}_combined"
     )
+
+    # Delete the individual deck images after combining
+    try:
+        if os.path.exists(main_deck_image_path):
+            os.remove(main_deck_image_path)
+            print(f"Deleted main deck image: {main_deck_image_path}")
+        if os.path.exists(reserve_deck_image_path):
+            os.remove(reserve_deck_image_path)
+            print(f"Deleted reserve deck image: {reserve_deck_image_path}")
+    except OSError as e:
+        print(f"Error deleting individual deck images: {e}")
 
 
 def generate_text_decklist(deck_type: str, deck_data, filename: str) -> None:
@@ -364,14 +378,14 @@ def process_decklist(
             deck_data = load_deck_data(deck_path)
             filename = os.path.splitext(os.path.basename(deck_path))[0]
             if mode == "png":
-                generate_deck_images(deck_data, filename=filename)
+                generate_deck_images(deck_type, deck_data, filename=filename)
             elif mode == "pdf":
                 generate_text_decklist(deck_type, deck_data, filename=filename)
     else:
         decklist_file_path = find_decklist_file(deck_name)
         deck_data = load_deck_data(decklist_file_path)
         if mode == "png":
-            generate_deck_images(deck_data, filename=deck_name)
+            generate_deck_images(deck_type, deck_data, filename=deck_name)
         elif mode == "pdf":
             generate_text_decklist(deck_type, deck_data, filename=deck_name)
 
