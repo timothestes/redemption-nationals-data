@@ -1,6 +1,5 @@
 # This script will add metadata tags to a a .txt file.
 import csv
-import json
 
 CARD_DATA_PATH = "data/carddata/carddata.txt"
 
@@ -193,7 +192,8 @@ def add_tags(card_database: dict) -> dict:
 
 
 if __name__ == "__main__":
-    card_data = load_card_data(CARD_DATA_PATH)
+    # card_data = load_card_data(CARD_DATA_PATH)
+    card_data = load_card_data("data/carddata/carddata_original.txt")
     card_data = add_tags(card_data)
     save_card_data(card_data, CARD_DATA_PATH)
     # save_card_data(
