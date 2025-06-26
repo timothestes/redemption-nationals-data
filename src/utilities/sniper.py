@@ -1,10 +1,10 @@
+@ -0,0 +1,416 @@
 import argparse
 import os
 
 import dotenv
 import PIL.Image as Image
 import PIL.ImageDraw as ImageDraw
-import tinify
 from PyPDF2 import PdfReader, PdfWriter
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
@@ -124,16 +124,19 @@ def generate_image(
                 f"Warning: Image for card '{card_key}' not found at {card_image_path}"
             )
 
-    # Save the generated deck image in a high-quality, lossless PNG format
-    output_image_path = os.path.join(OUTPUT_IMAGES_FOLDER, f"{output_filename}.png")
-    output_image.save(output_image_path, dpi=(300, 300), optimize=True)
+    # Save the generated deck image as WebP
+    output_image_path = os.path.join(OUTPUT_IMAGES_FOLDER, f"{output_filename}.webp")
+    output_image.save(output_image_path, format="WEBP", quality=80, optimize=True)
     print(f"Deck image saved to {output_image_path}")
 
 
 def combine_images(
     main_deck_image_path: str, reserve_deck_image_path: str, output_filename: str
 ):
-    """Combine the main deck and reserve deck images into a single image, adding a line and padding between them."""
+    """
+    Combine the main deck and reserve deck images into a single image,
+    adding a line and padding between them.
+    """
 
     # Load the main deck and reserve deck images
     main_deck_image = Image.open(main_deck_image_path)
@@ -177,28 +180,16 @@ def combine_images(
     reserve_y_offset = main_deck_image.height + line_height + padding
     combined_image.paste(reserve_deck_image, (0, reserve_y_offset))
 
-    # Save the combined image in a high-quality, lossless PNG format
-    combined_image_path = os.path.join(OUTPUT_IMAGES_FOLDER, f"{output_filename}.png")
-    combined_image.save(combined_image_path, dpi=(300, 300), optimize=True)
+    # Save the combined image using WebP optimization
+    print("Saving combined image as WebP...")
+    combined_image_path = os.path.join(
+        OUTPUT_IMAGES_FOLDER, f"{output_filename}_optimized.webp"
+    )
+    combined_image.save(combined_image_path, format="WEBP", quality=80, optimize=True)
 
-    try:
-        tinify.key = TINIFY_API_KEY
-
-        # Optimize the image
-        source = tinify.from_file(combined_image_path)
-        optimized_image_path = os.path.join(
-            OUTPUT_IMAGES_FOLDER, f"{output_filename}_optimized.png"
-        )
-        source.to_file(optimized_image_path)
-
-        # Print file size
-        file_size_mb = os.path.getsize(optimized_image_path) / (1024 * 1024)
-        print(f"Combined deck image saved to {optimized_image_path}")
-        print(f"Optimized file size: {file_size_mb:.2f}MB")
-    except tinify.AccountError:
-        print("Error: Invalid API key or exceeded monthly limit")
-    except Exception as e:
-        print(f"Error optimizing image: {str(e)}")
+    file_size_mb = os.path.getsize(combined_image_path) / (1024 * 1024)
+    print(f"Combined deck image saved to {combined_image_path}")
+    print(f"File size: {file_size_mb:.2f}MB")
 
 
 def find_decks(prefix: str):
@@ -254,10 +245,10 @@ def generate_deck_images(deck_type: str, deck_data, filename: str):
     )
 
     main_deck_image_path = os.path.join(
-        OUTPUT_IMAGES_FOLDER, f"{main_deck_filename}.png"
+        OUTPUT_IMAGES_FOLDER, f"{main_deck_filename}.webp"
     )
     reserve_deck_image_path = os.path.join(
-        OUTPUT_IMAGES_FOLDER, f"{reserve_deck_filename}.png"
+        OUTPUT_IMAGES_FOLDER, f"{reserve_deck_filename}.webp"
     )
     combine_images(
         main_deck_image_path, reserve_deck_image_path, f"{base_filename}_combined"
